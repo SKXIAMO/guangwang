@@ -9,7 +9,7 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-5 color-white joydrop_style>
+      <div rd-2 p-2 p-x-5 text-5 color-white joydrop-style>
         Asrashjalal@icloud.com
       </div>
     </div>
@@ -17,7 +17,7 @@ defineOptions({
 </template>
 
 <style scoped>
-.joydrop_style{
-  background-color: #ff5050;
+.joydrop-style{
+  background-color: #ff6700;
 }
 </style>
