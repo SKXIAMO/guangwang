@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'PlantNet'
+const appName = 'Robus'
 </script>
 
 <template>
