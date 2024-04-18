@@ -9,13 +9,13 @@ defineOptions({
     <img h-full w-full src="../assets/bg.png" alt="" />
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-7 class="Flurv-yx">kunkacinnamon872@gmail.com</div>
+      <div rd-2 p-2 p-x-5 text-7 class="TOEKExpeditionElevate-yx">kunkacinnamon872@gmail.com</div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.Flurv-yx {
+.TOEKExpeditionElevate-yx {
   color: #000;
   background-color: #fff;
   border: 1px solid #000;

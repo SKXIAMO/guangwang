@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Flurv'
+const appName = 'TOEKExpeditionElevate'
 </script>
 
 <template>
