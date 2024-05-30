@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'TOEKExpeditionElevate'
+const appName = 'Riddle'
 </script>
 
 <template>
