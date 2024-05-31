@@ -9,7 +9,9 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="" />
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-7 class="Riddle-yx">kunkacinnamon872@gmail.com</div>
+      <div rd-2 p-2 p-x-5 text-7 class="Riddle-yx">
+        hutchesontamlin@gmail.com
+      </div>
     </div>
   </div>
 </template>
