@@ -18,7 +18,7 @@ defineOptions({
 
 <style scoped>
 .glow_up{
-  background-color: #FDEAEE;
+  background-color: #F22853;
   color: black;
 }
 </style>
