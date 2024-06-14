@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Unipets'
+const appName = 'StipChat'
 </script>
 
 <template>
