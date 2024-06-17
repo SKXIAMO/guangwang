@@ -9,7 +9,7 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-8 class="haloo">
+      <div rd-2 p-2 p-x-5 text-8 class="Rede">
         yokotamcdonnel@gmail.com
       </div>
     </div>
@@ -17,7 +17,7 @@ defineOptions({
 </template>
 
 <style scoped>
-.haloo{
+.Rede{
   background-color: #faa41a;
   color: white;
 }
