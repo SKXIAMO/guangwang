@@ -9,9 +9,16 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
-        639293382@qq.com
+      <div rd-2 p-2 p-x-5 text-8 class="Momen">
+        crockiversen@gmail.com
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.Momen{
+  background-color: #FFA3A3;
+  color: black;
+}
+</style>
