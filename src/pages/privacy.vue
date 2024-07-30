@@ -160,7 +160,17 @@ const appName = 'Conn'
     Please note that we do not use your sensitive personal information for the
     purpose of making direct marketing unless agreed by you.
     <br><br>
-    2.3Special Note about Children’s Information The services of {{ appName }} are only
+    3)Facial Data Usage:Our application collects facial recognition data through
+    the device camera to analyze the user's facial features and provide personalized
+    fashion matching recommendations.
+    <br><br>
+    This data is only used to enhance the user's fashion experience and will not
+    be shared with third parties.
+    <br><br>
+    All collected facial data will be securely stored on our servers and deleted
+    immediately after the analysis is completed.
+    <br><br>
+    2.4Special Note about Children’s Information The services of {{ appName }} are only
     applicable to users of 18 years old or more. We do not allow users under 18
     years old to access our platform, and will not knowingly collect the
     personal information of users under 18 years old.
