@@ -160,7 +160,7 @@ const appName = 'Conn'
     Please note that we do not use your sensitive personal information for the
     purpose of making direct marketing unless agreed by you.
     <br><br>
-    3)Facial Data Usage:Our application collects facial recognition data through
+    3)Facial Data Usage: Our application collects facial recognition data through
     the device camera to analyze the user's facial features and provide personalized
     fashion matching recommendations.
     <br><br>
