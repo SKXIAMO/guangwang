@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Flox'
+const appName = 'Rhytalk'
 </script>
 
 <template>

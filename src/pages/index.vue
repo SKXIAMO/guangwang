@@ -9,7 +9,7 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-8 color-white class="flox">
+      <div rd-2 p-2 p-x-5 text-8 color-white class="Rhytalk">
         dyl990901@icloud.com
       </div>
     </div>
@@ -17,7 +17,7 @@ defineOptions({
 </template>
 
 <style scoped>
-.flox{
+.Rhytalk{
   background-color: rgba(255, 0, 255, 1);
   border-radius: 25px;
 }
