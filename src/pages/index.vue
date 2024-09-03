@@ -9,9 +9,16 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
+      <div rd-2 p-2 p-x-5 text-8 class="singo">
         639293382@qq.com
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.singo{
+  background-color: #AFFF59;
+  color: white;
+}
+</style>
