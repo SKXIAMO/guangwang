@@ -9,7 +9,7 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2  p-2 p-x-5 text-8  class="cose">
+      <div rd-2  p-2 p-x-5 text-8  class="CosLife">
         cqy30298567868@icloud.com
       </div>
     </div>
@@ -17,7 +17,7 @@ defineOptions({
 </template>
 
 <style scoped>
-.cose{
+.CosLife{
   background-color: #80B3FF;
   color: #fff;
 }
