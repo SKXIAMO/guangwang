@@ -16,7 +16,7 @@ defineOptions({
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped>
 .jamx{
   background-color: #14FBFF;
 }
