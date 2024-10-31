@@ -9,9 +9,16 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
-        639293382@qq.com
+      <div rd-2 p-2 p-x-5 text-8 color-white class="datoy">
+        wangxiao20040206@icloud.com
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.datoy{
+  background-color: rgba(238, 105, 74, 1);
+  border-radius: 12px;
+}
+</style>
