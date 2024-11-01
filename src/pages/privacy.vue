@@ -426,7 +426,7 @@ const appName = 'Test1'
     color: #000;
     margin-left:6px;
     margin-right:6px;
-    background-color: fff;
+    background-color: #fff;
   }
   .bt {
     font-size: 20px;
