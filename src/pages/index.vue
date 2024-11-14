@@ -9,9 +9,18 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
-        639293382@qq.com
+      <div rd-2 class="baila" p-2 p-x-5 text-8 color-white>
+        heyu20000408@icloud.com
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.baila{
+  background-color: #fff;
+  color: #FA3CB3;
+  border: 1px solid #FA3CB3;
+  border-radius: 10px;
+}
+</style>
