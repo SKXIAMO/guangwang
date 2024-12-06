@@ -9,9 +9,16 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 bg-black p-2 p-x-5 text-8 color-white>
-        hexuemei20011015@icloud.com
+      <div rd-2 class="movin" p-2 p-x-5 text-8>
+        zhangjinlong19990828@icloud.com
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.movin{
+  background-color:#7DFFAD;
+  color: #fff;
+}
+</style>
