@@ -9,15 +9,15 @@ defineOptions({
     <img h-full w-full src="../assets/bg.webp" alt="">
 
     <div class="email" absolute bottom-10 w-full flex justify-center>
-      <div rd-2 p-2 p-x-5 text-8 class="FaceUs">
-        chenyi20051008@icloud.com
+      <div rd-2 p-2 p-x-5 text-8 class="Jogni">
+        test@gmail.com
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.FaceUs{
+.Jogni{
   background-color: #F95333;
   color: #000;
 }
