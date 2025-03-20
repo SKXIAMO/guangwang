@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'FutMail'
+const appName = 'Salas'
 </script>
 
 <template>
