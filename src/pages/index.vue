@@ -18,6 +18,6 @@ defineOptions({
 
 <style scoped>
 .bokly{
-  background-color: #FD33B3;
+  background-color: #560CF0;
 }
 </style>
