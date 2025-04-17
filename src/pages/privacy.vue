@@ -10,31 +10,34 @@ const appName = 'Hairo'
     <div class="bt" style="text-align: center">
       {{ appName }}'s Privacy Policy
     </div>
-    The use of {{ appName }} through mobile applications may involve collection and use
+    <!-- The use of {{ appName }} through mobile applications may involve collection and use
     of your information. This Privacy Policy explains and informs you how your
     information is collected, used and disclosed by {{ appName }} with respect to your
     access and use of our services through our mobile applications. It is
     important for you to understand this Privacy Policy and how you may protect
-    your information, so please read this Privacy Policy carefully.
+    your information, so please read this Privacy Policy carefully. -->
     <br>
     <div class="bt">
-      1. Application Scope of this Privacy Policy
+      <!-- 1. Application Scope of this Privacy Policy -->
+      1. Introduction
     </div>
-    1.1By using {{ appName }}, you agree that we may access, collect, use and share your
+    <!-- 1.1By using {{ appName }}, you agree that we may access, collect, use and share your
     information in accordance with this Privacy Policy, as revised from time to
     time. In addition, your use of {{ appName }} signifies that you agree with the terms
     of this Privacy Policy. If you do not agree to the terms of this Privacy
-    Policy, do not use {{ appName }}.
+    Policy, do not use {{ appName }}. -->
+    1.1 At Hairo, we respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our hair design application.
     <br><br>
-    1.2This Privacy Policy is incorporated into and forms part of the {{ appName }}
+    <!-- 1.2This Privacy Policy is incorporated into and forms part of the {{ appName }}
     Terms of Service that you have agreed to in order to use {{ appName }}. Any terms
     used in this Privacy Policy will have the same meaning as the equivalent
     defined terms in the {{ appName }} Terms of Service unless otherwise defined in this
     Privacy Policy or the context requires otherwise. Unless otherwise specified
     in this Privacy Policy, these terms in the {{ appName }} Terms of Service shall also
-    be applicable in this Privacy Policy.
+    be applicable in this Privacy Policy. -->
+    1.2 This Privacy Policy also explains and informs you how your information is collected, used and disclosed by Hairo with respect to your access and use of our services through our mobile applications. It is important for you to understand this Privacy Policy and how you may protect your information, so please read it carefully.
     <br><br>
-    1.3Any information that is collected is subject to the Privacy Policy in
+    <!-- 1.3Any information that is collected is subject to the Privacy Policy in
     effect at the time such information is collected. We may, however, modify
     and revise our Privacy Policy from time to time. If we make any change to
     this policy, which we deem to be material changes, with or without
@@ -140,36 +143,45 @@ const appName = 'Hairo'
     visit a particular site feature, to generate statistics about our users, to
     calculate the percentage of users who visit a particular site feature, or to
     calculate the number of AD displays placed or clicked.
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      2.Special Note about Sensitive Personal Information
+      <!-- 2.Special Note about Sensitive Personal Information -->
+      2.Application Scope of this Privacy Policy
     </div>
-    To provide certain features (e.g. online video calling), we must access your
-    microphone, camera, with your permission, as described below:
+    <!-- To provide certain features (e.g. online video calling), we must access your
+    microphone, camera, with your permission, as described below: -->
     <br><br>
-    1)Microphone: We access the microphone on your device (with your permission)
-    to record audio messages and deliver sound during video calls.
+    <!-- 1)Microphone: We access the microphone on your device (with your permission)
+    to record audio messages and deliver sound during video calls. -->
+    2.1 By using Hairo, you agree that we may access, collect, use and share your information in accordance with this Privacy Policy, as revised from time to time. If you do not agree to the terms of this Privacy Policy, do not use Hairo.
     <br><br>
-    2)Camera: We access the camera on your device (with your permission) to take
-    your profile pictures and deliver realtime images during video calls.
+    <!-- 2)Camera: We access the camera on your device (with your permission) to take
+    your profile pictures and deliver realtime images during video calls. -->
+    2.2 This Privacy Policy is incorporated into and forms part of the Hairo Terms of Service that you have agreed to.
     <br><br>
-    By using {{ appName }}, you agree that all processing activities of sensitive
+    <!-- By using {{ appName }}, you agree that all processing activities of sensitive
     personal information are for the purposes and in the manner as described in
-    this Privacy Policy.
+    this Privacy Policy. -->
+    2.3 Any modifications made to this policy that are deemed material will apply to your continued use of Hairo, whether or not we provide explicit notification.
     <br><br>
-    Please note that we do not use your sensitive personal information for the
-    purpose of making direct marketing unless agreed by you.
+    <!-- Please note that we do not use your sensitive personal information for the
+    purpose of making direct marketing unless agreed by you. -->
+    2.4 This Privacy Policy does not apply to third-party services, plug-ins, or websites accessed via Hairo. We are not responsible for third-party use of your information.
     <br><br>
-    2.3Special Note about Children’s Information The services of {{ appName }} are only
+    <!-- 2.3Special Note about Children’s Information The services of {{ appName }} are only
     applicable to users of 18 years old or more. We do not allow users under 18
     years old to access our platform, and will not knowingly collect the
     personal information of users under 18 years old.
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      3.How We Use the Information We Collect
+      <!-- 3.How We Use the Information We Collect -->
+      3.The Data We Collect and How We Use It
     </div>
-    We use or may disclose your personal information only in the following
-    circumstances: Verify your identity;
+    <!-- We use or may disclose your personal information only in the following
+    circumstances: Verify your identity; -->
+    3.1 User-Provided Information
+    <br><br>
+    We use or may disclose your personal information only in the following circumstances: Verify your identity;
     <br><br>
     1) Connect you to others enabled by the Service;
     <br><br>
@@ -216,7 +228,8 @@ const appName = 'Hairo'
     whom you have shared the information). {{ appName }} is not responsible for any use
     or misuse of information you share.
     <br><br>
-    3.2 Transfer and Storage
+    <!-- 3.2 Transfer and Storage -->
+    3.2 Automatically Collected Information
     <br><br>
     We operate and may continue to operate servers in a number of jurisdictions
     around the world, so the server on which your personal information is used
@@ -226,28 +239,31 @@ const appName = 'Hairo'
     outside of your jurisdiction) for the purposes described in this Privacy
     Policy.
     <br><br>
-    3.3 analysis
+    <!-- 3.3 analysis -->
+    3.3 Facial Contour Data Collection (New Addition)
     <br><br>
-    The main reason we use your information is to provide and improve our
+    <!-- The main reason we use your information is to provide and improve our
     services. In addition, we use your information to help keep you safe. Read
     on to learn more about the various reasons we use your information, as well
     as practical examples.
-    <br><br>
-    1) Third Party Usage Analysis Tools: We use the tools provided by Google Inc
+    <br><br> -->
+    <!-- 1) Third Party Usage Analysis Tools: We use the tools provided by Google Inc
     (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, "Google") for
     usage analysis in our services. Tools owned by Firebase and acquired by
     Google are used to measure usage. Firebase, run by Google, is also used for
-    usage analysis purposes.
+    usage analysis purposes. -->
+    1) Hairo collects facial contour data (such as face shape, facial outline, etc.), which is only used to analyze your facial features—like roundness, ellipticity, or angularity—in order to provide personalized hairstyle design recommendations.
     <br><br>
-    2) Third party Conversion tracking tool: AppsFlyer, Google conversion
+    <!-- 2) Third party Conversion tracking tool: AppsFlyer, Google conversion
     tracking API and Facebook Conversion tracking API for user conversion
-    tracking.
+    tracking. -->
+    2) We do not collect or process detailed facial features that can identify you (e.g. eyes, nose, or mouth). This data is used solely for improving the quality of hairstyle suggestions and is not shared or stored permanently.
     <br><br>
-    3) Crash detection tool: We used the Firebase owned Crashlytics tool for
+    <!-- 3) Crash detection tool: We used the Firebase owned Crashlytics tool for
     crash detection. It helps maintain and improve services. All of your crash
     data is collected anonymously.
-    <br><br>
-    3.4 Share your information
+    <br><br> -->
+    <!-- 3.4 Share your information
     <br><br>
     Your information is shared with others in the following ways: Sharing on our
     products
@@ -312,14 +328,26 @@ const appName = 'Hairo'
     <br><br>
     (ii) subject to any other instructions we give them, including any
     appropriate confidentiality and security measures that we implement.
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      4.How to Access Your Information
+      <!-- 4.How to Access Your Information -->
+      4. How Do We Retain and Delete Facial Contour Data
     </div>
-    You can access and modify the information you provided to us through your
-    account.
+    <!-- You can access and modify the information you provided to us through your
+    account. -->
+    Facial contour data is only retained temporarily during the AI analysis process. The analysis typically completes within 24 hours, after which the data is immediately deleted from your device's memory.
     <br><br>
-    If you believe your information posted on {{ appName }} is not authentic or accurate
+    The 24-hour period ensures:
+    <br><br>
+    You have time to review and save the hairstyle suggestions
+    <br><br>
+    Smooth operation even with network delays
+    <br><br>
+    Temporary access to a history of your session for convenience
+    <br><br>
+    We will not store, transfer, or back up this data on external servers.
+    <br><br>
+    <!-- If you believe your information posted on {{ appName }} is not authentic or accurate
     and can provide us with reasonable proof regarding this, you can require us
     via the contact information provided in this Privacy Policy to correct these
     unauthentic or inaccurate information and we will use reasonable efforts to
@@ -351,11 +379,18 @@ const appName = 'Hairo'
     circumstance we will take necessary methods to eliminate such inconsistency,
     including deleting these personal information improperly collected or used
     by us.
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      5. Data access and deletion
+      <!-- 5. Data access and deletion -->
+      5. Data Sharing and Disclosure
     </div>
-    You always have control over what information you choose to share with us on
+    5.1 We do not share facial contour data with any third parties.
+    <br><br>
+    5.2 All facial contour analysis is completed locally on your device. No external transmission, storage, or cloud processing is involved.
+    <br><br>
+    5.3 Other personal information may be shared under the original conditions outlined above (e.g., for legal compliance, platform operations, or with affiliates under confidentiality agreements).
+    <br><br>
+    <!-- You always have control over what information you choose to share with us on
     the Services. To do this, you can change the Settings in the service or on
     the mobile device. Alternatively, you can delete this service completely
     from your mobile device and you can delete your data at any time. If you
@@ -368,22 +403,36 @@ const appName = 'Hairo'
     may be viewed and used by others, These include sending you unsolicited
     messages or identity theft. {{ appName }} is not responsible for any use or misuse
     of your information resulting from the disclosure of your information
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      6. Security
+      <!-- 6. Security -->
+      6. Data Security
     </div>
-    Protecting user privacy and personal information is a top priority at {{ appName }},
+    We adopt industry-standard security measures to protect all user data. For facial contour data specifically:
+    <br><br>
+    Processing is strictly limited to your device
+    <br><br>
+    It is automatically deleted after 24 hours
+    <br><br>
+    It is never accessible to unauthorized individuals or services
+    <br><br>
+    <!-- Protecting user privacy and personal information is a top priority at {{ appName }},
     and we make significant efforts to ensure the privacy of all personally
     identifiable information you provide to us.Access to all personally
     identifiable information is limited to {{ appName }} employees, contractors, agents
     and third party service providers who want to know this information in order
     to provide, operate and develop it.Maintenance, support can be political
     into the service.
-    <br><br>
+    <br><br> -->
     <div class="bt">
-      7. Age
+      <!-- 7. Age -->
+      7. Third Party Services
     </div>
-    This service is not targeted at children under the age of eighteen (18) and
+    Hairo does not use third-party services to process or store facial contour data. All facial analysis is conducted locally within the application, ensuring complete data privacy.
+    <br><br>
+    Other third-party services (e.g., Firebase, AppsFlyer, Facebook Analytics) may be used for usage analysis and crash tracking, but they do not access facial contour data.
+    <br><br>
+    <!-- This service is not targeted at children under the age of eighteen (18) and
     we do not knowingly accept or sell personally identifiable information from
     children under the age of eighteen as part of our service. If we become
     aware that we have inadvertently received personally identifiable
@@ -392,7 +441,7 @@ const appName = 'Hairo'
     as part of the service, we will obtain prior, verifiable parental consent
     before collecting any personally identifiable information from children
     under 18 years of age.
-    <br><br>
+    <br><br> -->
     <div class="bt">
       8. Change notification
     </div>
