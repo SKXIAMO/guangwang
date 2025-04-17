@@ -150,7 +150,7 @@ const appName = 'Hairo'
     </div>
     <!-- To provide certain features (e.g. online video calling), we must access your
     microphone, camera, with your permission, as described below: -->
-    <br><br>
+    <!-- <br><br> -->
     <!-- 1)Microphone: We access the microphone on your device (with your permission)
     to record audio messages and deliver sound during video calls. -->
     2.1 By using Hairo, you agree that we may access, collect, use and share your information in accordance with this Privacy Policy, as revised from time to time. If you do not agree to the terms of this Privacy Policy, do not use Hairo.
