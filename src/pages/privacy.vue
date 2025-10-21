@@ -413,16 +413,15 @@ const appName = 'Leep'
     <div class="bt">
       9. Child Safety and CSAE Prevention
     </div>
-    1).Our app strictly prohibits any form of child sexual abuse, exploitation, or endangerment.
+    1.Our app strictly prohibits any form of child sexual abuse, exploitation, or endangerment.
     <br>
     We maintain a zero-tolerance policy for such content or behavior.
     If any child sexual abuse or exploitation material (CSAE) is found, it will be immediately removed and reported to law enforcement.
     <br><br>
-    2).We actively moderate user-generated content and provide in-app reporting tools to help users report any harmful or illegal content.
-    <br>
+    2.We actively moderate user-generated content and provide in-app reporting tools to help users report any harmful or illegal content.
     We fully cooperate with law enforcement agencies to investigate and prevent CSAE incidents, and we ensure compliance with all applicable child protection laws and regulations.
     <br><br>
-    3).If you encounter or suspect any form of child exploitation, please contact our support team at【{{ appName }}@{{ appName }}.site】or report directly through the in-app “Report” feature.
+    3.If you encounter or suspect any form of child exploitation, please contact our support team at【{{ appName }}@{{ appName }}.site】or report directly through the in-app “Report” feature.
     <br><br>
     <div class="bt">
       10. Contacting Us
