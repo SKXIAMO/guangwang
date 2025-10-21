@@ -48,7 +48,7 @@ const appName = 'Leep'
       6. Contact for Reporting
     </div>
     <div class="T_content">
-      If you encounter or suspect any form of child exploitation, please contact our support team immediately at Yovo@Yovo.site or report directly through the in-app “Report” function.
+      If you encounter or suspect any form of child exploitation, please contact our support team immediately at【{{ appName }}@{{ appName }}.site】or report directly through the in-app “Report” function.
     </div>
     <div class="T_title">
       All reports are taken seriously and handled confidentially.
