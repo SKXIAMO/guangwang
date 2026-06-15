@@ -6,512 +6,259 @@ const appName = 'Test1'
 </script>
 
 <template>
-  <div class="agreement">
-    <div class="T_title" style="text-align: center">
-      {{ appName }} User Agreement
+    <div class="agreement">
+      <div class="T_title" style="text-align: center">
+      {{ appName }}用户协议
     </div>
     <div class="T_content">
-      We hereby advise you to carefully read and understand this User Agreement (hereinafter referred to as “Agreement”)before registering.
+      我们特此提醒您在注册前仔细阅读并充分理解本《用户协议》（以下简称“本协议”）。
 
-      In order to clarify rights and obligations of all parties,and protect the legitimate rights and interests of all parties,this Agreement is specially formulated.the contents highlighted in bold underline in this Agreement are specially reminded of your attention.Please ensure that you fully understand this Agreement.You are not authorized to register ,log in or use our services or software(hereinafter referred to as services, software)unless you accept all the Agreement.Your registration,login,usage,etc.will bu deemed as acceptance of this Agreement and you agree to be bound by the Agreement.
+      为明确各方权利义务并保护各方合法权益，特制定本协议。本协议中以加粗下划线标示的内容已特别提醒您注意。请确保您已充分理解本协议。除非您接受本协议全部内容，否则您无权注册、登录或使用我们的服务或软件（以下简称“服务”“软件”）。您的注册、登录、使用等行为将被视为您已接受本协议并同意受本协议约束。
 
-      We reserve the right,at our discretion, to change,modify,add,or remove portions of the Agreement,sup;ementary Agreement,Privacy Policy,regulative provisions or feature terms at any time by posting the amended version on our software or within the services without prior noice.If you do not agree to these terms or any future amended version,then you must not access,use our services.Otherwise,your access,use of our services shall be deemed to agree any future updated version of them.
+      我们保留自行决定随时通过在软件或服务中发布修订版本的方式，对本协议、补充协议、隐私政策、监管条款或功能条款进行变更、修改、增加或删除的权利，恕不另行通知。如果您不同意这些条款或其后续任何修订版本，请勿访问或使用我们的服务。否则，您访问或使用我们的服务即视为您同意其后续更新版本。
     </div>
     <div class="T_title">
-      1.Account
+      1.账户
     </div>
     <div class="T_content">
-      1.1 In order to ues our services,We may ask you to create an Account or
-      allocate an Account(hereinafter referred to as Account)to you.We can
-      modify how your account is registered.
+      1.1 为使用我们的服务，我们可能要求您创建账户，或向您分配一个账户（以下简称“账户”）。我们可以修改您的账户注册方式。
       <br><br>
-      1.2 You agree to simultaneously au theorize us to activate an account for
-      other services of the company upon registration of this account.Specific
-      products are subject to our actual operation.
+      1.2 您同意在注册本账户的同时授权我们为本公司的其他服务激活账户。具体产品以我们的实际运营情况为准。
       <br><br>
-      1.3 The ownership of the Account belongs to us and you only have the right
-      to use the Account.You are forbidden to donate,borrow,rent,transfer or
-      sell the Account.
+      1.3 账户所有权归我们所有，您仅享有账户使用权。您不得赠与、出借、出租、转让或出售该账户。
       <br><br>
-      1.4 You are responsible for maintaining the security of your Account.If
-      you Account encounter hacking or passwork theft due to your improper
-      handling, you shall hold full responsibility for.We will treat all acts
-      performed through your Account as being performed by you.You therefore
-      accept responsibility for all acts done using your Account.If you become
-      aware of any actual or suspected unauthorized use of your Account or
-      Account passwork,please tellus immediately.You agree not to use other
-      users’account or passwork under any circumstances.
+      1.4 您有责任维护您账户的安全。如因您保管不当导致账户被盗或密码泄露，相关责任由您自行承担。我们将视通过您的账户实施的所有行为均由您本人作出，因此您应对使用您账户所进行的全部行为负责。如果您发现任何实际或疑似未经授权使用您的账户或账户密码的情况，请立即通知我们。您同意在任何情况下均不使用其他用户的账户或密码。
       <br><br>
-      1.5 You shall abide by the terms of this Agreement and use the Software
-      correctly and appropriately.If you violate any of the terms in this
-      Agreement,we reserve the right to discontinus or terminate the Service to
-      you.
+      1.5 您应遵守本协议条款，并正确、适当地使用本软件。如果您违反本协议中的任何条款，我们保留停止或终止向您提供服务的权利。
       <br><br>
-      1.6 If no activity is conducted by you in relation to the Account for one
-      year,we have the right to delete or take back the Account without prior
-      notice to avoid wasting resources,and you shall take all the
-      risks.Meanwhile,we reserve the right to delete or take back your Account
-      and user name at any time at our sole discretion.
+      1.6 如果您的账户连续一年未发生任何活动，为避免资源浪费，我们有权在不事先通知的情况下删除或收回该账户，相关风险由您自行承担。同时，我们保留随时自行决定删除或收回您的账户及用户名的权利。
       <br><br>
     </div>
     <div class="T_title">
-      2.Service Scope
+      2.服务范围
     </div>
     <div class="T_content">
-      2.1 The specific Service of the Software is provided according to the
-      actual situation,including but not limited to video chat,purchase or sent
-      virtual gifts.We can modify the Service provided at any time without prior
-      notice to you at our sole discretion.
+      2.1 本软件的具体服务以实际情况为准，包括但不限于视频聊天、购买或赠送虚拟礼物。我们可自行决定随时调整所提供的服务，恕不另行通知。
       <br><br>
-      2.2 You understand and agree that we are entitled to send you promotional
-      or other relewant business information,notices via email,client,push
-      messages,SMS,webpage or other legal means for commercial purposes.Due to
-      the unique nature of the mobile phone network,we have the right to access
-      your mobile phone information.
+      2.2 您理解并同意，我们有权基于商业目的通过电子邮件、客户端、推送消息、短信、网页或其他合法方式向您发送促销信息或其他相关商业信息、通知。由于移动通信网络的特殊性，我们有权访问您的手机信息。
       <br><br>
     </div>
     <div class="T_title">
-      3. User information protection
+      3.用户信息保护
     </div>
     <div class="T_content">
-      3.1 In the process of registering your Account or using the Service,you
-      may be required to fill in or submit certain necessary informayion,such as
-      the identity information required by laws,regulations,and regulatory
-      documents(hereinafter referred to as “laws and regulations”).If the
-      information you submit is incomplete,inaccurate or does not comply with
-      the laws and regulations,you may bu unable,restricted to use our Service.
+      3.1 在您注册账户或使用服务过程中，您可能需要填写或提交某些必要信息，例如法律、法规及监管文件（以下简称“法律法规”）要求提供的身份信息。如果您提交的信息不完整、不准确或不符合相关法律法规，您可能无法使用或被限制使用我们的服务。
       <br><br>
-      3.2 In order to provide Service and improve quality of this Software ,our
-      techniques,we may collect or use your information or disclose it to third
-      parties.For more details,please read our “Privacy pOlicy”carefully.
+      3.2 为了提供服务并提升本软件的服务质量，我们可能通过技术手段收集、使用您的信息，或向第三方披露相关信息。详情请仔细阅读我们的《隐私政策》。
     </div>
 
     <div class="T_title">
-      4. Content Requirements and Usage Rules
+      4.内容要求与使用规则
     </div>
     <div class="T_content">
-      4.1 The Content described in this Agreement refers to any content
-      created,uploaded,copied,published and distributed by you,including but not
-      limited to registration information and verification details such as
-      account avatar,name,personal description,or text,
-      audio,pictures,videos,graphics that are sent,replied or auto-reply
-      messages and related link pages, and other content generated while using
-      the software.
+      4.1 本协议所称“内容”，是指您创建、上传、复制、发布及传播的任何内容，包括但不限于账户头像、名称、个人简介等注册信息和认证信息，以及您在使用本软件过程中发送、回复或自动回复的文字、音频、图片、视频、图形、相关链接页面及其他内容。
       <br><br>
-      4.2 You are not allowed to use this Softw are to produce, upload,copy and
-      send the following Content or conduct the following behavior:
+      4.2 您不得使用本软件制作、上传、复制、发送以下内容，或从事以下行为：
       <br><br>
-      1) That threatens national security,leaks state secrets, subverts state
-      power, damages state unity;
+      1）危害国家安全、泄露国家秘密、颠覆国家政权、破坏国家统一；
       <br><br>
-      2) That damages national honor and profit;
+      2）损害国家荣誉和利益；
       <br><br>
-      3) That incites national hatred, discrimination and damages national
-      unity;
+      3）煽动民族仇恨、民族歧视，破坏民族团结；
       <br><br>
-      4) That damages national religion policies,promotes cult and feudal
-      superstition:
+      4）破坏国家宗教政策，宣扬邪教和封建迷信；
       <br><br>
-      5) That spreads rumors,disturbs public order and damages social stability;
+      5）散布谣言，扰乱公共秩序，破坏社会稳定；
       <br><br>
-      6) That spreads obscene,pornographic content containing sexual or sexually
-      suggestive content;
+      6）传播淫秽、色情或含有性内容、性暗示内容的信息；
       <br><br>
-      7) That spreads gambling,violence,murder,terror;
+      7）传播赌博、暴力、凶杀、恐怖内容；
       <br><br>
-      8) That insults or defames others, violates others legal rights or
-      fraudulent;
+      8）侮辱、诽谤他人，侵害他人合法权益，或实施欺诈行为；
       <br><br>
-      9) That contains insulting, intimidating,or threatening content;
+      9）含有侮辱、恐吓或威胁性内容；
       <br><br>
-      10) That contains harassment,spam,malicious or phishing information;
+      10）含有骚扰、垃圾、恶意或钓鱼信息；
       <br><br>
-      11) That disclosing or involving the privacy of others, personal
-      information or details;
+      11）披露或涉及他人隐私、个人信息或资料；
       <br><br>
-      12) That infringes on the legal rights of other people's
-      reputation,portrait rights,intellectual property rights, trade
-      secrets,etc.;
+      12）侵犯他人名誉权、肖像权、知识产权、商业秘密等合法权益；
       <br><br>
-      13) That harms the interests of minors in any way;
+      13）以任何方式损害未成年人利益；
       <br><br>
-      14) That stalks or otherwise harasses other users;
+      14）跟踪或以其他方式骚扰其他用户；
       <br><br>
-      15) That contains false information, or steals other people's avatars or
-      details,posts or uses others' identity;
+      15）含有虚假信息，或盗用他人头像、资料，冒用他人身份发布或使用内容；
       <br><br>
-      16) That enforces, induces other users to follow,click on the link page or
-      share information;
+      16）强制、诱导其他用户关注、点击链接页面或分享信息；
       <br><br>
-      17) That fabricates facts,conceals truths to mislead or deceive others;
+      17）捏造事实、隐瞒真相，误导或欺骗他人；
       <br><br>
-      18) That contains advertising or sales-oriented information;
+      18）含有广告或营销导向信息；
       <br><br>
-      19) That uses technical means to build multiple fake accounts;
+      19）使用技术手段批量创建虚假账户；
       <br><br>
-      20) That deletes the copyright information on this software and its copy;
+      20）删除本软件及其副本上的版权信息；
       <br><br>
-      21) That do reverse engineering,reverse compilation, de-compilation, or
-      attempt to discover the source code of the software;
+      21）对本软件进行反向工程、反向编译、反汇编，或试图获取本软件源代码；
       <br><br>
-      22) That uses,rents, lends,copies modifies,links, reproduces,compiles,
-      issues,publishes or creates mirror sites with contents that contains
-      intellectual property rights of this company;
+      22）对含有本公司知识产权的内容进行使用、出租、出借、复制、修改、链接、转载、汇编、发布，或建立镜像站点；
       <br><br>
-      23) That copies,modifies,adds, deletes,hooks,or creates any data released
-      by us or necessary for the software,or derivatives;
+      23）复制、修改、增加、删除、挂接我们发布的或软件运行所必需的数据，或制作其衍生内容；
       <br><br>
-      24) That adds, deletes, changes the function of the software,or operates
-      or transmits the software to the public by modifying or falsifying the
-      instructions and data in the software,whether or not for commercial
-      purpose;
+      24）通过修改或伪造软件中的指令、数据来增加、删除、变更软件功能，或将软件进行运营或向公众传播，不论是否用于商业目的；
       <br><br>
-      25) That Loges in or uses the software through third- party
-      software,hacking,plug-ins or systems that are not developed or authorized
-      by us,or create,publish,or distribute third-party
-      software,plug-ins,hackings, and systems that are not developed or
-      authorized by the company;
+      25）通过非我们开发或授权的第三方软件、外挂、插件或系统登录或使用本软件，或制作、发布、传播非本公司开发或授权的第三方软件、插件、外挂及系统；
       <br><br>
-      26) That is or could reasonably be viewed as offensive, indecent or
-      objectionable;
+      26）含有或可能被合理认定为冒犯性、不雅或令人反感的内容；
       <br><br>
-      27) Other Contents or behaviors that in violation of laws and
-      regulations,such as regulatory documents and policies(including
-      jurisdiction where you reside, the Software operates, runs),or infringe
-      lawful rights and interests of other third parties, interfere with the
-      normal operation of the software. we will review your uploads and send the
-      results within 24 hours of upload. If you use the app to make,upload,
-      copy, publish and disseminate the above content, we have the right to
-      delete the content you send,if there is any serious violation, we will
-      block the account.
+      27）其他违反法律法规、监管文件及政策（包括您居住地及本软件运营、运行所在地相关规定）的内容或行为，或侵犯第三方合法权益、干扰软件正常运行的内容或行为。我们会审核您上传的内容，并在上传后 24 小时内给出审核结果。如您使用本应用制作、上传、复制、发布、传播上述内容，我们有权删除您发送的内容；情节严重的，我们将封禁账户。
       <br><br>
-      4.3 Any Contents produced,uploaded,copied and sent by you has nothing to
-      do with us and doesn't reflect or represent our
-      opinion,standpoint,policy.We shall not be liable in any way for any
-      Content uploaded, distributed,copied,published by you,or behavior
-      conducted by you.
+      4.3 您制作、上传、复制及发送的任何内容均与我们无关，亦不反映或代表我们的意见、立场或政策。对于您上传、传播、复制、发布的任何内容或您实施的行为，我们不承担任何责任。
       <br><br>
-      4.4 You are solely responsible for the authenticity, legality,
-      accuracy,validity of the information
-      transmitted,produced,uploaded,copied,published, disseminated by you, and
-      behaviors conducted, and performed by you. Any liability is at your own
-      risk and has nothing to do with the software. If any damage is caused to
-      us or third parties due to your behavior, you shall compensate losses of
-      us or third parties, and we have the right to pursue your liability in
-      accordance with this agreement.
+      4.4 您应对您传输、制作、上传、复制、发布、传播的信息的真实性、合法性、准确性、有效性，以及您实施的行为独自承担全部责任。由此产生的任何责任均由您自行承担，与本软件无关。如因您的行为给我们或第三方造成损失，您应赔偿我们或第三方所遭受的损失，我们亦有权依据本协议追究您的责任。
       <br><br>
     </div>
     <div class="T_title">
-      5.Third Party Products and Services
+      5.第三方产品和服务
     </div>
     <div class="T_content">
-      5.1 The Service may contain advertisements and promotions offered by third
-      parties and you agree to display those advertisements and promotions
-      during the course of using the Service. Unless otherwise expressly
-      regulated by laws and regulations,you should be responsible for
-      transactions in accordance with the advertising information, and losses in
-      relation to the transaction.We are not liable for any responsibility,
-      losses arising from the aforesaid transactions.
+      5.1 本服务中可能包含第三方提供的广告和推广内容，您同意在使用本服务期间展示该等广告和推广内容。除法律法规另有明确规定外，您应自行根据广告信息进行交易并承担与交易相关的损失。对于前述交易产生的任何责任或损失，我们概不负责。
       <br><br>
-      5.2 If you choose to use services,products provided by third party that
-      displayed,linked on our Software, you shall comply with third party's
-      agreement, policy in regard with you behavior. We cannot guarantee the
-      security,accuracy, validity of third party's service and we are not
-      responsible or liable for losses incurred by you arising from services,
-      products, behavior of third party.
+      5.2 如果您选择使用我们软件中展示或链接的第三方服务或产品，您应遵守该第三方就相关行为制定的协议和政策。我们无法保证第三方服务的安全性、准确性和有效性，也不对您因第三方服务、产品或行为遭受的损失承担责任。
     </div>
     <!-- <div class="T_title">
-      6.Membership
+      6.会员
     </div>
     <div class="T_content">
-      6.1 You can purchase membership service,and the included service content
-      and price information is subject to the display on relevant service pages
-      of this Service.
+      6.1 您可以购买会员服务，所包含的服务内容和价格信息以本服务相关页面展示为准。
       <br><br>
-      6.2 We can adjust the membership service charge standard and content at
-      any time by displaying the amended version on relative pages.
+      6.2 我们可随时通过在相关页面展示修订版本的方式调整会员服务的收费标准和内容。
       <br><br>
-      6.3 You are forbidden to transfer or refund after successful payment under
-      any circumstance unless clearly stated by Law and Regulation.The Service
-      will terminate automatically after the end of subscription if you do not
-      use our Service within the validity period specified in the payment
-      service, which cannot be interrupted or postponed.
+      6.3 除法律法规另有明确规定外，付款成功后在任何情况下均不得转让或退款。如您未在付费服务规定的有效期内使用本服务，订阅期满后服务将自动终止，且不得中断或顺延。
       <br><br>
-      6.4 The content and personal data you submitted when registering for
-      membership must be valid and truthful. You must modify the registered
-      personal data when necessary, otherwise you are liable for any
-      consequences caused by your membership rights unable to fully and
-      effectively exercised.
+      6.4 您在注册会员时提交的内容和个人资料必须真实有效。必要时您应及时修改已登记的个人资料，否则因您的会员权益无法充分、有效行使所产生的后果由您自行承担。
       <br><br>
     </div>
     <div class="T_title">
-      7. Subscriptions and Virtual Currency
+      7.订阅与虚拟货币
     </div>
     <div class="T_content">
-      7.1 Subscriptions
-      You can buy different subscription packages according to one month, two months and three months.
-      For all mobile subscriptions, the fee will be deducted from your iTunes or Google account when you confirm your purchase.
-      Your subscription will be automatically renewed unless you turn off the automatic renewal feature at least 24 hours before
-      the end of your current subscription. This is because your account may be charged for renewal within 24 hours before the
-      end of the current subscription period. You can manage your subscriptions and turn off automatic renewal by accessing your
-      iTunes or Google account settings. You cannot cancel the current subscription during the subscription period, but you can cancel automatic renewal at any time.
+      7.1 订阅
+      您可以按一个月、两个月或三个月购买不同的订阅套餐。
+      对于所有移动端订阅，当您确认购买时，相关费用将从您的 iTunes 或 Google 账户中扣除。
+      除非您在当前订阅期结束前至少 24 小时关闭自动续费功能，否则您的订阅将自动续费。这是因为您的账户可能会在当前订阅期结束前 24 小时内被收取续费费用。您可以通过访问 iTunes 或 Google 账户设置来管理您的订阅并关闭自动续费。在订阅期内，您不能取消当前订阅，但可以随时取消自动续费。
       <br><br>
-      Purchases of subscriptions are non refundable and non transferable, even if they expire or stop. We may change the
-      purchase price of the subscription and the features included in the subscription at any time. We reserve the right
-      to stop publishing and subscribing and set the subscription expiration date at any time. Subscriptions cannot be
-      exchanged for any amount or currency value.
+      已购买的订阅不可退款、不可转让，即使订阅已到期或终止亦然。我们可随时调整订阅购买价格及订阅所包含的功能。我们保留随时停止提供订阅并设定订阅到期日的权利。订阅不得兑换为任何金额或货币价值。
       <br><br>
-      7.2 Virtual Currency
-      When you purchase or receive Virtual Currency products such as Diamonds you do not own them. Diamonds are used to upload stories, use
-      filters and use video chat features, etc. You agree that we will have no liability to you based on the exercise of our rights with
-      respect to coins and other Virtual Currencies. We reserve the right to verify your identity and eligibility to use your Virtual Currencies.
+      7.2 虚拟货币
+      当您购买或获得钻石等虚拟货币产品时，您并不拥有其所有权。钻石可用于上传动态、使用滤镜及使用视频聊天等功能。您同意，对于我们行使有关金币及其他虚拟货币权利所产生的后果，我们不对您承担责任。我们保留核验您的身份以及您是否有资格使用虚拟货币的权利。
       <br><br>
-      We are not responsible for repairing or replacing Virtual Currencies, or providing you with any credit or refund in the event that we
-      modify, suspend, or terminate the Virtual Currencies, or the Story, or for loss or damage due to any service error, or any other reason.
-      Purchases of Virtual Currency may not be sub-licensed and are non-refundable and non-transferable, even if they expire or are revoked or
-      discontinued. We may change the purchase price for Virtual Currency at any time, as well as the ways you can use Virtual Currency.
-      We reserve the right to revoke or stop issuing Virtual Currency at any time without notice, refund, or compensation, and to set expiration
-      dates for Virtual Currency. Virtual Currency may not be redeemed for any sum of money or monetary value. If you delete your account or your
-      account is terminated for any reason, you will lose all accumulated and unused Virtual Currency without refund or other compensation.
-      You agree that we will have no liability to you based on the exercise of our rights with respect to Virtual Currency.
-      Virtual Currency purchased or received by any user does not constitute property and is not transferable.
+      如果我们对虚拟货币或动态功能进行修改、暂停或终止，或者因任何服务错误或其他原因导致损失或损害，我们不负责修复或更换虚拟货币，也不会向您提供任何补偿或退款。
+      虚拟货币购买后不得再授权使用，且不可退款、不可转让，即使其已到期、被撤销或停止发放亦然。我们可随时调整虚拟货币的购买价格，以及您使用虚拟货币的方式。
+      我们保留随时在不另行通知、不退款、不补偿的情况下撤销或停止发放虚拟货币并设定其到期日期的权利。虚拟货币不得兑换为任何金额或货币价值。如果您删除账户，或您的账户因任何原因被终止，您将失去所有累计且未使用的虚拟货币，且无权获得退款或其他补偿。
+      您同意，对于我们行使有关虚拟货币权利所产生的后果，我们不对您承担责任。
+      任何用户购买或获得的虚拟货币均不构成财产，也不得转让。
       <br><br>
-      7.3 Payment Method
-      Our paid services
-      Our paid services can be purchased through your account with some third parties, such as your Apple iTunes account or your Google play
-      account ("third party account"). If you purchase any paid services through a third-party account, the bill for these paid services will
-      be displayed through your third-party account. You should review the terms of service for third-party accounts that we have no control over.
+      7.3 付款方式
+      我们的付费服务
+      我们的付费服务可通过您在部分第三方平台开设的账户购买，例如 Apple iTunes 账户或 Google Play 账户（“第三方账户”）。如果您通过第三方账户购买任何付费服务，相关付费服务账单将通过您的第三方账户显示。对于该等不受我们控制的第三方账户，您应自行查阅其服务条款。
       <br><br>
-      7.4 Unsubscribe
-      If you purchase a subscription through a third-party account, you will need to cancel your subscription through that third-party and in accordance
-      with that third party’s terms of Service. If you cancel your subscription, your subscription benefits will continue until the end of your then-current
-      subscription term, but your subscription will not be renewed after that term expires. You will not be entitled to a prorated refund of any portion of
-      the subscription fees paid for the then-current subscription term.
+      7.4 取消订阅
+      如果您通过第三方账户购买订阅，您需通过该第三方并依照其服务条款取消订阅。如果您取消订阅，您的订阅权益将持续至当前订阅期结束，但在该订阅期届满后将不再续费。对于当前订阅期已支付的任何订阅费用，您无权按比例获得退款。
       <br><br>
-      7.5 Term/Fees
-      This Agreement shall remain in full force and effect while you use the mobile application and website and/or the Service. We may terminate your membership
-      for any reason, at any time, without notice. If we terminate your Membership in the Service, you shall not be entitled to a refund of any unused portion of
-      subscription fees, if any. Even after membership is terminated, this Agreement will remain in effect. Our Services' Terms of Service and/or subscription
-      fees, if any, that were provided to you at registration is subject to change if needed. By using the Service and becoming a Member, you acknowledge that
-      we reserve the right to charge for the Service and have the right to terminate a Member's Membership, should a Member breach this Agreement or fail to pay
-      for the Service if necessary, as required by this Agreement. Standard usage charges for SMS, MMS, and other data charges may apply and may be billed on your
-      wireless service bill or deducted from your prepaid balance.
+      7.5 期限/费用
+      在您使用本移动应用、网站和/或本服务期间，本协议始终完全有效。我们可因任何原因在任何时间无须通知而终止您的会员资格。如果我们终止您在本服务中的会员资格，您无权要求退还任何未使用部分的订阅费用（如有）。即使会员资格终止，本协议仍继续有效。注册时向您提供的服务条款和/或订阅费用（如有）可在必要时进行调整。通过使用本服务并成为会员，您确认我们保留对本服务收费的权利；如会员违反本协议或未按本协议要求在必要时支付服务费用，我们有权终止其会员资格。短信、彩信及其他数据流量的标准使用费用可能适用，并可能计入您的无线服务账单或从您的预付余额中扣除。
       <br><br>
     </div> -->
     <div class="T_title">
-      6. Data Storage
+      6.数据存储
     </div>
     <div class="T_content">
-      6.1 We are not responsible for the deleting or storage failure of your
-      data in this Service.
+      6.1 对于您在本服务中的数据删除或存储失败，我们不承担责任。
       <br><br>
-      6.2 We can determine the maximum storage time length and storage space of
-      your data in the Service according to various factors.You can back up the
-      relevant data of this Service according to your own needs.
+      6.2 我们可根据多种因素确定您在本服务中数据的最长存储时间及存储空间。您可以根据自身需要自行备份本服务的相关数据。
       <br><br>
-      6.3 If you discontinue using the Service, or if the Service is terminated
-      or ended,we can permanently delete your data from our server, and we are
-      not obligated to return any data to you.
+      6.3 如果您停止使用本服务，或本服务被终止或结束，我们可以从服务器中永久删除您的数据，且无义务向您返还任何数据。
       <br><br>
-      6.4 You can modify or delete your personal data, registration information
-      and Content uploaded, distributed by you.Please note that deleting
-      relative information will lead to delete of Contents stored in the
-      system.You are responsible for this risk.
+      6.4 您可以修改或删除您的个人数据、注册信息以及您上传、传播的内容。请注意，删除相关信息会导致系统中存储的内容一并被删除，该风险由您自行承担。
       <br><br>
     </div>
     <div class="T_title">
-      7.Risk
+      7.风险
     </div>
     <div class="T_content">
-      7.1 You understand and agree that the Software only provides you with a
-      platform for inform ation sharing, transmission.You are responsible for
-      all actions under your Account,including any content you transmit and any
-      consequences resulted.You should personally judge the content of the
-      software and Service and bear all risks arising from the use of the
-      Service,including risks arising from the reliance on the correctness,
-      completeness or usefulness of the Content.We cannot and will not be liable
-      for any losses caused by your behavior.
+      7.1 您理解并同意，本软件仅为您提供信息分享与传输的平台。您应对您账户项下的全部行为负责，包括您传输的任何内容及由此产生的任何后果。您应自行判断软件及服务中的内容，并承担因使用本服务而产生的全部风险，包括因依赖内容的正确性、完整性或有用性所产生的风险。对于因您的行为造成的任何损失，我们概不承担责任。
       <br><br>
-      7.2 If you find anyone who violates this agreement or uses the Service in
-      other improper ways,please tell us immediately and we will deal with them
-      according to this Agreement.
+      7.2 如果您发现任何人违反本协议或以其他不当方式使用本服务，请立即告知我们，我们将依据本协议进行处理。
       <br><br>
-      7.3 You understand and agree that we reserve the right to
-      change,suspend,terminate,update all or an feature of the Service in our
-      sole discretion according to various factors without prior notice.
+      7.3 您理解并同意，我们保留根据各种情况自行决定变更、暂停、终止、更新本服务全部或部分功能而无须事先通知的权利。
       <br><br>
     </div>
     <div class="T_title">
-      8. Intellectual Property
+      8.知识产权
     </div>
     <div class="T_content">
-      8.1 You acknowledge that intellectual property rights in and relating to
-      our Services(other than Content which is contributed and owned by
-      advertisers) is owned by us,unless you have legally acquired intellectual
-      property rights in the Content posted by you on our Software before using
-      our Services.
+      8.1 您确认，与我们服务相关的知识产权（广告主贡献并拥有的内容除外）归我们所有，除非您在使用我们的服务之前已合法取得您发布于本软件内容的相关知识产权。
       <br><br>
-      8.2 Unless otherwise provided,the copyright,patent and other intellectual
-      property rights of the Software are owned by us.
+      8.2 除另有规定外，本软件的著作权、专利权及其他知识产权均归我们所有。
       <br><br>
-      8.3 the copyright or trademark rights of the graphics, text or its
-      components involved in the Service,and other Software logos and product
-      and Service names (hereinafter collectively referred to as the "Software
-      Logo"),are owned by us.You are not allowed to display or use the Software
-      logo in any way without our prior written consent,and you must not
-      indicate to others that you have the right to display, use, or otherwise
-      modify with the Software logo.
+      8.3 本服务涉及的图形、文字及其组成部分的著作权或商标权，以及其他软件标识、产品及服务名称（以下统称“软件标识”）均归我们所有。未经我们事先书面同意，您不得以任何方式展示或使用软件标识，亦不得向他人表明您有权展示、使用或以其他方式修改软件标识。
       <br><br>
-      8.4 The above and any other intellectual property rights owned by us or
-      related advertisers are protected by law and you are not allowed to use or
-      create derivative works in any form without the written permission of us
-      or the relevant advertisers.
+      8.4 上述以及其他归我们或相关广告主所有的知识产权均受法律保护。未经我们或相关广告主书面许可，您不得以任何形式使用或创作其衍生作品。
       <br><br>
-      8.5 Unless otherwise agreed in writing by the company and you/your
-      agent,you own the intellectual property rights in connection with Content
-      uploaded by you such as text,images,videos, audio,photograph,and you agree
-      to authorize us and our affiliates a irrevocable, permanent
-      exclusive,royalty-free,worldwide,sub- licensable right to use, display and
-      reproduce the aforesaid Content for commercial or non-commercial purposes,
-      including but not limited to adapt,display, broadcast,rent,copy,
-      film,translate,or place such Content on Internet.We can choose whether to
-      use and the usage method in our sole discretion,including but not limited
-      to using and disseminating the above information on any platform operated
-      by us, editing the above information, and authorize third party to use,
-      edit,disseminate.
+      8.5 除非公司与您/您的代理人另有书面约定，您对您上传的文字、图片、视频、音频、照片等内容享有相关知识产权；同时，您同意授予我们及关联方一项不可撤销的、永久的、排他的、免版税的、全球范围内可转授权的权利，以便出于商业或非商业目的使用、展示和复制前述内容，包括但不限于改编、展示、广播、出租、复制、拍摄、翻译或将该等内容发布于互联网。我们可自行决定是否使用以及如何使用，包括但不限于在我们运营的任何平台上使用、传播、编辑上述信息，并授权第三方使用、编辑、传播。
     </div>
     <div class="T_title">
-      9. Liability
+      9.责任
     </div>
     <div class="T_content">
-      9.1 If you have illegal,wrongful,defaulting, tort act,we have the right
-      in our sole discretion to take any or all of the following measures:to
-      give a warning,to disable your ability to use some features,terminate your
-      access to the Software,put you into blacklist,announce your default act,
-      to deduct,withhold virtual items and virtual gains in part or in whole.If
-      we adopt to terminate your Account,put you into blacklist,we have the
-      right not to refund your virtual items, and gains. <br><br>
-      9.2 You understand and agree that we have right to take any remedy
-      measures, appropriate legal action against your
-      illegal,wrongful,defaulting,tort act, and disclose relevant information to
-      authorities in accordance with laws and regulations and you shall bear all
-      results.
+      9.1 如果您存在违法、不当、违约或侵权行为，我们有权自行决定采取以下一项或多项措施：发出警告、限制您使用部分功能、终止您访问本软件、将您列入黑名单、公告您的违约行为，以及部分或全部扣除、冻结您的虚拟物品及虚拟收益。如我们采取终止账户、列入黑名单等措施，我们有权不退还您的虚拟物品及收益。 <br><br>
+      9.2 您理解并同意，我们有权就您的违法、不当、违约、侵权行为采取任何补救措施及适当法律行动，并可依法向有关部门披露相关信息，由此产生的一切后果均由您自行承担。
       <br><br>
-      9.3 You understand and agree that any losses, damages, claims of third
-      party arising out of your violation of this Agreement,shall be paid by
-      you,including reasonable attorney's fees.
+      9.3 您理解并同意，因您违反本协议而引发的任何损失、损害或第三方索赔，均应由您承担，包括合理的律师费用。
       <br><br>
-      9.4 You agree to indemnify,defend and hold harmless us,our affiliates
-      from and against any and all
-      comolaints.demands.claims.damages.losses.costs.liabilities and
-      expenses,including but not limited to attorney's fees, arising out of your
-      access to or use of the Service,your breach of this Agreement.
+      9.4 您同意就因您访问或使用本服务、违反本协议而产生的任何及全部投诉、要求、索赔、损害、损失、成本、责任和费用（包括但不限于律师费用），对我们及我们的关联方进行赔偿、抗辩并使其免责。
       <br><br>
-      9.5 We have the right to choose to apply the aforesaid rem edy measures
-      separately or collectively.
+      9.5 我们有权选择单独或合并适用上述补救措施。
       <br><br>
     </div>
     <div class="T_title">
-      10.Force Majeure And Other Disclaimers
+      10.不可抗力及其他免责声明
     </div>
     <div class="T_content">
-      10.1 You understand and acknowledge that in the course of using the
-      Service, you may encounter problems out of our control, which m ay cause
-      the Service to be interrupted.W e are not liable for any Service
-      suspension,problems,losses out of our control and expectation,for example
-      natural disasters such as floods,earthquakes,plague epidemics and
-      storms,and social events such as war,turmoil,government actions, etc. In
-      the event aforesaid,we will try our best to cooperate and to repair in
-      time.
+      10.1 您理解并知悉，在使用本服务过程中，您可能会遇到超出我们控制范围的问题，进而导致服务中断。对于超出我们控制及合理预期范围的任何服务暂停、问题或损失，例如洪水、地震、疫情、风暴等自然灾害，以及战争、动乱、政府行为等社会事件，我们不承担责任。发生上述情况时，我们将尽最大努力配合并及时修复。
       <br><br>
-      10.2 We make no promises or guarantees that the Services will always
-      safe,reliable,be available,uninterrupted,or error-free or not-delay.TO THE
-      EXTENT PERMITTED BY APPLICABLE LAW,WE MAKE NO WARRANTIES,CONDITIONS,OR
-      OTHER TERMS OF ANY KIND,EITHER EXPRESS OR IMPLIED,ABOUT THE SERVICES.WE
-      DISCLAIM ANY WARRANTIES OF TITLE OR IMPLIED WARRANTIES,CONDITIONS,OR OTHER
-      TERMS OF NON-INFRINGEMENT,MERCHANTABILITY, QUIET ENJOYMENT,OR FITNESS FOR
-      A PARTICULAR PURPOSE.We do not control or manipulate actions of you and
-      others,nor are we responsible for any of their content (whether online or
-      offline) and any content they share (including
-      offensive,indecent,obscene,illegal, and other contentious content).
+      10.2 我们不承诺或保证本服务始终安全、可靠、可用、不中断、无错误或无延迟。在适用法律允许的最大范围内，我们不就本服务作出任何形式的明示或默示保证、条件或其他承诺。我们明确否认有关所有权、不侵权、适销性、安宁享有或特定用途适用性的任何保证、条件或其他条款。我们不控制或操纵您及其他人的行为，也不对其任何内容（无论线上或线下）及其分享的任何内容（包括冒犯性、不雅、淫秽、违法及其他有争议的内容）负责。
       <br><br>
-      10.3 Like most Internet Services, our Service may be affected by various
-      security issues, including but not limited to internet Service
-      quality,social environment, other software,websites you
-      download,install,visit may contain viruses such as "Trojan horses" that
-      threaten the security of your computer information and data,which in turn
-      affects the normal use of the Service.You should strengthen the protection
-      of information security and user data, and pay attention to strengthen
-      password protection to avoid loss and harassment.
+      10.3 与大多数互联网服务一样，本服务可能受到多种安全问题影响，包括但不限于互联网服务质量、社会环境，以及您下载、安装、访问的其他软件或网站中可能含有“木马”等病毒，从而威胁您的计算机信息和数据安全，并进一步影响本服务的正常使用。您应加强信息安全和用户数据保护，并注意加强密码保护，以避免损失和骚扰。
       <br><br>
-      10.4 You understand and acknowledge that the Service has interruptions due
-      to unavoidable issues,computer virus or hacking,system instability,your
-      location,your shutdown,and any other technology problems,internet
-      problems,telecom operate problems,etc.We shall not be liable for any
-      losses caused due to the aforesaid interruptions.
+      10.4 您理解并知悉，本服务可能因不可避免的问题、计算机病毒或黑客攻击、系统不稳定、您的地理位置、设备关机，以及其他技术问题、网络问题、电信运营问题等而发生中断。对于因此类中断造成的任何损失，我们不承担责任。
       <br><br>
-      10.5 You understand and acknowledge that there may be some misleading,
-      deceptive, threatening, defamatory, offensive or illegal information,or
-      infringement information of the rights of others in the course of using
-      the Service.We do not assume any responsibility for any losses of you or
-      any third party resulting from aforesaid information or act.
+      10.5 您理解并知悉，在使用本服务过程中，可能存在误导性、欺骗性、威胁性、诽谤性、冒犯性或违法信息，或侵犯他人权利的信息。对于因上述信息或行为给您或任何第三方造成的损失，我们不承担任何责任。
       <br><br>
-      10.6 You understand and acknowledged that we may maintain,update,and
-      repair features or this Software on a regular or irregular basis. If the
-      service is interrupted within a reasonable period of time due to such
-      circumstances with prior notice,we shall not be liable for this.
+      10.6 您理解并知悉，我们可能会定期或不定期对本软件功能进行维护、更新和修复。如已事先通知且服务因此在合理期间内中断，我们对此不承担责任。
       <br><br>
-      10.7 Unless otherwise provided by law and regulation,we have rights but no
-      obligation to handle any defaulting, tort, illegal act of third party and
-      we cannot guarantee that the foresaid defaulting,tort,illegal act of third
-      party shall be found,handled in times.
+      10.7 除法律法规另有规定外，我们有权但无义务处理第三方的任何违约、侵权或违法行为，亦无法保证能够及时发现并处理前述行为。
       <br><br>
-      10.8 You understand and acknowledge that we are not responsible for any
-      defects in the quality of the products or Services offered to you and any
-      damages caused by the free products or Services gifted to you.
+      10.8 您理解并知悉，对于向您提供的产品或服务存在的任何质量缺陷，以及向您赠送的免费产品或服务造成的任何损害，我们不承担责任。
       <br><br>
-      10.9 NOTWITHSTANDING OTHERWISE PROVIDED IN THIS AGREEMENT,YOU ACKNOWLEDGE
-      THAT WE ARE NOT LIABLEFOR ANY INDIRECT,INCIDENTAL,SPECIAL, EXEMPLARY,OR
-      CONSEQUENTIAL DAMAGES, INCLUDING FOR LOSS OF PROFITS,GOODWILL,OR DATA, IN
-      ANY WAY WHATSOEVER ARISING OUT OF THE USE OF,OR INABILITY TO USE,THE
-      SERVICES; ORFOR THE CONDUCT OF THIRD PARTIES, INCLUDING OTHER USERS OF THE
-      SERVICES AND OPERATORS OF EXTERNAL SITES.IN ADDITION,ALL COMPENSATION,
-      REMEDY,LIABILITIES,REGARDLESS OF ANY MANNER, REASON,SHALL NOT EXCEED ALL
-      FEES PAID BY TO US (IF APPLICABLE)
+      10.9 尽管本协议另有规定，您仍确认，对于因使用或无法使用本服务而以任何方式产生的任何间接、附带、特殊、惩罚性或后果性损害，包括利润、商誉或数据损失；或者因第三方行为（包括本服务其他用户及外部网站运营者的行为）所引起的损害，我们均不承担责任。此外，无论以何种方式、基于何种原因产生的全部赔偿、救济和责任，均不得超过您向我们支付的全部费用（如适用）。
       <br><br>
-      10.10 You acknowledge and understand that there may be personal and
-      property security and transaction dispute risks if you meet,trade with
-      other users offline, off the platform.We are not liable for the above
-      risks or losses, and you must bear all responsibility.
+      10.10 您确认并理解，如您在线下或平台外与其他用户见面或交易，可能存在人身、财产安全及交易纠纷等风险。对于上述风险或损失，我们不承担责任，相关责任由您自行承担。
       <br><br>
     </div>
     <div class="T_title">
-      11.Miscellaneous
+      11.其他
     </div>
     <div class="T_content">
-      11.1 We remind you to read this Agreement carefully, especially clauses in
-      connection with disclaimer, risks, limitation of you rights and our
-      liability. If you are a minor,pleases read with accompany of your
-      guardian(s).
+      11.1 我们提醒您认真阅读本协议，尤其是与免责声明、风险、您权利的限制及我们责任相关的条款。如您为未成年人，请在监护人陪同下阅读。
       <br><br>
-      11.2 You understand and agree that other statements, rules published by us
-      in the software are deemed to be supplemental to these rules and are an
-      integral part of these Rules and have the same legal effect as this
-      Agreement.
+      11.2 您理解并同意，我们在软件中发布的其他声明、规则均视为本规则的补充内容，构成本规则不可分割的一部分，并与本协议具有同等法律效力。
       <br><br>
-      11.3 This Agreement shall be governed by, and construed in all respects in
-      accordance with, the laws of the Hong Kong SAR. Any dispute arising out of
-      or in connection with this Agreement, including any question regarding its
-      existence,validity or termination,shall be referred to and finally
-      resolved by arbitration administered by the Hong Kong International
-      Arbitration Centre in accordance with the Arbitration Rules.
+      11.3 本协议受香港特别行政区法律管辖并依其进行解释。因本协议引起或与本协议有关的任何争议，包括关于本协议存在、有效性或终止的任何问题，均应提交香港国际仲裁中心，并依照其仲裁规则进行最终仲裁解决。
       <br><br>
-      11.4 The invalidity or unenforceability of any provision of this Agreement
-      shall not in any way affect or impair the validity or enforceability of
-      the remaining provisions.If any provision of this Agreement is declared
-      invalid or unenforceable by competent authorities,the Parties shall use
-      their best endeavors to agree upon a replacement provision so as to
-      substantially effectuate the commercial purpose of the original provision.
+      11.4 本协议任何条款的无效或不可执行，不影响其余条款的有效性或可执行性。如本协议任何条款被有权机关认定为无效或不可执行，双方应尽最大努力协商确定替代条款，以尽可能实现原条款的商业目的。
       <br><br>
     </div>
   </div>
