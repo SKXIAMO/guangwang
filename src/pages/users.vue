@@ -2,516 +2,263 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Test1'
+const appName = 'きずな'
 </script>
 
 <template>
   <div class="agreement">
     <div class="T_title" style="text-align: center">
-      {{ appName }} User Agreement
+      {{ appName }} 利用規約
     </div>
     <div class="T_content">
-      We hereby advise you to carefully read and understand this User Agreement (hereinafter referred to as “Agreement”)before registering.
+      ご登録の前に、本利用規約（以下「本規約」といいます）をよく読み、十分にご理解いただくようお願いいたします。
 
-      In order to clarify rights and obligations of all parties,and protect the legitimate rights and interests of all parties,this Agreement is specially formulated.the contents highlighted in bold underline in this Agreement are specially reminded of your attention.Please ensure that you fully understand this Agreement.You are not authorized to register ,log in or use our services or software(hereinafter referred to as services, software)unless you accept all the Agreement.Your registration,login,usage,etc.will bu deemed as acceptance of this Agreement and you agree to be bound by the Agreement.
+      本規約は、各当事者の権利義務を明確にし、各当事者の適法な権益を保護するために定められています。本規約において太字下線で強調されている内容は、お客様に特に注意を促すものです。本規約を十分にご理解いただいたうえでご利用ください。お客様は、本規約のすべてに同意しない限り、当社のサービスまたはソフトウェア（以下「サービス」「ソフトウェア」といいます）に登録、ログイン、または利用することはできません。お客様の登録、ログイン、利用等の行為は、本規約を承諾し、その拘束を受けることに同意したものとみなされます。
 
-      We reserve the right,at our discretion, to change,modify,add,or remove portions of the Agreement,sup;ementary Agreement,Privacy Policy,regulative provisions or feature terms at any time by posting the amended version on our software or within the services without prior noice.If you do not agree to these terms or any future amended version,then you must not access,use our services.Otherwise,your access,use of our services shall be deemed to agree any future updated version of them.
+      当社は、自己の裁量により、本規約、補足規約、プライバシーポリシー、規制条項または機能条項の全部または一部を、事前通知なく、ソフトウェアまたはサービス内に改訂版を掲載することにより、いつでも変更、修正、追加または削除する権利を留保します。これらの条項または将来の改訂版に同意されない場合は、当社サービスにアクセスまたは利用してはなりません。これに反し、お客様が当社サービスにアクセスし、または利用した場合、将来の更新版に同意したものとみなされます。
     </div>
     <div class="T_title">
-      1.Account
+      1. アカウント
     </div>
     <div class="T_content">
-      1.1 In order to ues our services,We may ask you to create an Account or
-      allocate an Account(hereinafter referred to as Account)to you.We can
-      modify how your account is registered.
+      1.1 当社サービスを利用するために、当社はお客様にアカウントの作成を求め、またはお客様にアカウント（以下「アカウント」といいます）を割り当てる場合があります。当社は、お客様のアカウント登録方法を変更することができます。
       <br><br>
-      1.2 You agree to simultaneously au theorize us to activate an account for
-      other services of the company upon registration of this account.Specific
-      products are subject to our actual operation.
+      1.2 お客様は、本アカウントの登録に際して、当社が当社の他のサービス用のアカウントを有効化することを同時に承認するものとします。具体的な製品は、当社の実際の運営状況によるものとします。
       <br><br>
-      1.3 The ownership of the Account belongs to us and you only have the right
-      to use the Account.You are forbidden to donate,borrow,rent,transfer or
-      sell the Account.
+      1.3 アカウントの所有権は当社に帰属し、お客様はアカウントの使用権のみを有します。お客様は、アカウントを贈与、貸与、賃貸、譲渡または販売してはなりません。
       <br><br>
-      1.4 You are responsible for maintaining the security of your Account.If
-      you Account encounter hacking or passwork theft due to your improper
-      handling, you shall hold full responsibility for.We will treat all acts
-      performed through your Account as being performed by you.You therefore
-      accept responsibility for all acts done using your Account.If you become
-      aware of any actual or suspected unauthorized use of your Account or
-      Account passwork,please tellus immediately.You agree not to use other
-      users’account or passwork under any circumstances.
+      1.4 お客様は、ご自身のアカウントの安全を維持する責任を負います。お客様の不適切な管理によりアカウントの不正アクセスまたはパスワード盗難が発生した場合、その責任はすべてお客様が負うものとします。当社は、お客様のアカウントを通じて行われたすべての行為を、お客様ご本人が行ったものとして取り扱います。したがって、お客様は、ご自身のアカウントを使用して行われたすべての行為について責任を負うものとします。お客様が、ご自身のアカウントまたはアカウントのパスワードの実際の不正使用またはその疑いを認識した場合は、直ちに当社に通知してください。お客様は、いかなる場合においても、他のユーザーのアカウントまたはパスワードを使用しないことに同意するものとします。
       <br><br>
-      1.5 You shall abide by the terms of this Agreement and use the Software
-      correctly and appropriately.If you violate any of the terms in this
-      Agreement,we reserve the right to discontinus or terminate the Service to
-      you.
+      1.5 お客様は、本規約の条項を遵守し、ソフトウェアを正しく適切に使用しなければなりません。お客様が本規約のいずれかの条項に違反した場合、当社は、お客様に対するサービスの提供を停止または終了する権利を留保します。
       <br><br>
-      1.6 If no activity is conducted by you in relation to the Account for one
-      year,we have the right to delete or take back the Account without prior
-      notice to avoid wasting resources,and you shall take all the
-      risks.Meanwhile,we reserve the right to delete or take back your Account
-      and user name at any time at our sole discretion.
+      1.6 お客様のアカウントに関して 1 年間何らの活動も行われない場合、当社は、資源の無駄を避けるため、事前通知なく当該アカウントを削除または回収する権利を有し、これに伴う一切のリスクはお客様が負担するものとします。また、当社は、自己の裁量により、いつでもお客様のアカウントおよびユーザー名を削除または回収する権利を留保します。
       <br><br>
     </div>
     <div class="T_title">
-      2.Service Scope
+      2. サービスの範囲
     </div>
     <div class="T_content">
-      2.1 The specific Service of the Software is provided according to the
-      actual situation,including but not limited to video chat,purchase or sent
-      virtual gifts.We can modify the Service provided at any time without prior
-      notice to you at our sole discretion.
+      2.1 ソフトウェアの具体的なサービス内容は実際の状況に応じて提供され、ビデオチャット、仮想ギフトの購入または送信を含みますが、これらに限られません。当社は、自己の裁量により、お客様への事前通知なく、いつでも提供するサービス内容を変更することができます。
       <br><br>
-      2.2 You understand and agree that we are entitled to send you promotional
-      or other relewant business information,notices via email,client,push
-      messages,SMS,webpage or other legal means for commercial purposes.Due to
-      the unique nature of the mobile phone network,we have the right to access
-      your mobile phone information.
+      2.2 お客様は、当社が商業目的のために、電子メール、クライアント、プッシュメッセージ、SMS、ウェブページまたはその他の適法な方法により、販促情報その他の関連する業務情報や通知をお客様に送信する権利を有することを理解し、これに同意するものとします。携帯電話ネットワークの特性上、当社はお客様の携帯電話情報にアクセスする権利を有します。
       <br><br>
     </div>
     <div class="T_title">
-      3. User information protection
+      3. ユーザー情報の保護
     </div>
     <div class="T_content">
-      3.1 In the process of registering your Account or using the Service,you
-      may be required to fill in or submit certain necessary informayion,such as
-      the identity information required by laws,regulations,and regulatory
-      documents(hereinafter referred to as “laws and regulations”).If the
-      information you submit is incomplete,inaccurate or does not comply with
-      the laws and regulations,you may bu unable,restricted to use our Service.
+      3.1 お客様がアカウントを登録し、またはサービスを利用する過程で、法律、規則および規制文書（以下「法令等」といいます）により要求される本人確認情報など、一定の必要情報の入力または提出を求められる場合があります。お客様が提出する情報が不完全、不正確、または法令等に適合しない場合、お客様は当社サービスを利用できない、または利用を制限される場合があります。
       <br><br>
-      3.2 In order to provide Service and improve quality of this Software ,our
-      techniques,we may collect or use your information or disclose it to third
-      parties.For more details,please read our “Privacy pOlicy”carefully.
+      3.2 本ソフトウェアの品質向上およびサービス提供のため、当社は、技術的手段を通じてお客様の情報を収集または利用し、もしくは第三者に開示する場合があります。詳細については、当社の「プライバシーポリシー」をよくお読みください。
     </div>
 
     <div class="T_title">
-      4. Content Requirements and Usage Rules
+      4. コンテンツ要件および利用ルール
     </div>
     <div class="T_content">
-      4.1 The Content described in this Agreement refers to any content
-      created,uploaded,copied,published and distributed by you,including but not
-      limited to registration information and verification details such as
-      account avatar,name,personal description,or text,
-      audio,pictures,videos,graphics that are sent,replied or auto-reply
-      messages and related link pages, and other content generated while using
-      the software.
+      4.1 本規約における「コンテンツ」とは、お客様が作成、アップロード、複製、公開および配信する一切のコンテンツを指し、アカウントのアバター、氏名、自己紹介等の登録情報および認証情報、またはソフトウェア利用中に送信、返信もしくは自動返信されるテキスト、音声、画像、動画、図形、関連リンクページその他生成されるコンテンツを含みますが、これらに限られません。
       <br><br>
-      4.2 You are not allowed to use this Softw are to produce, upload,copy and
-      send the following Content or conduct the following behavior:
+      4.2 お客様は、本ソフトウェアを利用して以下のコンテンツを作成、アップロード、複製または送信し、または以下の行為を行ってはなりません。
       <br><br>
-      1) That threatens national security,leaks state secrets, subverts state
-      power, damages state unity;
+      1) 国家の安全を脅かし、国家機密を漏えいし、国家権力を転覆させ、または国家統一を損なう行為。
       <br><br>
-      2) That damages national honor and profit;
+      2) 国家の名誉および利益を害する行為。
       <br><br>
-      3) That incites national hatred, discrimination and damages national
-      unity;
+      3) 民族間の憎悪や差別を扇動し、民族の団結を損なう行為。
       <br><br>
-      4) That damages national religion policies,promotes cult and feudal
-      superstition:
+      4) 国家の宗教政策を損ない、カルトや封建的迷信を助長する行為。
       <br><br>
-      5) That spreads rumors,disturbs public order and damages social stability;
+      5) デマを流布し、公の秩序を乱し、社会の安定を損なう行為。
       <br><br>
-      6) That spreads obscene,pornographic content containing sexual or sexually
-      suggestive content;
+      6) わいせつ、ポルノ、性的内容または性的示唆を含むコンテンツを配信する行為。
       <br><br>
-      7) That spreads gambling,violence,murder,terror;
+      7) 賭博、暴力、殺人、テロに関するコンテンツを配信する行為。
       <br><br>
-      8) That insults or defames others, violates others legal rights or
-      fraudulent;
+      8) 他人を侮辱または中傷し、他人の適法な権利を侵害し、または詐欺行為を行うこと。
       <br><br>
-      9) That contains insulting, intimidating,or threatening content;
+      9) 侮辱的、威嚇的または脅迫的な内容を含むこと。
       <br><br>
-      10) That contains harassment,spam,malicious or phishing information;
+      10) 嫌がらせ、スパム、悪意ある情報またはフィッシング情報を含むこと。
       <br><br>
-      11) That disclosing or involving the privacy of others, personal
-      information or details;
+      11) 他人のプライバシー、個人情報または詳細情報を開示し、またはこれに関わること。
       <br><br>
-      12) That infringes on the legal rights of other people's
-      reputation,portrait rights,intellectual property rights, trade
-      secrets,etc.;
+      12) 他人の名誉権、肖像権、知的財産権、営業秘密その他の適法な権利を侵害すること。
       <br><br>
-      13) That harms the interests of minors in any way;
+      13) 何らかの方法で未成年者の利益を害すること。
       <br><br>
-      14) That stalks or otherwise harasses other users;
+      14) 他のユーザーをつきまとい、またはその他の方法で嫌がらせを行うこと。
       <br><br>
-      15) That contains false information, or steals other people's avatars or
-      details,posts or uses others' identity;
+      15) 虚偽情報を含むこと、または他人のアバターや情報を盗用し、他人の身分で投稿または利用すること。
       <br><br>
-      16) That enforces, induces other users to follow,click on the link page or
-      share information;
+      16) 他のユーザーに対し、フォロー、リンクページのクリックまたは情報共有を強要し、または誘導すること。
       <br><br>
-      17) That fabricates facts,conceals truths to mislead or deceive others;
+      17) 事実を捏造し、真実を隠して他人を誤導または欺罔すること。
       <br><br>
-      18) That contains advertising or sales-oriented information;
+      18) 広告または販売目的の情報を含むこと。
       <br><br>
-      19) That uses technical means to build multiple fake accounts;
+      19) 技術的手段を用いて複数の偽アカウントを作成すること。
       <br><br>
-      20) That deletes the copyright information on this software and its copy;
+      20) 本ソフトウェアおよびその複製物上の著作権表示を削除すること。
       <br><br>
-      21) That do reverse engineering,reverse compilation, de-compilation, or
-      attempt to discover the source code of the software;
+      21) ソフトウェアのリバースエンジニアリング、逆コンパイル、逆アセンブルを行い、またはソフトウェアのソースコードを解明しようとすること。
       <br><br>
-      22) That uses,rents, lends,copies modifies,links, reproduces,compiles,
-      issues,publishes or creates mirror sites with contents that contains
-      intellectual property rights of this company;
+      22) 当社の知的財産権を含むコンテンツを使用、賃貸、貸与、複製、改変、リンク、転載、編集、配布、公開し、またはミラーサイトを作成すること。
       <br><br>
-      23) That copies,modifies,adds, deletes,hooks,or creates any data released
-      by us or necessary for the software,or derivatives;
+      23) 当社が公開したデータ、ソフトウェアに必要なデータ、またはそれらの派生物を複製、改変、追加、削除、フックし、または生成すること。
       <br><br>
-      24) That adds, deletes, changes the function of the software,or operates
-      or transmits the software to the public by modifying or falsifying the
-      instructions and data in the software,whether or not for commercial
-      purpose;
+      24) ソフトウェア内の命令またはデータを改変もしくは改ざんすることにより、ソフトウェアの機能を追加、削除、変更し、または商業目的の有無を問わず、ソフトウェアを運営し、もしくは公衆に送信すること。
       <br><br>
-      25) That Loges in or uses the software through third- party
-      software,hacking,plug-ins or systems that are not developed or authorized
-      by us,or create,publish,or distribute third-party
-      software,plug-ins,hackings, and systems that are not developed or
-      authorized by the company;
+      25) 当社が開発または承認していない第三者ソフトウェア、ハッキングツール、プラグインまたはシステムを通じてソフトウェアにログインまたは利用すること、または当社が開発または承認していない第三者ソフトウェア、プラグイン、ハッキングツールおよびシステムを作成、公開または配布すること。
       <br><br>
-      26) That is or could reasonably be viewed as offensive, indecent or
-      objectionable;
+      26) 攻撃的、不適切、または不快であると合理的にみなされ得る内容を含むこと。
       <br><br>
-      27) Other Contents or behaviors that in violation of laws and
-      regulations,such as regulatory documents and policies(including
-      jurisdiction where you reside, the Software operates, runs),or infringe
-      lawful rights and interests of other third parties, interfere with the
-      normal operation of the software. we will review your uploads and send the
-      results within 24 hours of upload. If you use the app to make,upload,
-      copy, publish and disseminate the above content, we have the right to
-      delete the content you send,if there is any serious violation, we will
-      block the account.
+      27) 法令、規制文書または政策（お客様の居住地および本ソフトウェアの運営・稼働地の法域を含みます）に違反するその他のコンテンツまたは行為、または第三者の適法な権利利益を侵害し、もしくはソフトウェアの正常な運営を妨害するその他のコンテンツまたは行為。当社は、お客様のアップロード内容を審査し、アップロード後 24 時間以内に結果を通知します。お客様が本アプリを使用して上記内容を作成、アップロード、複製、公開または拡散した場合、当社はお客様が送信したコンテンツを削除する権利を有し、重大な違反がある場合はアカウントを停止します。
       <br><br>
-      4.3 Any Contents produced,uploaded,copied and sent by you has nothing to
-      do with us and doesn't reflect or represent our
-      opinion,standpoint,policy.We shall not be liable in any way for any
-      Content uploaded, distributed,copied,published by you,or behavior
-      conducted by you.
+      4.3 お客様が作成、アップロード、複製および送信したいかなるコンテンツも当社とは無関係であり、当社の意見、立場または方針を反映または代表するものではありません。お客様がアップロード、配布、複製、公開したコンテンツ、またはお客様が行った行為について、当社は一切責任を負いません。
       <br><br>
-      4.4 You are solely responsible for the authenticity, legality,
-      accuracy,validity of the information
-      transmitted,produced,uploaded,copied,published, disseminated by you, and
-      behaviors conducted, and performed by you. Any liability is at your own
-      risk and has nothing to do with the software. If any damage is caused to
-      us or third parties due to your behavior, you shall compensate losses of
-      us or third parties, and we have the right to pursue your liability in
-      accordance with this agreement.
+      4.4 お客様は、お客様が送信、作成、アップロード、複製、公開および拡散した情報の真正性、適法性、正確性および有効性、ならびにお客様が行った行為について単独で責任を負うものとします。これに起因するいかなる責任もお客様自身の負担であり、本ソフトウェアとは無関係です。お客様の行為により当社または第三者に損害が生じた場合、お客様は当社または第三者の損害を賠償しなければならず、当社は本規約に従ってお客様の責任を追及する権利を有します。
       <br><br>
     </div>
     <div class="T_title">
-      5.Third Party Products and Services
+      5. 第三者の商品およびサービス
     </div>
     <div class="T_content">
-      5.1 The Service may contain advertisements and promotions offered by third
-      parties and you agree to display those advertisements and promotions
-      during the course of using the Service. Unless otherwise expressly
-      regulated by laws and regulations,you should be responsible for
-      transactions in accordance with the advertising information, and losses in
-      relation to the transaction.We are not liable for any responsibility,
-      losses arising from the aforesaid transactions.
+      5.1 本サービスには、第三者が提供する広告およびプロモーションが含まれる場合があり、お客様は、本サービスの利用中にこれらの広告およびプロモーションが表示されることに同意するものとします。法令により別段明示的に定められている場合を除き、お客様は広告情報に基づいて行う取引および当該取引に関する損失について、自ら責任を負うものとします。当社は、前記取引から生じるいかなる責任または損失についても責任を負いません。
       <br><br>
-      5.2 If you choose to use services,products provided by third party that
-      displayed,linked on our Software, you shall comply with third party's
-      agreement, policy in regard with you behavior. We cannot guarantee the
-      security,accuracy, validity of third party's service and we are not
-      responsible or liable for losses incurred by you arising from services,
-      products, behavior of third party.
+      5.2 お客様が当社ソフトウェア上に表示され、またはリンクされた第三者提供のサービスもしくは商品を利用することを選択した場合、お客様は、当該第三者の規約およびポリシーに従わなければなりません。当社は、第三者サービスの安全性、正確性または有効性を保証することはできず、第三者のサービス、商品または行為に起因してお客様に生じた損失について責任を負いません。
     </div>
     <!-- <div class="T_title">
-      6.Membership
+      6. 会員
     </div>
     <div class="T_content">
-      6.1 You can purchase membership service,and the included service content
-      and price information is subject to the display on relevant service pages
-      of this Service.
+      6.1 お客様は会員サービスを購入することができ、含まれるサービス内容および価格情報は、本サービスの関連サービスページに表示される内容に従うものとします。
       <br><br>
-      6.2 We can adjust the membership service charge standard and content at
-      any time by displaying the amended version on relative pages.
+      6.2 当社は、関連ページに改訂版を表示することにより、会員サービスの料金基準および内容をいつでも調整することができます。
       <br><br>
-      6.3 You are forbidden to transfer or refund after successful payment under
-      any circumstance unless clearly stated by Law and Regulation.The Service
-      will terminate automatically after the end of subscription if you do not
-      use our Service within the validity period specified in the payment
-      service, which cannot be interrupted or postponed.
+      6.3 法令により明確に定められている場合を除き、支払い完了後は、いかなる状況においても譲渡または返金は認められません。お客様が有料サービスで定められた有効期間内に本サービスを利用しなかった場合、サブスクリプション終了後に本サービスは自動的に終了し、中断または延期することはできません。
       <br><br>
-      6.4 The content and personal data you submitted when registering for
-      membership must be valid and truthful. You must modify the registered
-      personal data when necessary, otherwise you are liable for any
-      consequences caused by your membership rights unable to fully and
-      effectively exercised.
+      6.4 会員登録時に提出した内容および個人情報は、有効かつ真実でなければなりません。必要な場合、お客様は登録した個人情報を修正しなければならず、そうしないことにより会員としての権利を十分かつ有効に行使できなかった結果については、お客様が責任を負うものとします。
       <br><br>
     </div>
     <div class="T_title">
-      7. Subscriptions and Virtual Currency
+      7. サブスクリプションおよび仮想通貨
     </div>
     <div class="T_content">
-      7.1 Subscriptions
-      You can buy different subscription packages according to one month, two months and three months.
-      For all mobile subscriptions, the fee will be deducted from your iTunes or Google account when you confirm your purchase.
-      Your subscription will be automatically renewed unless you turn off the automatic renewal feature at least 24 hours before
-      the end of your current subscription. This is because your account may be charged for renewal within 24 hours before the
-      end of the current subscription period. You can manage your subscriptions and turn off automatic renewal by accessing your
-      iTunes or Google account settings. You cannot cancel the current subscription during the subscription period, but you can cancel automatic renewal at any time.
+      7.1 サブスクリプション
+      お客様は、1 か月、2 か月、3 か月に応じた異なるサブスクリプションパッケージを購入することができます。
+      すべてのモバイルサブスクリプションについて、購入確認時に料金はお客様の iTunes または Google アカウントから差し引かれます。
+      現在のサブスクリプション期間終了の少なくとも 24 時間前までに自動更新機能をオフにしない限り、お客様のサブスクリプションは自動更新されます。これは、現在のサブスクリプション期間終了前 24 時間以内に、お客様のアカウントに更新料金が請求される可能性があるためです。お客様は、iTunes または Google アカウント設定にアクセスすることにより、サブスクリプションを管理し、自動更新をオフにすることができます。サブスクリプション期間中は現在のサブスクリプションを解約することはできませんが、自動更新はいつでも解除することができます。
       <br><br>
-      Purchases of subscriptions are non refundable and non transferable, even if they expire or stop. We may change the
-      purchase price of the subscription and the features included in the subscription at any time. We reserve the right
-      to stop publishing and subscribing and set the subscription expiration date at any time. Subscriptions cannot be
-      exchanged for any amount or currency value.
+      サブスクリプションの購入は、たとえ期限切れまたは終了した場合であっても、返金不可かつ譲渡不可です。当社は、サブスクリプションの購入価格およびサブスクリプションに含まれる機能をいつでも変更することができます。当社は、サブスクリプションの提供および申込みを停止し、サブスクリプションの有効期限をいつでも設定する権利を留保します。サブスクリプションは、いかなる金額または通貨価値とも交換することはできません。
       <br><br>
-      7.2 Virtual Currency
-      When you purchase or receive Virtual Currency products such as Diamonds you do not own them. Diamonds are used to upload stories, use
-      filters and use video chat features, etc. You agree that we will have no liability to you based on the exercise of our rights with
-      respect to coins and other Virtual Currencies. We reserve the right to verify your identity and eligibility to use your Virtual Currencies.
+      7.2 仮想通貨
+      お客様がダイヤモンドなどの仮想通貨商品を購入または受領した場合でも、お客様がそれらを所有するものではありません。ダイヤモンドは、ストーリーのアップロード、フィルターの使用、ビデオチャット機能の利用などに使用されます。お客様は、コインその他の仮想通貨に関する当社の権利行使に基づいて、当社がお客様に対して何ら責任を負わないことに同意するものとします。当社は、お客様の本人確認および仮想通貨利用資格を確認する権利を留保します。
       <br><br>
-      We are not responsible for repairing or replacing Virtual Currencies, or providing you with any credit or refund in the event that we
-      modify, suspend, or terminate the Virtual Currencies, or the Story, or for loss or damage due to any service error, or any other reason.
-      Purchases of Virtual Currency may not be sub-licensed and are non-refundable and non-transferable, even if they expire or are revoked or
-      discontinued. We may change the purchase price for Virtual Currency at any time, as well as the ways you can use Virtual Currency.
-      We reserve the right to revoke or stop issuing Virtual Currency at any time without notice, refund, or compensation, and to set expiration
-      dates for Virtual Currency. Virtual Currency may not be redeemed for any sum of money or monetary value. If you delete your account or your
-      account is terminated for any reason, you will lose all accumulated and unused Virtual Currency without refund or other compensation.
-      You agree that we will have no liability to you based on the exercise of our rights with respect to Virtual Currency.
-      Virtual Currency purchased or received by any user does not constitute property and is not transferable.
+      当社が仮想通貨またはストーリーを変更、一時停止もしくは終了した場合、またはサービスエラーその他の理由により損失もしくは損害が発生した場合であっても、当社は仮想通貨の修復または交換を行わず、いかなるクレジットまたは返金も提供しません。
+      仮想通貨の購入は、たとえ期限切れ、取消しまたは終了となった場合であっても、再許諾不可、返金不可および譲渡不可です。当社は、仮想通貨の購入価格および仮想通貨の利用方法をいつでも変更することができます。
+      当社は、通知、返金または補償なしに、いつでも仮想通貨の発行を取り消しまたは停止し、仮想通貨の有効期限を設定する権利を留保します。仮想通貨はいかなる金銭または金銭的価値とも交換することはできません。お客様がアカウントを削除した場合、またはお客様のアカウントが何らかの理由で終了した場合、お客様は、返金その他の補償なく、蓄積された未使用の仮想通貨をすべて失うものとします。
+      お客様は、仮想通貨に関する当社の権利行使に基づいて、当社がお客様に対して何ら責任を負わないことに同意するものとします。
+      いずれのユーザーが購入または受領した仮想通貨も財産を構成せず、譲渡することはできません。
       <br><br>
-      7.3 Payment Method
-      Our paid services
-      Our paid services can be purchased through your account with some third parties, such as your Apple iTunes account or your Google play
-      account ("third party account"). If you purchase any paid services through a third-party account, the bill for these paid services will
-      be displayed through your third-party account. You should review the terms of service for third-party accounts that we have no control over.
+      7.3 支払方法
+      当社の有料サービス
+      当社の有料サービスは、お客様の Apple iTunes アカウントまたは Google Play アカウントなど、一部の第三者のアカウント（以下「第三者アカウント」）を通じて購入することができます。お客様が第三者アカウントを通じて有料サービスを購入した場合、当該有料サービスの請求は第三者アカウントを通じて表示されます。当社が管理していない第三者アカウントについては、その利用規約を確認してください。
       <br><br>
-      7.4 Unsubscribe
-      If you purchase a subscription through a third-party account, you will need to cancel your subscription through that third-party and in accordance
-      with that third party’s terms of Service. If you cancel your subscription, your subscription benefits will continue until the end of your then-current
-      subscription term, but your subscription will not be renewed after that term expires. You will not be entitled to a prorated refund of any portion of
-      the subscription fees paid for the then-current subscription term.
+      7.4 解約
+      お客様が第三者アカウントを通じてサブスクリプションを購入した場合、お客様は当該第三者を通じて、かつその第三者の利用規約に従ってサブスクリプションを解約する必要があります。お客様がサブスクリプションを解約した場合、その特典は当時のサブスクリプション期間の終了まで継続しますが、その期間満了後は更新されません。お客様は、当時のサブスクリプション期間について支払済みの料金のいかなる部分についても、日割り返金を受ける権利を有しません。
       <br><br>
-      7.5 Term/Fees
-      This Agreement shall remain in full force and effect while you use the mobile application and website and/or the Service. We may terminate your membership
-      for any reason, at any time, without notice. If we terminate your Membership in the Service, you shall not be entitled to a refund of any unused portion of
-      subscription fees, if any. Even after membership is terminated, this Agreement will remain in effect. Our Services' Terms of Service and/or subscription
-      fees, if any, that were provided to you at registration is subject to change if needed. By using the Service and becoming a Member, you acknowledge that
-      we reserve the right to charge for the Service and have the right to terminate a Member's Membership, should a Member breach this Agreement or fail to pay
-      for the Service if necessary, as required by this Agreement. Standard usage charges for SMS, MMS, and other data charges may apply and may be billed on your
-      wireless service bill or deducted from your prepaid balance.
+      7.5 期間/料金
+      本規約は、お客様がモバイルアプリケーション、ウェブサイトおよび/または本サービスを利用している間、完全に有効に存続します。当社は、理由のいかんを問わず、いつでも通知なくお客様の会員資格を終了することができます。当社が本サービスにおけるお客様の会員資格を終了した場合、お客様は、未使用のサブスクリプション料金の返金を受ける権利を有しません。会員資格が終了した後も、本規約は引き続き有効に存続します。登録時にお客様に提示された当社サービスの利用規約および/またはサブスクリプション料金は、必要に応じて変更される場合があります。本サービスを利用し会員となることにより、お客様は、当社が本サービスに対して料金を請求する権利を留保し、会員が本規約に違反した場合、または本規約に基づき必要な場合にサービス料金を支払わなかった場合には、当該会員の会員資格を終了する権利を当社が有することを認めるものとします。SMS、MMS その他のデータ通信に関する通常の利用料金が適用される場合があり、これらはお客様の通信料金請求書に請求されるか、前払い残高から差し引かれる場合があります。
       <br><br>
     </div> -->
     <div class="T_title">
-      6. Data Storage
+      6. データ保存
     </div>
     <div class="T_content">
-      6.1 We are not responsible for the deleting or storage failure of your
-      data in this Service.
+      6.1 当社は、本サービスにおけるお客様のデータの削除または保存失敗について責任を負いません。
       <br><br>
-      6.2 We can determine the maximum storage time length and storage space of
-      your data in the Service according to various factors.You can back up the
-      relevant data of this Service according to your own needs.
+      6.2 当社は、さまざまな要素に基づき、本サービスにおけるお客様のデータの最大保存期間および保存容量を決定することができます。お客様は、ご自身の必要に応じて本サービスに関するデータをバックアップすることができます。
       <br><br>
-      6.3 If you discontinue using the Service, or if the Service is terminated
-      or ended,we can permanently delete your data from our server, and we are
-      not obligated to return any data to you.
+      6.3 お客様が本サービスの利用を中止した場合、または本サービスが終了もしくは停止された場合、当社は当社サーバーからお客様のデータを恒久的に削除することができ、当社はお客様にいかなるデータも返還する義務を負いません。
       <br><br>
-      6.4 You can modify or delete your personal data, registration information
-      and Content uploaded, distributed by you.Please note that deleting
-      relative information will lead to delete of Contents stored in the
-      system.You are responsible for this risk.
+      6.4 お客様は、ご自身の個人データ、登録情報およびお客様がアップロードまたは配信したコンテンツを修正または削除することができます。関連情報を削除すると、システムに保存されたコンテンツも削除されることにご注意ください。このリスクについては、お客様が責任を負うものとします。
       <br><br>
     </div>
     <div class="T_title">
-      7.Risk
+      7. リスク
     </div>
     <div class="T_content">
-      7.1 You understand and agree that the Software only provides you with a
-      platform for inform ation sharing, transmission.You are responsible for
-      all actions under your Account,including any content you transmit and any
-      consequences resulted.You should personally judge the content of the
-      software and Service and bear all risks arising from the use of the
-      Service,including risks arising from the reliance on the correctness,
-      completeness or usefulness of the Content.We cannot and will not be liable
-      for any losses caused by your behavior.
+      7.1 お客様は、本ソフトウェアが情報共有および情報伝達のためのプラットフォームを提供するにすぎないことを理解し、これに同意するものとします。お客様は、ご自身のアカウントにおいて行われるすべての行為（送信するあらゆるコンテンツおよびその結果を含みます）について責任を負います。お客様は、ソフトウェアおよびサービスのコンテンツを自ら判断し、サービスの利用により生じるすべてのリスク（コンテンツの正確性、完全性または有用性への依拠により生じるリスクを含みます）を負担するものとします。当社は、お客様の行為により生じた損失について責任を負わず、また責任を負うことはありません。
       <br><br>
-      7.2 If you find anyone who violates this agreement or uses the Service in
-      other improper ways,please tell us immediately and we will deal with them
-      according to this Agreement.
+      7.2 本規約に違反する者または本サービスをその他不適切な方法で利用する者を発見した場合は、直ちに当社にお知らせください。当社は本規約に従って対応します。
       <br><br>
-      7.3 You understand and agree that we reserve the right to
-      change,suspend,terminate,update all or an feature of the Service in our
-      sole discretion according to various factors without prior notice.
+      7.3 お客様は、当社が各種事情に応じて、自己の裁量により、本サービスの全部または一部の機能を事前通知なく変更、一時停止、終了または更新する権利を留保することを理解し、これに同意するものとします。
       <br><br>
     </div>
     <div class="T_title">
-      8. Intellectual Property
+      8. 知的財産権
     </div>
     <div class="T_content">
-      8.1 You acknowledge that intellectual property rights in and relating to
-      our Services(other than Content which is contributed and owned by
-      advertisers) is owned by us,unless you have legally acquired intellectual
-      property rights in the Content posted by you on our Software before using
-      our Services.
+      8.1 お客様は、当社サービスに関する知的財産権（広告主が提供し所有するコンテンツを除きます）が当社に帰属することを認めるものとします。ただし、お客様が当社サービスを利用する前に、当社ソフトウェア上にお客様が投稿したコンテンツについて適法に知的財産権を取得している場合はこの限りではありません。
       <br><br>
-      8.2 Unless otherwise provided,the copyright,patent and other intellectual
-      property rights of the Software are owned by us.
+      8.2 別段の定めがない限り、本ソフトウェアの著作権、特許権その他の知的財産権は当社に帰属します。
       <br><br>
-      8.3 the copyright or trademark rights of the graphics, text or its
-      components involved in the Service,and other Software logos and product
-      and Service names (hereinafter collectively referred to as the "Software
-      Logo"),are owned by us.You are not allowed to display or use the Software
-      logo in any way without our prior written consent,and you must not
-      indicate to others that you have the right to display, use, or otherwise
-      modify with the Software logo.
+      8.3 本サービスに含まれる図形、テキストまたはその構成要素に関する著作権もしくは商標権、ならびにその他のソフトウェアロゴ、製品名およびサービス名（以下総称して「ソフトウェアロゴ」といいます）は当社に帰属します。お客様は、当社の事前の書面による同意なく、いかなる方法によってもソフトウェアロゴを表示または使用してはならず、また、ソフトウェアロゴを表示し、使用し、または変更する権利を有する旨を他者に示してはなりません。
       <br><br>
-      8.4 The above and any other intellectual property rights owned by us or
-      related advertisers are protected by law and you are not allowed to use or
-      create derivative works in any form without the written permission of us
-      or the relevant advertisers.
+      8.4 上記およびその他当社または関連広告主が保有する知的財産権は法令により保護されており、お客様は、当社または関連広告主の書面による許可なく、いかなる形式でもこれらを使用し、または二次的著作物を作成してはなりません。
       <br><br>
-      8.5 Unless otherwise agreed in writing by the company and you/your
-      agent,you own the intellectual property rights in connection with Content
-      uploaded by you such as text,images,videos, audio,photograph,and you agree
-      to authorize us and our affiliates a irrevocable, permanent
-      exclusive,royalty-free,worldwide,sub- licensable right to use, display and
-      reproduce the aforesaid Content for commercial or non-commercial purposes,
-      including but not limited to adapt,display, broadcast,rent,copy,
-      film,translate,or place such Content on Internet.We can choose whether to
-      use and the usage method in our sole discretion,including but not limited
-      to using and disseminating the above information on any platform operated
-      by us, editing the above information, and authorize third party to use,
-      edit,disseminate.
+      8.5 当社とお客様またはお客様の代理人との間で書面による別段の合意がない限り、お客様は、テキスト、画像、動画、音声、写真等、お客様がアップロードしたコンテンツに関する知的財産権を保有します。ただし、お客様は、当社および当社の関連会社に対し、前記コンテンツを商業目的または非商業目的で使用、表示および複製するための、取消不能、永続的、独占的、ロイヤリティフリー、全世界的かつ再許諾可能な権利を付与することに同意するものとします。これには、翻案、表示、放送、賃貸、複製、撮影、翻訳、インターネット上への掲載等が含まれますが、これらに限られません。当社は、自己の裁量により、当該情報を当社が運営するあらゆるプラットフォーム上で利用および拡散し、当該情報を編集し、第三者にその利用、編集および拡散を許諾することを含め、使用の有無および使用方法を選択することができます。
     </div>
     <div class="T_title">
-      9. Liability
+      9. 責任
     </div>
     <div class="T_content">
-      9.1 If you have illegal,wrongful,defaulting, tort act,we have the right
-      in our sole discretion to take any or all of the following measures:to
-      give a warning,to disable your ability to use some features,terminate your
-      access to the Software,put you into blacklist,announce your default act,
-      to deduct,withhold virtual items and virtual gains in part or in whole.If
-      we adopt to terminate your Account,put you into blacklist,we have the
-      right not to refund your virtual items, and gains. <br><br>
-      9.2 You understand and agree that we have right to take any remedy
-      measures, appropriate legal action against your
-      illegal,wrongful,defaulting,tort act, and disclose relevant information to
-      authorities in accordance with laws and regulations and you shall bear all
-      results.
+      9.1 お客様が違法行為、不当行為、債務不履行または不法行為を行った場合、当社は自己の裁量により、以下の措置の一部または全部を講じる権利を有します。警告の付与、一部機能の利用停止、ソフトウェアへのアクセス終了、ブラックリストへの登録、違反行為の公表、仮想アイテムおよび仮想収益の全部または一部の控除もしくは留保等です。当社がアカウント終了またはブラックリスト登録等の措置を講じた場合、当社はお客様の仮想アイテムおよび収益を返金しない権利を有します。 <br><br>
+      9.2 お客様は、当社が、お客様の違法行為、不当行為、債務不履行または不法行為に対して、救済措置および適切な法的措置を講じ、法令に従って関係当局に関連情報を開示する権利を有することを理解し、これに同意するものとし、その結果についてはお客様が責任を負うものとします。
       <br><br>
-      9.3 You understand and agree that any losses, damages, claims of third
-      party arising out of your violation of this Agreement,shall be paid by
-      you,including reasonable attorney's fees.
+      9.3 お客様は、本規約違反に起因して生じる損失、損害または第三者からの請求について、合理的な弁護士費用を含め、これを負担することを理解し、同意するものとします。
       <br><br>
-      9.4 You agree to indemnify,defend and hold harmless us,our affiliates
-      from and against any and all
-      comolaints.demands.claims.damages.losses.costs.liabilities and
-      expenses,including but not limited to attorney's fees, arising out of your
-      access to or use of the Service,your breach of this Agreement.
+      9.4 お客様は、お客様による本サービスへのアクセスまたは利用、本規約違反に起因して発生するあらゆる苦情、要求、請求、損害、損失、費用、責任および支出（弁護士費用を含みますが、これに限られません）について、当社および当社の関連会社を補償し、防御し、免責することに同意するものとします。
       <br><br>
-      9.5 We have the right to choose to apply the aforesaid rem edy measures
-      separately or collectively.
+      9.5 当社は、前記救済措置を単独で、または併せて適用することを選択する権利を有します。
       <br><br>
     </div>
     <div class="T_title">
-      10.Force Majeure And Other Disclaimers
+      10. 不可抗力およびその他の免責事項
     </div>
     <div class="T_content">
-      10.1 You understand and acknowledge that in the course of using the
-      Service, you may encounter problems out of our control, which m ay cause
-      the Service to be interrupted.W e are not liable for any Service
-      suspension,problems,losses out of our control and expectation,for example
-      natural disasters such as floods,earthquakes,plague epidemics and
-      storms,and social events such as war,turmoil,government actions, etc. In
-      the event aforesaid,we will try our best to cooperate and to repair in
-      time.
+      10.1 お客様は、本サービスの利用中に、当社の管理の及ばない問題に直面し、それにより本サービスが中断される場合があることを理解し、認識するものとします。洪水、地震、疫病、暴風雨などの自然災害、戦争、騒乱、政府措置などの社会的事象のように、当社の管理および合理的予測の範囲を超えるサービス停止、問題または損失について、当社は責任を負いません。前記の事象が発生した場合、当社は最善を尽くして協力し、適時に修復するよう努めます。
       <br><br>
-      10.2 We make no promises or guarantees that the Services will always
-      safe,reliable,be available,uninterrupted,or error-free or not-delay.TO THE
-      EXTENT PERMITTED BY APPLICABLE LAW,WE MAKE NO WARRANTIES,CONDITIONS,OR
-      OTHER TERMS OF ANY KIND,EITHER EXPRESS OR IMPLIED,ABOUT THE SERVICES.WE
-      DISCLAIM ANY WARRANTIES OF TITLE OR IMPLIED WARRANTIES,CONDITIONS,OR OTHER
-      TERMS OF NON-INFRINGEMENT,MERCHANTABILITY, QUIET ENJOYMENT,OR FITNESS FOR
-      A PARTICULAR PURPOSE.We do not control or manipulate actions of you and
-      others,nor are we responsible for any of their content (whether online or
-      offline) and any content they share (including
-      offensive,indecent,obscene,illegal, and other contentious content).
+      10.2 当社は、本サービスが常に安全であり、信頼でき、利用可能であり、中断されず、エラーがなく、遅延しないことについて、いかなる約束または保証も行いません。適用法により認められる最大限の範囲で、当社は、本サービスに関して、明示または黙示を問わず、いかなる種類の保証、条件その他の条項も行いません。当社は、権原、不侵害、商品性、平穏享有または特定目的適合性に関するいかなる保証、条件その他の条項も否認します。当社は、お客様その他の者の行為を管理または操作するものではなく、また、オンラインかオフラインかを問わず、それらの者のコンテンツおよびそれらが共有するいかなるコンテンツ（攻撃的、不適切、わいせつ、違法、その他論争のある内容を含みます）についても責任を負いません。
       <br><br>
-      10.3 Like most Internet Services, our Service may be affected by various
-      security issues, including but not limited to internet Service
-      quality,social environment, other software,websites you
-      download,install,visit may contain viruses such as "Trojan horses" that
-      threaten the security of your computer information and data,which in turn
-      affects the normal use of the Service.You should strengthen the protection
-      of information security and user data, and pay attention to strengthen
-      password protection to avoid loss and harassment.
+      10.3 多くのインターネットサービスと同様に、当社サービスは、インターネットサービスの品質、社会環境、またはお客様がダウンロード、インストール、閲覧する他のソフトウェアやウェブサイトに含まれる「トロイの木馬」等のウイルスなど、さまざまなセキュリティ問題の影響を受ける場合があります。これらはお客様のコンピュータ情報およびデータの安全を脅かし、その結果、本サービスの正常な利用に影響を及ぼすことがあります。お客様は、情報セキュリティおよびユーザーデータの保護を強化し、損失や嫌がらせを防ぐため、パスワード保護の強化に注意を払う必要があります。
       <br><br>
-      10.4 You understand and acknowledge that the Service has interruptions due
-      to unavoidable issues,computer virus or hacking,system instability,your
-      location,your shutdown,and any other technology problems,internet
-      problems,telecom operate problems,etc.We shall not be liable for any
-      losses caused due to the aforesaid interruptions.
+      10.4 お客様は、本サービスが、不可避の問題、コンピュータウイルスまたはハッキング、システム不安定、お客様の所在地、お客様の端末の電源断、その他の技術的問題、インターネット問題、通信事業者の問題等により中断される場合があることを理解し、認識するものとします。当社は、前記中断により生じたいかなる損失についても責任を負いません。
       <br><br>
-      10.5 You understand and acknowledge that there may be some misleading,
-      deceptive, threatening, defamatory, offensive or illegal information,or
-      infringement information of the rights of others in the course of using
-      the Service.We do not assume any responsibility for any losses of you or
-      any third party resulting from aforesaid information or act.
+      10.5 お客様は、本サービスの利用過程において、誤解を招く情報、欺瞞的な情報、脅迫的な情報、名誉毀損的な情報、攻撃的な情報、違法な情報、または他人の権利を侵害する情報が存在し得ることを理解し、認識するものとします。当社は、前記情報または行為によりお客様または第三者に生じたいかなる損失についても一切責任を負いません。
       <br><br>
-      10.6 You understand and acknowledged that we may maintain,update,and
-      repair features or this Software on a regular or irregular basis. If the
-      service is interrupted within a reasonable period of time due to such
-      circumstances with prior notice,we shall not be liable for this.
+      10.6 お客様は、当社が定期的または不定期に、本ソフトウェアの機能を保守、更新および修復する場合があることを理解し、認識するものとします。当社が事前に通知したうえで、そのような事情により合理的な期間サービスが中断された場合、当社はこれについて責任を負いません。
       <br><br>
-      10.7 Unless otherwise provided by law and regulation,we have rights but no
-      obligation to handle any defaulting, tort, illegal act of third party and
-      we cannot guarantee that the foresaid defaulting,tort,illegal act of third
-      party shall be found,handled in times.
+      10.7 法令に別段の定めがない限り、当社は、第三者による債務不履行、不法行為または違法行為に対応する権利を有しますが義務を負うものではなく、また、前記第三者による債務不履行、不法行為または違法行為が適時に発見または処理されることを保証することはできません。
       <br><br>
-      10.8 You understand and acknowledge that we are not responsible for any
-      defects in the quality of the products or Services offered to you and any
-      damages caused by the free products or Services gifted to you.
+      10.8 お客様は、当社が、お客様に提供される商品またはサービスの品質上の欠陥、およびお客様に無償で贈与された商品またはサービスによって生じた損害について責任を負わないことを理解し、認識するものとします。
       <br><br>
-      10.9 NOTWITHSTANDING OTHERWISE PROVIDED IN THIS AGREEMENT,YOU ACKNOWLEDGE
-      THAT WE ARE NOT LIABLEFOR ANY INDIRECT,INCIDENTAL,SPECIAL, EXEMPLARY,OR
-      CONSEQUENTIAL DAMAGES, INCLUDING FOR LOSS OF PROFITS,GOODWILL,OR DATA, IN
-      ANY WAY WHATSOEVER ARISING OUT OF THE USE OF,OR INABILITY TO USE,THE
-      SERVICES; ORFOR THE CONDUCT OF THIRD PARTIES, INCLUDING OTHER USERS OF THE
-      SERVICES AND OPERATORS OF EXTERNAL SITES.IN ADDITION,ALL COMPENSATION,
-      REMEDY,LIABILITIES,REGARDLESS OF ANY MANNER, REASON,SHALL NOT EXCEED ALL
-      FEES PAID BY TO US (IF APPLICABLE)
+      10.9 本規約に別段の定めがある場合であっても、お客様は、当社が、サービスの利用または利用不能に起因または関連して生じるいかなる間接損害、付随損害、特別損害、懲罰的損害または結果損害（逸失利益、営業権またはデータの喪失を含みます）についても責任を負わないこと、また、本サービスの他のユーザーおよび外部サイト運営者を含む第三者の行為についても責任を負わないことを認めるものとします。さらに、いかなる方式または理由によるものであっても、すべての補償、救済および責任の総額は、お客様が当社に支払ったすべての料金（該当する場合）を超えないものとします。
       <br><br>
-      10.10 You acknowledge and understand that there may be personal and
-      property security and transaction dispute risks if you meet,trade with
-      other users offline, off the platform.We are not liable for the above
-      risks or losses, and you must bear all responsibility.
+      10.10 お客様は、オフラインまたは本プラットフォーム外で他のユーザーと会い、取引を行う場合、人身および財産の安全、ならびに取引紛争のリスクが存在し得ることを理解し、認識するものとします。当社は、前記リスクまたは損失について責任を負わず、すべての責任はお客様が負うものとします。
       <br><br>
     </div>
     <div class="T_title">
-      11.Miscellaneous
+      11. その他
     </div>
     <div class="T_content">
-      11.1 We remind you to read this Agreement carefully, especially clauses in
-      connection with disclaimer, risks, limitation of you rights and our
-      liability. If you are a minor,pleases read with accompany of your
-      guardian(s).
+      11.1 当社は、お客様に対し、本規約、特に免責、リスク、お客様の権利の制限および当社の責任に関する条項をよく読むよう求めます。お客様が未成年者である場合は、保護者の同伴のもとでお読みください。
       <br><br>
-      11.2 You understand and agree that other statements, rules published by us
-      in the software are deemed to be supplemental to these rules and are an
-      integral part of these Rules and have the same legal effect as this
-      Agreement.
+      11.2 お客様は、当社がソフトウェア上で公表するその他の声明およびルールが、本規約の補足としてみなされ、本規約の不可分の一部を構成し、本規約と同等の法的効力を有することを理解し、これに同意するものとします。
       <br><br>
-      11.3 This Agreement shall be governed by, and construed in all respects in
-      accordance with, the laws of the Hong Kong SAR. Any dispute arising out of
-      or in connection with this Agreement, including any question regarding its
-      existence,validity or termination,shall be referred to and finally
-      resolved by arbitration administered by the Hong Kong International
-      Arbitration Centre in accordance with the Arbitration Rules.
+      11.3 本規約は、香港特別行政区の法律に準拠し、同法に従って解釈されるものとします。本規約に起因し、または本規約に関連して生じる一切の紛争（本規約の存在、有効性または終了に関する問題を含みます）は、香港国際仲裁センターによる仲裁規則に従う仲裁に付され、最終的に解決されるものとします。
       <br><br>
-      11.4 The invalidity or unenforceability of any provision of this Agreement
-      shall not in any way affect or impair the validity or enforceability of
-      the remaining provisions.If any provision of this Agreement is declared
-      invalid or unenforceable by competent authorities,the Parties shall use
-      their best endeavors to agree upon a replacement provision so as to
-      substantially effectuate the commercial purpose of the original provision.
+      11.4 本規約のいずれかの条項が無効または執行不能であっても、その他の条項の有効性または執行可能性には何ら影響を及ぼしません。本規約のいずれかの条項が管轄当局により無効または執行不能と判断された場合、各当事者は、元の条項の商業的目的を実質的に実現するため、代替条項について合意するべく最善の努力を尽くすものとします。
       <br><br>
     </div>
   </div>

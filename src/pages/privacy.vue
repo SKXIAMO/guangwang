@@ -2,419 +2,186 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Test1'
+const appName = 'きずな'
 </script>
 
 <template>
   <div class="protocol">
     <div class="bt" style="text-align: center">
-      {{ appName }}'s Privacy Policy
+      {{ appName }}のプライバシーポリシー
     </div>
-    The use of {{ appName }} through mobile applications may involve collection and use
-    of your information. This Privacy Policy explains and informs you how your
-    information is collected, used and disclosed by {{ appName }} with respect to your
-    access and use of our services through our mobile applications. It is
-    important for you to understand this Privacy Policy and how you may protect
-    your information, so please read this Privacy Policy carefully.
+    モバイルアプリを通じた {{ appName }} の利用には、お客様の情報の収集および利用が含まれる場合があります。本プライバシーポリシーは、お客様が当社のモバイルアプリを通じて当社サービスにアクセスし利用する際に、{{ appName }} がお客様の情報をどのように収集、利用および開示するかについて説明し、お知らせするものです。本プライバシーポリシーおよびお客様の情報をどのように保護できるかを理解することは重要ですので、本プライバシーポリシーをよくお読みください。
     <br>
     <div class="bt">
-      1. Application Scope of this Privacy Policy
+      1. 本プライバシーポリシーの適用範囲
     </div>
-    1.1By using {{ appName }}, you agree that we may access, collect, use and share your
-    information in accordance with this Privacy Policy, as revised from time to
-    time. In addition, your use of {{ appName }} signifies that you agree with the terms
-    of this Privacy Policy. If you do not agree to the terms of this Privacy
-    Policy, do not use {{ appName }}.
+    1.1 {{ appName }} を利用することにより、お客様は、当社が本プライバシーポリシー（随時改訂される場合があります）に従って、お客様の情報にアクセスし、収集し、利用し、共有することに同意するものとします。また、{{ appName }} の利用は、お客様が本プライバシーポリシーの条項に同意したことを意味します。本プライバシーポリシーの条項に同意されない場合は、{{ appName }} を利用しないでください。
     <br><br>
-    1.2This Privacy Policy is incorporated into and forms part of the {{ appName }}
-    Terms of Service that you have agreed to in order to use {{ appName }}. Any terms
-    used in this Privacy Policy will have the same meaning as the equivalent
-    defined terms in the {{ appName }} Terms of Service unless otherwise defined in this
-    Privacy Policy or the context requires otherwise. Unless otherwise specified
-    in this Privacy Policy, these terms in the {{ appName }} Terms of Service shall also
-    be applicable in this Privacy Policy.
+    1.2 本プライバシーポリシーは、{{ appName }} を利用するためにお客様が同意した {{ appName }} 利用規約に組み込まれ、その一部を構成します。本プライバシーポリシーで使用される用語は、本プライバシーポリシーで別途定義されている場合または文脈上別異に解すべき場合を除き、{{ appName }} 利用規約における対応する定義語と同一の意味を有します。本プライバシーポリシーに別段の定めがない限り、{{ appName }} 利用規約の各条項は本プライバシーポリシーにも適用されます。
     <br><br>
-    1.3Any information that is collected is subject to the Privacy Policy in
-    effect at the time such information is collected. We may, however, modify
-    and revise our Privacy Policy from time to time. If we make any change to
-    this policy, which we deem to be material changes, with or without
-    notification, you are agreeing to be bound by the revised policy.
+    1.3 収集されるあらゆる情報は、その情報が収集された時点で有効なプライバシーポリシーに従います。ただし、当社は随時、本プライバシーポリシーを変更または改訂する場合があります。当社が本ポリシーに重大と判断する変更を行った場合、通知の有無にかかわらず、お客様は改訂後のポリシーに拘束されることに同意するものとします。
     <br><br>
-    1.4 {{ appName }} may link you to social media or other features or services
-    (including websites, plug-ins and widgets) provided by a third party. Please
-    note that this Privacy Policy doesn’t apply to the information collected by
-    any third-party websites, services or applications that can be accessed
-    through our services, and does not apply to the information collected by
-    other companies and organizations who advertise their services on {{ appName }}. We
-    bear no liability for any third party use of any information provided by you
-    to them.
+    1.4 {{ appName }} は、お客様を第三者が提供するソーシャルメディアまたはその他の機能もしくはサービス（ウェブサイト、プラグイン、ウィジェットを含みます）にリンクする場合があります。本プライバシーポリシーは、当社サービスを通じてアクセス可能な第三者のウェブサイト、サービスまたはアプリケーションによって収集される情報には適用されず、{{ appName }} 上で自らのサービスを宣伝する他の会社や組織によって収集される情報にも適用されません。お客様がこれらの第三者に提供した情報の第三者による利用について、当社は一切責任を負いません。
     <br><br>
-    2. We obtain information about you through the means discussed below when we
-    provide the {{ appName }} Services. Please note that we need certain types of
-    information so that we can provide the {{ appName }} Services to you.
+    2. 当社は、{{ appName }} サービスを提供する際に、以下に説明する方法でお客様に関する情報を取得します。{{ appName }} サービスをお客様に提供するためには、一定の種類の情報が必要であることにご注意ください。
     <br><br>
-    1).User-provided Information
+    1). ユーザー提供情報
     <br><br>
-    2).Automatically Collected Information for Legitimate Interests
+    2). 正当な利益のために自動的に収集される情報
     <br><br>
-    User-provided Information
+    ユーザー提供情報
     <br><br>
-    1) Information provide to us when you open a {{ appName }} account, including your
-    nickname, gender, date of birth, country, age,email,password,social media
-    account information (profile photo,Video), and any tags you posted about
-    yourself;
+    1) {{ appName }} アカウントを開設する際に当社に提供される情報。これには、ニックネーム、性別、生年月日、国、年齢、メールアドレス、パスワード、ソーシャルメディアアカウント情報（プロフィール写真、動画）、およびお客様自身について投稿したあらゆるタグが含まれます。
     <br><br>
-    2)Any information included in your {{ appName }} profile which are visible to other
-    users of {{ appName }}, or information you make available to us via your use of
-    {{ appName }}, which may include your photos, gender;
+    2) 他の {{ appName }} ユーザーに表示されるお客様の {{ appName }} プロフィールに含まれる情報、または {{ appName }} の利用を通じて当社に提供される情報。これにはお客様の写真や性別が含まれる場合があります。
     <br><br>
-    3) User-generated content (" UGC "), such as comments, text, messages,
-    pictures, images, videos, sounds, code, or other data or material that you
-    upload, distribute, or stream on the Application while using the {{ appName }}
-    Service;
+    3) ユーザー生成コンテンツ（「UGC」）。これには、{{ appName }} サービスの利用中に、アプリケーション上でお客様がアップロード、配布または配信するコメント、テキスト、メッセージ、写真、画像、動画、音声、コード、その他のデータまたは素材が含まれます。
     <br><br>
-    4) Payment information, such as bank account number, Paypal or other payment
-    information to be paid;
+    4) 銀行口座番号、PayPal、その他の支払いに必要な支払情報などの決済情報。
     <br><br>
-    5) Transaction information such as transaction number and transaction
-    history after you purchase the paid service;
+    5) 有料サービス購入後の取引番号や取引履歴などの取引情報。
     <br><br>
-    6) Your opt-in and communication with us, such as information used to
-    validate your account or address your feedback or complaint and information
-    you provide when participating in in-app surveys and activities.
+    6) お客様による同意内容および当社との連絡に関する情報。これには、お客様のアカウント確認やフィードバックもしくは苦情への対応に使用される情報、ならびにアプリ内アンケートやアクティビティへの参加時にお客様が提供する情報が含まれます。
     <br><br>
-    7) Information provided by you from social media when you create a {{ appName }}
-    account by connecting to or associating a {{ appName }} account with a third party
-    social media account (e.g., Facebook, Google);
+    7) 第三者のソーシャルメディアアカウント（例：Facebook、Google）と {{ appName }} アカウントを接続または関連付けて {{ appName }} アカウントを作成する際に、ソーシャルメディアからお客様が提供する情報。
     <br><br>
-    2.Automatically Collected Information for Legitimate Interests
+    2. 正当な利益のために自動的に収集される情報
     <br><br>
-    ⊙ Data about your Accounts on other Services: If your social media or other
-    online accounts are associated with your accounts on our services, we may
-    obtain certain information through those accounts. If you log in to our
-    services through Facebook or other third party platforms, we ask for your
-    permission to access certain information about that other account. For
-    example, depending on the platform or service, we may collect your name,
-    profile picture, gender, information and date of birth, including
-    information from Google: The Unique ID for the Google Account; ID token;
-    Facebook: AccessToken. These platforms and services provide us with
-    information through their apis. The information we receive depends on the
-    information you decide to provide us (through your privacy Settings) or the
-    platform or service. If you access or use our services through third party
-    platforms or services or click on any third party links, the collection, use
-    and sharing of your data will also be governed by the privacy policies and
-    other agreements of such third party.
+    ⊙ 他サービス上のお客様のアカウントに関するデータ：お客様のソーシャルメディアまたはその他のオンラインアカウントが当社サービス上のアカウントと関連付けられている場合、当社は当該アカウントを通じて一定の情報を取得することがあります。お客様が Facebook またはその他の第三者プラットフォームを通じて当社サービスにログインする場合、当社は当該アカウントに関する一定の情報へのアクセス許可を求めます。たとえば、プラットフォームまたはサービスに応じて、当社は氏名、プロフィール画像、性別、情報、生年月日を収集する場合があり、Google からは Google アカウントの一意 ID、ID トークン、Facebook からは AccessToken などの情報が含まれます。これらのプラットフォームおよびサービスは、それぞれの API を通じて当社に情報を提供します。当社が受け取る情報は、お客様が当社に提供することを選択した情報（プライバシー設定を通じたもの）または当該プラットフォームもしくはサービスによって異なります。お客様が第三者のプラットフォームもしくはサービスを通じて当社サービスにアクセスまたは利用する場合、または第三者リンクをクリックする場合、お客様のデータの収集、利用および共有は、当該第三者のプライバシーポリシーおよびその他の契約にも従うものとします。
     <br><br>
-    ⊙Device identifiers, such as your operating system, browser type, brand,
-    model and mobile device serial number, Internet Protocol (IP) address,
-    mobile operator, screen resolution, language Settings, IMEI number, IMSI
-    number, and media access control address;
+    ⊙ お客様のオペレーティングシステム、ブラウザの種類、ブランド、モデル、モバイル端末のシリアル番号、インターネットプロトコル（IP）アドレス、携帯通信事業者、画面解像度、言語設定、IMEI 番号、IMSI 番号、MAC アドレスなどの端末識別情報。
     <br><br>
-    ⊙Network activity information, such as your browsing history, search
-    history, videos or pages you visited, the dates and times you visited, other
-    user accounts you subscribed to, and information about your interactions
-    with other users;
+    ⊙ 閲覧履歴、検索履歴、訪問した動画またはページ、訪問日時、フォローした他のユーザーアカウント、他のユーザーとのやり取りに関する情報などのネットワーク活動情報。
     <br><br>
-    ⊙We also collect error-reporting information if the Service crashes or hangs
-    up so that we can investigate the error and improve the stability of the
-    Service for future releases. In general these reports do not contain
-    personally identifiable information, or only incidentally. As part of these
-    error reports, we receive information about the type and version of your
-    device, the device identifier, the time the error occurred, the feature
-    being used and the state of the application when the error occurred. We do
-    not use this information for any purpose other than investigating and fixing
-    the error.
+    ⊙ サービスがクラッシュまたはハングアップした場合、当社はエラーを調査し、今後のリリースにおけるサービスの安定性を向上させるため、エラーレポート情報も収集します。通常、これらのレポートには個人を特定できる情報は含まれないか、含まれるとしても偶発的なものです。これらのエラーレポートの一環として、当社はお客様の端末の種類およびバージョン、端末識別子、エラー発生時刻、使用中の機能、エラー発生時のアプリケーションの状態に関する情報を受け取ります。当社は、この情報をエラーの調査および修正以外の目的で使用しません。
     <br><br>
-    ⊙Information about your access to and use of other applications;
+    ⊙ お客様による他のアプリケーションへのアクセスおよび利用に関する情報。
     <br><br>
-    ⊙Metadata, associated with the UGC you provide to us, describes other data
-    and provides information about how, when, and by whom the UGC clips are
-    collected and the format of the UGC, such as subject tags and subtitles used
-    to tag video keywords;
+    ⊙ お客様が当社に提供する UGC に関連付けられたメタデータ。これは他のデータを記述し、UGC クリップがどのように、いつ、誰によって収集されたか、また動画キーワードのタグ付けに使用されるトピックタグや字幕など、UGC の形式に関する情報を提供します。
     <br><br>
-    We may also collect, use and share your information to generate and share
-    summary insights that do not identify you.Aggregated data may be derived
-    from your personal information but is not considered personal information
-    because the data does not directly or indirectly identify you.For example,
-    we may aggregate your usage data to calculate the percentage of users who
-    visit a particular site feature, to generate statistics about our users, to
-    calculate the percentage of users who visit a particular site feature, or to
-    calculate the number of AD displays placed or clicked.
+    当社はまた、お客様を特定しない要約インサイトを生成および共有するために、お客様の情報を収集、利用および共有する場合があります。集計データはお客様の個人情報から導出される場合がありますが、そのデータがお客様を直接または間接に特定しないため、個人情報とはみなされません。たとえば、当社はお客様の利用データを集計して、特定のサイト機能を訪問したユーザーの割合を算出したり、ユーザーに関する統計を生成したり、特定機能への訪問割合を計算したり、表示またはクリックされた広告数を算出したりする場合があります。
     <br><br>
     <div class="bt">
-      2.Special Note about Sensitive Personal Information
+      2. センシティブな個人情報に関する特別な注意
     </div>
-    To provide certain features (e.g. online video calling), we must access your
-    microphone, camera, with your permission, as described below:
+    特定の機能（例：オンラインビデオ通話）を提供するため、当社は以下のとおり、お客様の許可を得てマイクおよびカメラにアクセスする必要があります。
     <br><br>
-    1)Microphone: We access the microphone on your device (with your permission)
-    to record audio messages and deliver sound during video calls.
+    1) マイク：当社は、お客様の許可を得たうえで端末のマイクにアクセスし、音声メッセージの録音およびビデオ通話中の音声伝送を行います。
     <br><br>
-    2)Camera: We access the camera on your device (with your permission) to take
-    your profile pictures and deliver realtime images during video calls.
+    2) カメラ：当社は、お客様の許可を得たうえで端末のカメラにアクセスし、プロフィール写真の撮影およびビデオ通話中のリアルタイム画像の送信を行います。
     <br><br>
-    By using {{ appName }}, you agree that all processing activities of sensitive
-    personal information are for the purposes and in the manner as described in
-    this Privacy Policy.
+    {{ appName }} を利用することにより、お客様は、センシティブな個人情報に関するすべての処理活動が、本プライバシーポリシーに記載された目的および方法に従って行われることに同意するものとします。
     <br><br>
-    Please note that we do not use your sensitive personal information for the
-    purpose of making direct marketing unless agreed by you.
+    お客様の同意がない限り、当社はお客様のセンシティブな個人情報をダイレクトマーケティングの目的で使用しないことにご留意ください。
     <br><br>
-    2.3Special Note about Children’s Information The services of {{ appName }} are only
-    applicable to users of 18 years old or more. We do not allow users under 18
-    years old to access our platform, and will not knowingly collect the
-    personal information of users under 18 years old.
+    2.3 子どもの情報に関する特別な注意 {{ appName }} のサービスは、18 歳以上のユーザーのみに適用されます。当社は 18 歳未満のユーザーによる当社プラットフォームへのアクセスを認めず、18 歳未満のユーザーの個人情報を故意に収集することはありません。
     <br><br>
     <div class="bt">
-      3.How We Use the Information We Collect
+      3. 当社が収集した情報の利用方法
     </div>
-    We use or may disclose your personal information only in the following
-    circumstances: Verify your identity;
+    当社は、以下の場合にのみお客様の個人情報を利用し、または開示することがあります。お客様の本人確認を行うこと。
     <br><br>
-    1) Connect you to others enabled by the Service;
+    1) 本サービスにより可能となる他の利用者との接続を行うこと。
     <br><br>
-    2) Sharing your personal information with others on the Service;
+    2) 本サービス上でお客様の個人情報を他者と共有すること。
     <br><br>
-    3) Allows you to use certain features of services that may be provided from
-    time to time. Show you the name of the person you are communicating with and
-    show you the name of the person you are communicating with on the service;
+    3) 随時提供される可能性のある特定のサービス機能をお客様が利用できるようにすること。お客様がやり取りしている相手の名前を表示し、サービス上でその相手の名前を示すこと。
     <br><br>
-    4) Send you any administrative notification alerts and communications
-    related to your use of the Services;
+    4) お客様のサービス利用に関連する各種管理通知、アラートおよび連絡を送信すること。
     <br><br>
-    5) To provide you with information that you have allowed us to collect from
-    you or that you have provided to social media providers associated with your
-    {{ appName }} account Relevant content you requested, such as information about your
-    location and that of your {{ appName }} contact;
+    5) お客様が当社による収集を許可した情報、または {{ appName }} アカウントに関連付けられたソーシャルメディア提供者にお客様が提供した情報に基づき、お客様が要求した関連コンテンツ（たとえば、お客様の位置情報や {{ appName }} 上の連絡先の位置情報など）を提供すること。
     <br><br>
-    6) Contact you by email, text message or other means to notify you of new
-    products, services or promotions on offer.for internal operations Conduct,
-    including troubleshooting, data analysis, testing, research, service
-    improvement, detection and prevention of error, fraud or other illegal;
-    Activities;
+    6) 電子メール、テキストメッセージその他の手段により、お客様に新製品、サービスまたはプロモーションを通知すること。ならびに、トラブルシューティング、データ分析、テスト、調査、サービス向上、エラー、不正またはその他違法行為の検知および防止を含む内部運営を実施すること。
     <br><br>
-    7) When we sincerely believe that the law, any legal process, law
-    enforcement, national security, or issue of public importance requires
-    disclosure: To protect and defend our rights or property (including
-    enforcing our terms of use and other agreements); or
+    7) 法律、法的手続、法執行、国家安全保障または公共の重要事項により開示が必要であると当社が誠実に判断した場合、当社の権利または財産を保護・防御するため（当社の利用条件およびその他の契約を執行する場合を含みます）に開示すること。
     <br><br>
-    8)Relating to corporate transactions involving {{ appName }}, such as the purchase
-    or sale of business units, acquisitions, mergers, sale of assets or other
-    similar events.
+    8) {{ appName }} に関する企業取引、たとえば事業部門の購入または売却、買収、合併、資産売却その他これらに類する事象に関連すること。
     <br><br>
-    {{ appName }} allows you to share text messages, photos, screenshots, videos and
-    other communications in the {{ appName }} application with other users, and if you
-    choose to do so your text messages, photos, screenshots, videos and other
-    communications will be stored on our servers. In addition, if you choose to
-    share these items with other {{ appName }} users, we may not be able to remove them
-    from our servers or make them unavailable to anyone you have shared them
-    with. Sending and sharing text messages, photos, screenshots, videos or
-    other communications in the {{ appName }} application is your decision. By choosing
-    to share that information, you should understand that you may no longer be
-    able to control how that information is used and that it may become publicly
-    available (depending in part on your actions or the actions of others with
-    whom you have shared the information). {{ appName }} is not responsible for any use
-    or misuse of information you share.
+    {{ appName }} では、アプリケーション内でテキストメッセージ、写真、スクリーンショット、動画その他の通信内容を他のユーザーと共有することができます。お客様がこれを選択した場合、これらのテキストメッセージ、写真、スクリーンショット、動画その他の通信内容は当社サーバーに保存されます。さらに、お客様がこれらの項目を他の {{ appName }} ユーザーと共有した場合、当社はそれらを当社サーバーから削除したり、お客様が共有した相手に対して利用できない状態にしたりできない場合があります。{{ appName }} アプリケーション内でテキストメッセージ、写真、スクリーンショット、動画その他の通信内容を送信および共有するかどうかは、お客様ご自身の判断によるものです。当該情報を共有することを選択した場合、お客様は、その情報がどのように利用されるかをもはや管理できなくなる可能性があり、また公開される可能性があることを理解する必要があります（これは一部、お客様ご自身の行動またはお客様が情報を共有した相手方の行動に依存します）。{{ appName }} は、お客様が共有した情報の利用または誤用について一切責任を負いません。
     <br><br>
-    3.2 Transfer and Storage
+    3.2 移転および保存
     <br><br>
-    We operate and may continue to operate servers in a number of jurisdictions
-    around the world, so the server on which your personal information is used
-    and stored may not be in your jurisdiction.
+    当社は世界各地の複数の法域においてサーバーを運営しており、今後も運営を継続する場合があります。そのため、お客様の個人情報が利用および保存されるサーバーは、お客様の法域内に所在しない場合があります。
     <br><br>
-    You consent to the transfer of your personal information (both inside and
-    outside of your jurisdiction) for the purposes described in this Privacy
-    Policy.
+    お客様は、本プライバシーポリシーに記載された目的のために、お客様の個人情報が法域の内外に移転されることに同意するものとします。
     <br><br>
-    3.3 analysis
+    3.3 分析
     <br><br>
-    The main reason we use your information is to provide and improve our
-    services. In addition, we use your information to help keep you safe. Read
-    on to learn more about the various reasons we use your information, as well
-    as practical examples.
+    当社がお客様の情報を利用する主な理由は、サービスを提供し改善するためです。また、当社はお客様の安全確保のためにもお客様の情報を利用します。以下では、お客様の情報を利用するさまざまな理由と実際の例について、さらにご説明します。
     <br><br>
-    1) Third Party Usage Analysis Tools: We use the tools provided by Google Inc
-    (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, "Google") for
-    usage analysis in our services. Tools owned by Firebase and acquired by
-    Google are used to measure usage. Firebase, run by Google, is also used for
-    usage analysis purposes.
+    1) 第三者の利用分析ツール：当社は、Google Inc（1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, “Google”）が提供するツールを、当社サービスにおける利用分析のために使用します。Google が取得した Firebase のツールを利用状況の測定に使用しており、Google が運営する Firebase も利用分析の目的で使用されます。
     <br><br>
-    2) Third party Conversion tracking tool: AppsFlyer, Google conversion
-    tracking API and Facebook Conversion tracking API for user conversion
-    tracking.
+    2) 第三者のコンバージョントラッキングツール：AppsFlyer、Google conversion tracking API および Facebook Conversion tracking API を、ユーザーのコンバージョントラッキングのために使用します。
     <br><br>
-    3) Crash detection tool: We used the Firebase owned Crashlytics tool for
-    crash detection. It helps maintain and improve services. All of your crash
-    data is collected anonymously.
+    3) クラッシュ検知ツール：当社は、Firebase が提供する Crashlytics ツールをクラッシュ検知のために使用しています。これはサービスの維持および改善に役立ちます。お客様のクラッシュデータはすべて匿名で収集されます。
     <br><br>
-    3.4 Share your information
+    3.4 お客様の情報の共有
     <br><br>
-    Your information is shared with others in the following ways: Sharing on our
-    products
+    お客様の情報は、以下の方法により他者と共有されます：当社製品上での共有
     <br><br>
-    1) Without your consent, we will not rent or sell your information to a
-    third party (or a group of companies to which {{ appName }} belongs), except as
-    otherwise stated in this Privacy Policy with whom we may share your
-    information:
+    1) お客様の同意なく、当社は、お客様の情報を第三者（または {{ appName }} が属する企業グループ）に賃貸または販売しません。ただし、本プライバシーポリシーで別途定める場合を除きます。当社がお客様の情報を共有する相手先は以下のとおりです。
     <br><br>
-    2) We may share user content and your information (including but not limited
-    to information from cookies, log files, device identifiers, bit data and
-    usage data) with or become part of a group of businesses that are legally
-    part of {{ appName }}'s group of companies (" Affiliates ").Affiliates may use this
-    information to help provide, understand, and improve services (including by
-    providing analytics) and their own services (including by providing you with
-    a better, more relevant experience).But these affiliates will respect the
-    choices you make about who can see your content.
+    2) 当社は、ユーザーコンテンツおよびお客様の情報（Cookie、ログファイル、端末識別子、ビットデータおよび利用データから得られる情報を含みますが、これらに限られません）を、{{ appName }} の企業グループに法的に属する事業体（以下「関連会社」）と共有する場合があります。関連会社は、サービス（分析の提供を含みます）および自らのサービス（より良く、より関連性の高い体験を提供することを含みます）を提供、理解および改善するためにこれらの情報を利用する場合があります。ただし、これらの関連会社は、お客様のコンテンツを誰が閲覧できるかについてお客様が行った選択を尊重します。
     <br><br>
-    3) We may also share your information and information from tools such as
-    cookies, log files, device identifiers and location data with third party
-    organizations that help us provide services to you (the "Service
-    Provider").Our service providers will be granted access to your information
-    in order to provide services under reasonable confidentiality terms.
+    3) 当社はまた、お客様にサービスを提供する支援を行う第三者機関（以下「サービスプロバイダー」）と、お客様の情報および Cookie、ログファイル、端末識別子、位置情報などのツールから得られる情報を共有する場合があります。当社のサービスプロバイダーは、合理的な秘密保持条件のもとでサービスを提供するために、お客様の情報へのアクセス権を付与されます。
     <br><br>
-    4) We may also share aggregate or anonymous information with third parties,
-    including advertisers and investors.For example, we might tell our
-    advertisers how many users our app has received.This information does not
-    contain any personal or personally identifiable information and is used to
-    develop content and services that we hope you will be interested in.
+    4) 当社は、広告主や投資家を含む第三者と、集計情報または匿名情報を共有する場合もあります。たとえば、当社は広告主に対し、本アプリのユーザー数を知らせることがあります。これらの情報には個人情報または個人を特定し得る情報は含まれず、お客様の関心を引くと当社が考えるコンテンツおよびサービスを開発するために使用されます。
     <br><br>
-    5) We may delete some data that can identify you and share your name data
-    with other parties.We may also combine your information with other
-    information in ways that are no longer associated with you and share this
-    aggregate information, and you may choose the parties with whom you share
-    your user content:
+    5) 当社は、お客様を特定できる一部のデータを削除したうえで、その匿名化データを他者と共有する場合があります。また、お客様の情報を、お客様と結び付かない形で他の情報と組み合わせ、この集計情報を共有する場合があります。さらに、お客様は、自身のユーザーコンテンツを共有する相手を選択することができます。
     <br><br>
-    6) Any information or content that you voluntarily disclose to publish to
-    the Service, such as user content, will be made available to the public.
-    With this feature, {{ appName }} can prevent demand frenzy.Once you share user
-    content or make it public, that user content may be re-shared by others;
+    6) ユーザーコンテンツなど、お客様が自発的に開示して本サービス上に公開したあらゆる情報またはコンテンツは、一般公開されます。この機能により、{{ appName }} は過度な要求の集中を防ぐことができます。いったんお客様がユーザーコンテンツを共有し、または公開した場合、そのユーザーコンテンツは他者によって再共有される可能性があります。
     <br><br>
-    7) If you delete information and content that you create on the Service (for
-    example, screen shots, etc.), the copy may remain visible in the Service's
-    cache and archived pages, or if other users or third parties have copied or
-    saved the information (for example, Facebook, etc.).
+    7) お客様が本サービス上で作成した情報およびコンテンツ（たとえばスクリーンショット等）を削除した場合でも、そのコピーが本サービスのキャッシュまたはアーカイブページに残って表示される場合があり、また他のユーザーまたは第三者（たとえば Facebook 等）がその情報を複製または保存している場合があります。
     <br><br>
-    3.5 Security Measures We Take to Protect Your Information
+    3.5 お客様の情報を保護するために当社が講じる安全対策
     <br><br>
-    We employ administrative, physical and electronic measures designed to
-    protect your information from unauthorized access, however, despite these
-    efforts, no security measures are perfect or impenetrable and no method of
-    data transmission can be guaranteed against any interception or other type
-    of misuse. In the event that your personal information is compromised as a
-    result of a breach of security, we will promptly notify you if your personal
-    information has been compromised, as required by applicable law.
+    当社は、お客様の情報を不正アクセスから保護するための管理的、物理的および電子的措置を講じています。しかしながら、これらの努力にもかかわらず、いかなる安全対策も完全または突破不可能ではなく、いかなるデータ送信方法も傍受その他の不正利用を完全に防ぐことは保証できません。お客様の個人情報がセキュリティ侵害の結果として侵害された場合、適用法により求められるときは、当社は速やかにその旨をお客様に通知します。
     <br><br>
-    Where we do share your personal information with any third parties, we will
-    use reasonable efforts to ensure that such third parties only use your
-    personal information:
+    当社がお客様の個人情報を第三者と共有する場合、当社は、当該第三者がお客様の個人情報を以下に限って使用するよう合理的な努力を尽くします。
     <br><br>
-    (i)in compliance with this Privacy Policy;
+    (i) 本プライバシーポリシーを遵守すること。
     <br><br>
-    (ii) subject to any other instructions we give them, including any
-    appropriate confidentiality and security measures that we implement.
+    (ii) 当社が与えるその他の指示（当社が実施する適切な秘密保持および安全対策を含みます）に従うこと。
     <br><br>
     <div class="bt">
-      4.How to Access Your Information
+      4. お客様の情報へのアクセス方法
     </div>
-    You can access and modify the information you provided to us through your
-    account.
+    お客様は、ご自身のアカウントを通じて、当社に提供した情報へアクセスし、これを修正することができます。
     <br><br>
-    If you believe your information posted on {{ appName }} is not authentic or accurate
-    and can provide us with reasonable proof regarding this, you can require us
-    via the contact information provided in this Privacy Policy to correct these
-    unauthentic or inaccurate information and we will use reasonable efforts to
-    honour your request; however, we may retain an archived copy of your
-    information as required by law and/or for record keeping purposes.
+    お客様が {{ appName }} 上に掲載した情報が真正または正確でないと考え、その点について合理的な証拠を当社に提供できる場合、お客様は本プライバシーポリシーに記載された連絡先を通じて、当社に対し当該真正でないまたは不正確な情報の訂正を求めることができます。当社は合理的な努力をもってお客様の要請に応じますが、法令上の要求または記録保存の目的により、お客様の情報のアーカイブコピーを保持する場合があります。
     <br><br>
-    Once your account is closed or deleted, you will no longer have access to
-    your message history, preferences or any other information associated with
-    your use of our services. Even after you remove information from your
-    account or profile, copies of that information may remain viewable
-    elsewhere, to the extent it has been shared with others, it was otherwise
-    distributed pursuant to your privacy settings, or it was copied or stored by
-    other users. Additionally, we will retain your personal data even after you
-    have closed your account if reasonably necessary to comply with our legal
-    obligations (including law enforcement requests), meet regulatory
-    requirements, resolve disputes, maintain security, prevent fraud and abuse,
-    or enforce the Terms of Service. We will retain de-personalized information
-    after your account has been closed.
+    お客様のアカウントが閉鎖または削除されると、お客様はメッセージ履歴、設定内容、その他当社サービスの利用に関連する情報にアクセスできなくなります。お客様がアカウントまたはプロフィールから情報を削除した後であっても、その情報が他者と共有されていた場合、お客様のプライバシー設定に従って配布されていた場合、または他のユーザーによって複製もしくは保存されていた場合には、そのコピーが他の場所で閲覧可能なままであることがあります。さらに、当社は、法的義務の履行（法執行機関からの要請を含みます）、規制要件への対応、紛争解決、安全維持、不正および濫用の防止、または利用規約の執行のために合理的に必要な場合、お客様がアカウントを閉鎖した後であってもお客様の個人データを保持します。当社は、アカウント閉鎖後も匿名化された情報を保持します。
     <br><br>
-    In some cases, we may not be able to update, amend or remove your personal
-    information, in which case we will let you know why we are unable to do so,
-    for example, certain requests may require disproportionate technical effort
-    or extremely impractical, or are prohibited by law.
+    場合によっては、当社がお客様の個人情報を更新、修正または削除できないことがあります。その場合、当社は、なぜそれができないのかをお知らせします。たとえば、一定の要請には不釣り合いな技術的労力を要する場合、実務上きわめて困難である場合、または法令により禁止されている場合があります。
     <br><br>
-    Since {{ appName }} will be used in multiple jurisdictions and we may not be
-    possible to identify all the inconsistency between certain terms of this
-    Privacy Policy and the applicable law in your jurisdiction, thus you agree
-    to notify us once such inconsistency is identified by you. Under this
-    circumstance we will take necessary methods to eliminate such inconsistency,
-    including deleting these personal information improperly collected or used
-    by us.
+    {{ appName }} は複数の法域で利用されるため、本プライバシーポリシーの一部条項とお客様の法域における適用法との不一致を、当社がすべて把握できない場合があります。したがって、お客様は、そのような不一致を発見した場合、当社に通知することに同意するものとします。この場合、当社は当該不一致を解消するために必要な措置を講じます。これには、当社が不適切に収集または使用した個人情報の削除が含まれます。
     <br><br>
     <div class="bt">
-      5. Data access and deletion
+      5. データへのアクセスおよび削除
     </div>
-    You always have control over what information you choose to share with us on
-    the Services. To do this, you can change the Settings in the service or on
-    the mobile device. Alternatively, you can delete this service completely
-    from your mobile device and you can delete your data at any time. If you
-    request us to delete your account, we will use commercially reasonable
-    efforts to delete your data from our servers.
+    お客様は、本サービス上で当社と共有する情報について常に選択・管理することができます。そのためには、サービス内またはモバイル端末上の設定を変更することができます。あるいは、お客様は本サービスをモバイル端末から完全に削除することができ、またいつでもご自身のデータを削除することができます。お客様が当社にアカウント削除を要求した場合、当社は商業上合理的な努力をもって、当社サーバーからお客様のデータを削除します。
     <br><br>
-    Text messages, photos, videos or any other personally identifiable
-    information that you share in or through the {{ appName }} App with other users or
-    submit in blogs, bulletin boards or chat rooms on our website or elsewhere
-    may be viewed and used by others, These include sending you unsolicited
-    messages or identity theft. {{ appName }} is not responsible for any use or misuse
-    of your information resulting from the disclosure of your information
+    お客様が {{ appName }} アプリを通じて他のユーザーと共有するテキストメッセージ、写真、動画、またはその他の個人を特定し得る情報、あるいは当社ウェブサイトその他の場所におけるブログ、掲示板またはチャットルームに投稿する情報は、他者に閲覧され利用される可能性があります。これには、迷惑メッセージの送信やなりすまし被害などが含まれます。{{ appName }} は、お客様の情報の開示に起因する、お客様の情報のいかなる利用または誤用についても責任を負いません。
     <br><br>
     <div class="bt">
-      6. Security
+      6. セキュリティ
     </div>
-    Protecting user privacy and personal information is a top priority at {{ appName }},
-    and we make significant efforts to ensure the privacy of all personally
-    identifiable information you provide to us.Access to all personally
-    identifiable information is limited to {{ appName }} employees, contractors, agents
-    and third party service providers who want to know this information in order
-    to provide, operate and develop it.Maintenance, support can be political
-    into the service.
+    ユーザーのプライバシーおよび個人情報の保護は {{ appName }} における最優先事項であり、当社は、お客様が当社に提供するすべての個人識別情報のプライバシーを確保するために多大な努力を払っています。すべての個人識別情報へのアクセスは、サービスを提供、運営、開発、保守およびサポートするために当該情報を知る必要のある {{ appName }} の従業員、請負業者、代理人および第三者サービス提供者に限定されます。
     <br><br>
     <div class="bt">
-      7. Age
+      7. 年齢
     </div>
-    This service is not targeted at children under the age of eighteen (18) and
-    we do not knowingly accept or sell personally identifiable information from
-    children under the age of eighteen as part of our service. If we become
-    aware that we have inadvertently received personally identifiable
-    information from users under 18 years of age in our Services, we will remove
-    such information from our records. If we change our practices in the future,
-    as part of the service, we will obtain prior, verifiable parental consent
-    before collecting any personally identifiable information from children
-    under 18 years of age.
+    本サービスは 18 歳未満の子どもを対象としていません。また、当社は、18 歳未満の子どもから個人を特定できる情報を、故意に取得または販売することはありません。万一、当社サービスにおいて 18 歳未満のユーザーから個人識別情報を意図せず受領したことが判明した場合、当社は当該情報を当社の記録から削除します。今後、当社の運用を変更し、サービスの一環として 18 歳未満の子どもから個人識別情報を収集する必要が生じた場合には、事前に確認可能な保護者の同意を取得します。
     <br><br>
     <div class="bt">
-      8. Change notification
+      8. 変更通知
     </div>
-    We reserve the right to change this Privacy Policy at our sole discretion.
-    You can view updates to our privacy policy at any time through the link on
-    our website. You agree to accept the Posting of {{ appName }} electronic newsletter
-    and/or the revised Privacy Policy. And you agree that such electronic
-    communications or posts constitute a notice to you of the Privacy Policy. We
-    reserve the right to revise this policy from time to time, so please check
-    often. If we make material changes to this Policy, we will notify you by
-    Posting a revised Privacy Policy or by means of a notice on our website or
-    legal requirements. You agree to periodically review the Privacy Policy so
-    that you are aware of any changes. You agree that your continued use of the
-    Service after we publish the revised Privacy Policy or provide notice on our
-    website means that you accept the revised Privacy Policy. If you do not
-    agree to the terms of the Privacy Policy, you should not use the Service.
+    当社は、本プライバシーポリシーを当社の裁量により変更する権利を留保します。お客様は、当社ウェブサイト上のリンクを通じて、当社のプライバシーポリシーの更新内容をいつでも確認することができます。お客様は、{{ appName }} の電子ニュースレターおよび/または改訂後のプライバシーポリシーの掲載を受け入れることに同意し、また、そのような電子的な連絡または掲載がお客様に対するプライバシーポリシーの通知を構成することに同意するものとします。当社は本ポリシーを随時改訂する権利を留保しますので、定期的にご確認ください。当社が本ポリシーに重大な変更を加える場合、改訂後のプライバシーポリシーの掲載、当社ウェブサイト上の通知、または法的要件に従った方法によりお客様に通知します。お客様は、本プライバシーポリシーを定期的に確認し、変更内容を把握することに同意するものとします。当社が改訂後のプライバシーポリシーを掲載し、または当社ウェブサイト上で通知を行った後にお客様が引き続き本サービスを利用した場合、お客様は改訂後のプライバシーポリシーを承諾したものとみなされます。本プライバシーポリシーの条項に同意されない場合は、本サービスを利用しないでください。
     <br><br>
     <div class="bt">
-      9. Contacting Us
+      9. お問い合わせ
     </div>
-    If you have any questions about our Privacy Policy or any privacy-related
-    matters, please contact us via email at 【{{ appName }}@{{ appName }}.site】.
+    当社のプライバシーポリシーまたはプライバシーに関連する事項についてご不明な点がある場合は、【{{ appName }}@{{ appName }}.site】までメールでお問い合わせください。
     <br><br>
   </div>
 </template>
