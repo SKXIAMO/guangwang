@@ -1,0 +1,161 @@
+.ai-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  /* background: url(@/assets/pagebgc.png) no-repeat top center / cover; */
+  background: rgba(24, 24, 24, 1);
+  position: relative;
+}
+.ai-text-title {
+  position: absolute;
+  top: calc(env(safe-area-inset-top) + calc(100vw * 40 / 375) + calc(100vh * 30 / 812));
+  font-size: calc(100vw * 24 / 375);
+  color: rgba(0, 0, 0, 1);
+  left: calc(100vw * 22 / 375);
+}
+/* 背景人物 */
+.ai-user-img {
+  position: absolute;
+  left: 0;
+  /* transform: translateX(-50%); */
+  top: 0;
+  width: 100vw;
+  height: calc(100vh * 518 / 812);
+  background-size: cover;
+  background-position: center;
+}
+
+/* 右上角模型 */
+.ai-chat-img {
+  position: absolute;
+  right: 0;
+  top: calc(env(safe-area-inset-top) + calc(100vh * 20 / 812));
+  width: calc(100vw * 338 / 375);
+  height: calc(100vh * 343 / 812);
+  background-size: cover;
+  background-position: center;
+}
+
+.ai-content {
+  flex: 1;
+  margin-top: calc(100vh * 285 / 812);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(100vh * 24 / 812);
+  /* background: white; */
+  /* border-radius: calc(100vw * 40 / 375) calc(100vw * 40 / 375) 0px 0px; */
+}
+
+.ai-title {
+  font-size: calc(100vw * 26 / 375);
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: calc(100vh * 31 / 812);
+  color: rgba(255, 255, 255, 1);
+  margin-top: calc(100vh * 87 / 812);
+}
+/* 底部卡片 */
+
+.ai-card {
+  /* border-radius: calc(100vw * 40 / 375) calc(100vw * 40 / 375) 0 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: 0 calc(100vw * 35 / 375);
+}
+
+/* 描述 */
+.ai-desc {
+  font-family: Archivo, sans-serif;
+  font-size: calc(100vw * 15 / 375);
+  line-height: calc(100vw * 18 / 375);
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin: 0 calc(100vw * 30 / 375);
+  overflow-y: auto;
+  flex: 1;
+  /* padding: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, rgba(165, 237, 57, 1), rgba(48, 234, 255, 1)) border-box; */
+}
+
+/* 按钮 */
+.ai-btn {
+  margin-top: calc(100vh * 20 / 812);
+  width: calc(100vw * 278 / 375);
+  height: calc(100vh * 48 / 812);
+
+  border-radius: calc(100vw * 100 / 375);
+  /* border: 2px solid transparent;
+  box-sizing: border-box; */
+
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row-reverse;
+  gap: calc(100vw * 16 / 375);
+}
+
+.ai-btn-left {
+  display: flex;
+  align-items: center;
+  gap: calc(100vw * 10 / 375);
+}
+
+.ai-coin {
+  width: calc(100vw * 24 / 375);
+  height: calc(100vw * 24 / 375);
+  background-size: cover;
+}
+
+.ai-btn-left span {
+  font-family: YesevaOne;
+  font-size: calc(100vw * 14 / 375);
+  color: rgba(255, 235, 59, 1);
+  font-weight: 600;
+}
+
+.ai-btn-right {
+  display: flex;
+  align-items: center;
+  gap: calc(100vw * 10 / 375);
+  color: #fff;
+  font-family: Archivo;
+  margin-left: calc(100vw * 10 / 375);
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+}
+.ai-chat-forward {
+  width: calc(100vw * 24 / 375);
+  height: calc(100vw * 24 / 375);
+  background-size: cover;
+}
+/* 弹窗 */
+.ai-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}

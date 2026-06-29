@@ -1,0 +1,69 @@
+.video-call {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background-color: #1d1816;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-call-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(calc(100vw * 1.5 / 375));
+}
+
+.video-call-content {
+  position: relative;
+  z-index: 1;
+}
+
+.video-call-content {
+  min-height: calc(100dvh - env(safe-area-inset-top) - calc(100vh * 28 / 812));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 calc(100vw * 24 / 375) calc(env(safe-area-inset-bottom) + calc(100vh * 8 / 812));
+}
+
+.call-info {
+  text-align: center;
+  margin-bottom: calc(100vh * 44 / 812);
+}
+
+.user-name {
+  color: #fff;
+  font-size: calc(100vw * 20 / 375);
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.calling-text {
+  margin-top: calc(100vh * 8 / 812);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: calc(100vw * 15 / 375);
+  line-height: 1.2;
+}
+
+.hangup-btn {
+  width: calc(100vw * 60 / 375);
+  height: calc(100vw * 60 / 375);
+  border: 0;
+  border-radius: calc(100vw * 18 / 375);
+  background: rgba(248, 1, 124, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hangup-btn img {
+  width: calc(100vw * 28 / 375);
+  height: calc(100vw * 28 / 375);
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "dynamicId": "d1",
+    "userId": "u1",
+    "dynamicType": 1,
+    "dynamicDesc": "Mina cosplaying Mina",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": ["http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/cover1.png"],
+    "dynamicVideo": "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/video1.mp4",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d2",
+    "userId": "u2",
+    "dynamicType": 1,
+    "dynamicDesc": "Yuta Okkots cosplay",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": ["http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/cover2.png"],
+    "dynamicVideo": "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/video2.mp4",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d3",
+    "userId": "u3",
+    "dynamicType": 1,
+    "dynamicDesc": "GUYS ITS THE RIGHT ARM THE CAMERA JUST REVERSED IT / Last levi draft 😛",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": ["http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/cover3.png"],
+    "dynamicVideo": "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/video3.mp4",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d4",
+    "userId": "u4",
+    "dynamicType": 1,
+    "dynamicDesc": "自認レゼと言われますが実は自認パワーなのでご飯食べる時野菜投げます",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": ["http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/cover4.png"],
+    "dynamicVideo": "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/video4.mp4",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d5",
+    "userId": "u5",
+    "dynamicType": 1,
+    "dynamicDesc": "NEW COSPLAY!! 🫶🏻 whos dis? 🤨",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": ["http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/cover5.png"],
+    "dynamicVideo": "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/video5.mp4",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d6",
+    "userId": "u6",
+    "dynamicType": 0,
+    "dynamicDesc": "Running up that hill",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": [
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic1.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic2.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic3.png"
+    ],
+    "dynamicVideo": "",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d7",
+    "userId": "u7",
+    "dynamicType": 0,
+    "dynamicDesc": "Resident Evil cosplay",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": [
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic4.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic5.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic6.png"
+    ],
+    "dynamicVideo": "",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d8",
+    "userId": "u8",
+    "dynamicType": 0,
+    "dynamicDesc": "Good luck won't favor fools",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": [
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic7.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic8.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic9.png"
+    ],
+    "dynamicVideo": "",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  },
+  {
+    "dynamicId": "d9",
+    "userId": "u9",
+    "dynamicType": 0,
+    "dynamicDesc": "Don't remake the bankrupt sisters, because we need to work",
+    "dynamicTitleType": 0,
+    "dynamicTag": [],
+    "dynamicPic": [
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic10.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic11.png",
+      "http://huanniuchat.oss-ap-northeast-1.aliyuncs.com/civoa/dynamic12.png"
+    ],
+    "dynamicVideo": "",
+    "dynamicLikeCount": 0,
+    "dynamicCommentCount": 0
+  }
+]

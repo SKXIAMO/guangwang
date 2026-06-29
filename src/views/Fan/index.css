@@ -1,0 +1,130 @@
+.fan-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: rgba(14, 8, 15, 1);
+}
+
+.fan-title {
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  flex: 1;
+  align-items: start;
+  color: rgba(255, 255, 255, 1);
+  margin-left: calc(100vw * 16 / 375);
+}
+
+.fan-container {
+  flex: 1;
+  overflow-y: auto;
+  box-sizing: border-box;
+  margin-top: calc(env(safe-area-inset-top) + calc(100vh * 25 / 812) + calc(100vw * 40 / 375));
+}
+
+.fan-list {
+  margin: 0 calc(100vw * 20 / 375);
+  display: flex;
+  flex-direction: column;
+  gap: calc(100vh * 24 / 812);
+  padding-bottom: calc(100vh * 34 / 812);
+}
+
+.fan-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh * 60 / 812);
+  border-radius: calc(100vw * 24 / 375);
+  background: rgba(43, 43, 43, 1);
+  box-sizing: border-box;
+  padding: 0 calc(100vw * 16 / 375);
+}
+
+.fan-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: calc(100vh * 16 / 812);
+  min-width: 0;
+  margin-right: calc(100vw * 14 / 375);
+}
+
+.fan-user-info {
+  display: flex;
+  align-items: center;
+  gap: calc(100vw * 12 / 375);
+  min-width: 0;
+}
+
+.fan-avatar-box {
+  flex-shrink: 0;
+  width: calc(100vw * 44 / 375);
+  height: calc(100vw * 44 / 375);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.fan-avatar-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.fan-avatar-fallback {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.fan-user-name {
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 16 / 375);
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fan-user-intro {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fan-right {
+  width: calc(100vw * 28 / 375);
+  height: calc(100vw * 28 / 375);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.fan-right img {
+  width: 100%;
+  height: 100%;
+}
+.fan-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

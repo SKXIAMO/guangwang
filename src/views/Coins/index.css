@@ -1,0 +1,124 @@
+.coins-page {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  background: rgba(13, 5, 14, 1);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.coins-title {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  flex: 1;
+  color: rgba(255, 255, 255, 1);
+  margin-left: calc(100vw * 6 / 375);
+}
+
+.coins-box {
+  height: calc(100vh * 72 / 812);
+  border-radius: calc(100vw * 16 / 375);
+  margin: calc(env(safe-area-inset-top) + calc(100vh * 64 / 812)) calc(100vw * 12 / 375) 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: calc(100vw * 12 / 375);
+  padding: 0 calc(100vw * 16 / 375);
+  background: linear-gradient(90deg, rgba(255, 235, 59, 1) 0%, rgba(255, 195, 0, 1) 100%);
+}
+
+.coins-box-header {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 400;
+  line-height: calc(100vw * 17 / 375);
+  color: rgba(33, 33, 33, 1);
+}
+
+.coins-box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: calc(100vh * 4 / 812);
+}
+
+.coins-icon-img {
+  width: calc(100vw * 60 / 375);
+  height: calc(100vw * 60 / 375);
+}
+
+.coins-number {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 22 / 375);
+  font-weight: 900;
+  line-height: calc(100vw * 26 / 375);
+  color: rgba(255, 87, 51, 1);
+}
+
+.coins-list-wrap {
+  padding: calc(100vh * 12 / 812) calc(100vw * 12 / 375)
+    calc(env(safe-area-inset-bottom) + calc(100vh * 24 / 812));
+  overflow-y: auto;
+  box-sizing: border-box;
+  margin-top: calc(100vh * 20 / 812);
+}
+
+.coins-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: calc(100vw * 10 / 375);
+}
+
+.coins-item {
+  min-height: calc(100vh * 100 / 812);
+  border-radius: calc(100vw * 12 / 375);
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(100vh * 8 / 812);
+  cursor: pointer;
+}
+
+.coins-item-selected {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.coins-item-top {
+  display: flex;
+  align-items: center;
+  gap: calc(100vw * 4 / 375);
+}
+
+.coins-item-icon-img {
+  width: calc(100vw * 24 / 375);
+  height: calc(100vw * 24 / 375);
+}
+
+.coins-count {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 16 / 375);
+  font-weight: 700;
+  line-height: calc(100vw * 19 / 375);
+  color: rgba(255, 255, 255, 1);
+}
+
+.coins-count-selected {
+  color: #fff;
+}
+
+.coins-price {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 400;
+  line-height: calc(100vw * 17 / 375);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+}
+
+.coins-price-selected {
+  color: rgba(255, 255, 255, 0.95);
+}

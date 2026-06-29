@@ -1,0 +1,176 @@
+.page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background: url('@/assets/pagebgc.png') no-repeat top center / cover; */
+  background: rgba(24, 24, 24, 1);
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(env(safe-area-inset-top) + calc(100vw * 12 / 375) + calc(100vw * 40 / 375));
+  height: calc(100vh - calc(100vh * 96 / 812));
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 输入框 */
+.textarea-box {
+  position: relative;
+  margin: calc(100vh * 20 / 812) calc(100vw * 20 / 375) 0;
+  height: calc(100vh * 174 / 812);
+  padding: calc(100vw * 16 / 375);
+  /* box-sizing: border-box; */
+  border-radius: calc(100vw * 24 / 375);
+  background: rgba(43, 43, 43, 1);
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: Archivo, sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  line-height: calc(100vw * 15.23 / 375);
+  background: transparent;
+  color: #fff;
+}
+.textarea::placeholder {
+  color: rgba(153, 153, 153, 1);
+}
+.text-count {
+  position: absolute;
+  right: calc(100vw * 10 / 375);
+  bottom: calc(100vh * 10 / 812);
+  font-size: calc(100vw * 14 / 375);
+  color: rgba(153, 153, 153, 1);
+}
+
+/* 标题 */
+.section-title {
+  margin-top: calc(100vh * 24 / 812);
+  margin-left: calc(100vw * 20 / 375);
+  font-family: sans-serif, YesevaOne;
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* theme */
+.theme-list {
+  display: flex;
+  gap: calc(100vw * 11 / 375);
+  margin-left: calc(100vw * 20 / 375);
+  margin-top: calc(100vh * 20 / 812);
+  overflow-x: auto;
+  padding-right: calc(100vw * 20 / 375);
+}
+
+.theme-item {
+  width: calc(100vw * 94 / 375);
+  height: calc(100vh * 44 / 812);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Archivo, sans-serif;
+  font-size: calc(100vw * 15 / 375);
+  flex-shrink: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: calc(100vw * 24 / 375);
+  background: rgba(43, 43, 43, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.theme-item.active {
+  background: rgba(248, 1, 124, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 上传 */
+.upload-list {
+  display: flex;
+  overflow-x: auto;
+  margin-top: calc(100vh * 20 / 812);
+  padding: 0 calc(100vw * 20 / 375);
+  gap: calc(100vw * 5 / 375);
+}
+
+.upload-item {
+  width: calc(100vw * 108 / 375);
+  height: calc(100vw * 108 / 375);
+  flex-shrink: 0;
+  background: rgba(43, 43, 43, 1);
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+  border-radius: calc(100vw * 24 / 375);
+  box-sizing: border-box;
+}
+.upload-item img {
+  width: 25%;
+  height: 25%;
+}
+/* 上传按钮 */
+.upload-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* 图片 */
+.upload-preview {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* 删除按钮 */
+.remove-btn {
+  position: absolute;
+  top: calc(100vw * 5 / 375);
+  right: calc(100vw * 5 / 375);
+  width: calc(100vw * 24 / 375);
+  height: calc(100vw * 24 / 375);
+  border-radius: 50%;
+  background: rgba(255, 87, 51, 1);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: calc(100vw * 14 / 375);
+}
+
+/* 发布按钮 */
+.release-btn {
+  width: calc(100vw * 275 / 375);
+  height: calc(100vh * 48 / 812);
+  border-radius: calc(100vw * 100 / 375);
+  margin: 0 auto;
+  margin-bottom: calc(env(safe-area-inset-bottom));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: YesevaOne, sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+}

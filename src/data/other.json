@@ -1,0 +1,62 @@
+{
+  "postTheme": ["Full", "Upper", "Lower"],
+  "reportContent": [
+    "Harassment",
+    "Malicious fraud",
+    "Pornography",
+    "Malicious insults",
+    "False Information"
+  ],
+  "coinsSetting": [
+    {
+      "key": "lvbsvhxcgcrvesor",
+      "cions": 400,
+      "money": 0.99
+    },
+    {
+      "key": "lvbsvhxcgcrvesor",
+      "cions": 800,
+      "money": 1.99
+    },
+    {
+      "key": "lvbsvhxcgcrvesor",
+      "cions": 2190,
+      "money": 3.99
+    },
+    {
+      "key": "dxismgcwewhrtezo",
+      "cions": 2450,
+      "money": 4.99
+    },
+    {
+      "key": "lvbsvhxcgcrvesor",
+      "cions": 3950,
+      "money": 8.99
+    },
+    {
+      "key": "khtxlcejaxmqcsra",
+      "cions": 4900,
+      "money": 9.99
+    },
+    {
+      "key": "lvbsvhxcgcrvesor",
+      "cions": 5700,
+      "money": 13.99
+    },
+    {
+      "key": "yadwwvxspgxwlndb",
+      "cions": 9800,
+      "money": 19.99
+    },
+    {
+      "key": "qnrcuelbtiuflyky",
+      "cions": 24500,
+      "money": 49.99
+    },
+    {
+      "key": "ymohxnvpkqxutvab",
+      "cions": 49000,
+      "money": 99.99
+    }
+  ]
+}

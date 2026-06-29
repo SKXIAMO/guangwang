@@ -1,0 +1,66 @@
+/* BottomSheet 容器 */
+.report-popup {
+  border-top-left-radius: calc(100vw * 32 / 375);
+  border-top-right-radius: calc(100vw * 32 / 375);
+  overflow: hidden;
+  background: rgba(24, 24, 24, 1);
+}
+
+/* 整体容器 */
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(100vh * 32 / 812) calc(100vw * 28 / 375);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 选项区域 */
+.report-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(100vh * 16 / 812);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 按钮 */
+.report-btn {
+  width: 100%;
+  height: calc(100vh * 48 / 812);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 间距 */
+.report-gap {
+  height: calc(100vh * 20 / 812);
+}
+
+/* 取消按钮 */
+.report-cancel {
+  width: 80%;
+  height: calc(100vh * 48 / 812);
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+  border: none;
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  color: white;
+  margin: 0 auto;
+  font-weight: 600;
+}

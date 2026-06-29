@@ -1,0 +1,82 @@
+.dialog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(100vh * 12 / 812);
+}
+.coin-dialog {
+  width: calc(100vw * 275 / 375);
+  height: calc(100vw * 275 / 375);
+  /* background-image: url('@/assets/coinnot.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: calc(100vw * 32 / 375);
+  justify-content: start;
+  background: url(@/assets/notcoinbg.png) no-repeat top center / cover;
+  gap: calc(100vh * 12 / 812);
+}
+/* .coin-left-zs {
+  position: absolute;
+  top: calc(100vh * 64 / 812);
+  left: calc(100vw * -20 / 375);
+  width: calc(100vw * 89 / 375);
+  height: calc(100vw * 89 / 375);
+}
+.coin-right-zs {
+  position: absolute;
+  bottom: calc(100vh * 27 / 812);
+  right: calc(100vw * -61 / 375);
+  width: calc(100vw * 134 / 375);
+  height: calc(100vw * 134 / 375);
+} */
+.coin-cry {
+  position: absolute;
+  top: calc(-100vh * 32 / 812);
+  width: calc(100vw * 108 / 375);
+  height: calc(100vw * 108 / 375);
+  /* margin-top: calc(100vh * 20 / 812);
+  margin-bottom: calc(100vh * 6 / 812); */
+}
+.coin-title {
+  font-family: YesevaOne, sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  line-height: calc(100vw * 21 / 375);
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  margin-top: calc(100vh * 88 / 812);
+}
+.coin-desc {
+  margin-bottom: calc(100vh * 16 / 812);
+  font-family: YesevaOne, sans-serif;
+  font-size: calc(100vw * 16 / 375);
+  line-height: calc(100vw * 19 / 375);
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+/* 按钮 */
+.coin-dialog-btn {
+  width: calc(100vw * 190 / 375);
+  height: calc(100vh * 54 / 812);
+  border-radius: calc(100vw * 100 / 375);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: YesevaOne, sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  line-height: calc(100vw * 25 / 375);
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+  cursor: pointer;
+  font-weight: 600;
+  font-size: calc(100vw * 18 / 375);
+}

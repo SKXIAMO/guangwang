@@ -1,0 +1,122 @@
+.report-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(14, 8, 15, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.report-content-wrap {
+  position: relative;
+  width: 100vw;
+  margin-top: calc(env(safe-area-inset-top) + calc(100vh * 20 / 812) + calc(100vh * 40 / 812));
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+}
+
+.report-grid {
+  display: flex;
+  flex-direction: column;
+  gap: calc(100vh * 16 / 812);
+  padding: calc(100vh * 20 / 812) calc(100vw * 20 / 375) 0;
+}
+
+.report-grid-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(100vw * 24 / 375);
+  background: rgba(43, 43, 43, 1);
+  width: 100%;
+  min-height: calc(100vh * 44 / 812);
+  overflow: hidden;
+  cursor: pointer;
+  padding: calc(100vh * 16 / 812) calc(100vw * 16 / 375);
+  box-sizing: border-box;
+}
+
+.report-grid-item.selected {
+  background: rgba(255, 255, 255, 1);
+}
+
+.report-item-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 16 / 375);
+  font-weight: 600;
+  line-height: calc(100vw * 19 / 375);
+  text-align: center;
+}
+
+.report-grid-item.selected .report-item-text {
+  color: rgba(0, 0, 0, 1);
+}
+
+.report-input-title {
+  padding-top: calc(100vh * 32 / 812);
+  padding-left: calc(100vw * 20 / 375);
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  line-height: calc(100vw * 29 / 375);
+  color: rgba(255, 255, 255, 1);
+}
+
+.report-input-box {
+  position: relative;
+  margin: calc(100vh * 16 / 812) calc(100vw * 20 / 375) 0;
+  height: calc(100vh * 103 / 812);
+  border-radius: calc(100vw * 16 / 375);
+  background: rgba(255, 255, 255, 1);
+  padding: calc(100vw * 12 / 375);
+  box-sizing: border-box;
+}
+
+.report-input-field {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  color: #000;
+  line-height: calc(100vw * 15.23 / 375);
+}
+
+.report-input-field::placeholder {
+  color: rgba(153, 153, 153, 1);
+}
+
+.report-char-count {
+  position: absolute;
+  right: calc(100vw * 8 / 375);
+  bottom: calc(100vh * 13 / 812);
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 12 / 375);
+  color: rgba(74, 32, 25, 0.6);
+}
+
+.report-submit-btn {
+  display: block;
+  margin: calc(100vh * 40 / 812) auto calc(100vh * 34 / 812);
+  width: calc(100vw * 275 / 375);
+  height: calc(100vh * 48 / 812);
+  border-radius: calc(100vw * 100 / 375);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+  color: #fff;
+}

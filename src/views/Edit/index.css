@@ -1,0 +1,164 @@
+.edit-page {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: rgba(13, 5, 14, 1);
+}
+
+.edit-title {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  line-height: 1.2;
+  flex: 1;
+  color: rgba(255, 255, 255, 1);
+  margin-left: calc(100vw * 6 / 375);
+}
+
+.edit-content {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  padding: calc(env(safe-area-inset-top) + calc(100vh * 76 / 812)) calc(100vw * 14 / 375)
+    calc(env(safe-area-inset-bottom) + calc(100vh * 34 / 812));
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+.edit-top,
+.edit-second,
+.edit-third {
+  display: block;
+}
+
+.edit-top-block {
+  width: calc(100vw * 72 / 375);
+  height: calc(100vw * 72 / 375);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(58, 58, 58, 1);
+  position: relative;
+  margin: calc(100vh * 6 / 812) auto 0;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.edit-camera-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: calc(100vw * 28 / 375);
+  height: calc(100vw * 28 / 375);
+  border-radius: 50%;
+  background: rgba(248, 1, 124, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: calc(100vh * 8 / 812);
+  width: 100%;
+  margin-top: calc(100vh * 24 / 812);
+}
+
+.edit-label {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 700;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 1);
+}
+
+.edit-input-box {
+  width: 100%;
+  height: calc(100vh * 48 / 812);
+  border-radius: calc(100vw * 24 / 375);
+  background: rgba(58, 58, 58, 1);
+  display: flex;
+  align-items: center;
+  padding: 0 calc(100vw * 14 / 375);
+  box-sizing: border-box;
+}
+
+.edit-input-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+}
+
+.edit-input-box input::placeholder {
+  color: rgba(193, 193, 193, 0.72);
+}
+
+.edit-third .edit-section {
+  margin-top: calc(100vh * 12 / 812);
+}
+
+.edit-about-me-box {
+  height: calc(100vh * 56 / 812);
+  align-items: stretch;
+}
+
+.edit-about-me-box textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+  padding: calc(100vh * 16 / 812) 0;
+  box-sizing: border-box;
+}
+
+.edit-about-me-box textarea::placeholder {
+  color: rgba(193, 193, 193, 0.72);
+}
+
+.edit-save-wrap {
+  margin: calc(100vh * 238 / 812) 0 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.edit-save-btn {
+  width: calc(100vw * 275 / 375);
+  height: calc(100vh * 48 / 812);
+  border-radius: calc(100vw * 100 / 375);
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+  color: #fff;
+}

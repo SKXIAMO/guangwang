@@ -1,0 +1,103 @@
+.setting-page {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: rgba(13, 5, 14, 1);
+}
+
+.setting-title {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  line-height: 1.2;
+  flex: 1;
+  color: rgba(255, 255, 255, 1);
+  margin-left: calc(100vw * 6 / 375);
+}
+
+.setting-options-list {
+  flex: 1;
+  padding: calc(env(safe-area-inset-top) + calc(100vh * 78 / 812)) calc(100vw * 14 / 375) 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(100vh * 16 / 812);
+}
+
+.setting-option {
+  height: calc(100vh * 46 / 812);
+  border-radius: calc(100vw * 16 / 375);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 calc(100vw * 16 / 375);
+  cursor: pointer;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.setting-option-text {
+  font-family: 'Archivo', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: calc(100vw * 14 / 375);
+  font-weight: 700;
+}
+
+.setting-option-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw * 24 / 375);
+  height: calc(100vw * 24 / 375);
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.setting-arrow-placeholder {
+  width: calc(100vw * 8 / 375);
+  height: calc(100vw * 8 / 375);
+  border-right: calc(100vw * 2 / 375) solid rgba(255, 255, 255, 0.9);
+  border-bottom: calc(100vw * 2 / 375) solid rgba(255, 255, 255, 0.9);
+  transform: rotate(-45deg);
+}
+
+.setting-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(100vh * 12 / 812);
+  padding: calc(100vh * 24 / 812) calc(100vw * 34 / 375)
+    calc(env(safe-area-inset-bottom) + calc(100vh * 36 / 812));
+}
+
+.setting-btn {
+  width: 100%;
+  height: calc(100vh * 48 / 812);
+  border-radius: calc(100vw * 40 / 375);
+  border: 0;
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+.setting-delete-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+}
+
+.setting-logout-btn {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+}

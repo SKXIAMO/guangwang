@@ -1,88 +1,103 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
+# H5App (React)
 
-<h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
-</h6>
+H5 前端项目
 
-<h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
-</h5>
+## Tech Stack
 
-<br>
+- **Vite**
+- **React** + **React Router**
+- **Zustand**
+- **antd-mobile**
+- **Axios**
 
-<p align='center'>
-<b>English</b> | <a href="https://github.com/antfu/vitesse-lite/blob/main/README.zh-CN.md">简体中文</a>
-<!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
-</p>
+## Requirements
 
-## Features
+- Node.js: 见 `package.json` 的 `engines`
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+## Scripts
 
-- 🗂 [File based routing](./src/pages)
-
-- 📦 [Components auto importing](./src/components)
-
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
-
-- ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
-
-- 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
-
-
-<br>
-
-See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
-
-## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
-
-## Pre-packed
-
-### UI Frameworks
-
-- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-### Icons
-
-- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-### Plugins
-
-- [Vue Router](https://github.com/vuejs/vue-router)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
-- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
-- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
-
-## Try it now!
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit antfu/vitesse-lite my-vitesse-app
-cd my-vitesse-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```sh
+npm install
 ```
+
+开发（热更新）：
+
+```sh
+npm run dev
+```
+
+局域网调试（同一 Wi‑Fi/局域网的手机可访问）：
+
+- 运行 `npm run dev` 后，Vite 会监听 `0.0.0.0` 并输出 `Network` 地址
+- 用手机浏览器打开：`http://<你的电脑局域网IP>:4000/`（若端口被占用会自动递增）
+
+常见排查：
+
+- **同一局域网**：手机和电脑必须在同一 Wi‑Fi/网段
+- **防火墙**：macOS 防火墙/公司网络可能拦截入站端口
+- **端口占用**：若 4000 被占用，Vite 会自动换到 4001/4002...
+
+构建：
+
+```sh
+npm run build
+```
+
+预览：
+
+```sh
+npm run preview
+```
+
+Lint / 格式化：
+
+```sh
+npm run lint
+npm run format
+```
+
+## Project Structure (key)
+
+- `index.html`：入口，加载 `src/main.jsx`
+- `src/main.jsx`：React 启动入口
+- `src/App.jsx`：应用壳（全局 loading/toast）
+- `src/router.jsx`：路由表（React Router）
+- `src/views-react/`：页面（React）
+- `src/components-react/`：通用组件（React）
+- `src/stores/`：Zustand stores（保留原有方法名/行为）
+- `src/utils/iosBridge.js`：iOS WKWebView bridge
+- `src/utils/ossUpload.js`：OSS 上传（图片/视频）
+
+## iOS WKWebView Bridge
+
+项目会在 Web 侧调用 `window.webkit.messageHandlers.*` 与 iOS 通信，典型方法在 `src/utils/iosBridge.js`：
+
+- `sendUsersToIOS(users)`
+- `sendPostsToIOS(posts)`
+- `sendChatsToIOS(chats)`
+- `sendMessagesToIOS(messages)`
+- `sendCommentsToIOS(comments)`
+- `sendLogoutToIOS(isLogout)`
+- `sendPaymentToIOS(payKey)`
+- `useBack()`
+
+同时支持 iOS 通过 JS 回调更新当前用户：
+
+- `window.updateCurrentUser(user)`（见 `src/stores/currentUser.js`）
+
+## Data Source
+
+本地开发默认读取 `src/data/*.json`，也支持 iOS 端通过 `window.*` 注入数据：
+
+- `window.currentUser`
+- `window.userList`
+- `window.postList`
+- `window.chatList`
+- `window.messageList`
+- `window.commentList`
+- `window.other`
+
+## Notes
+
+- 如果你本地已起多个 dev server，Vite 可能会自动换端口（例如 4000 → 4001 → 4002）。
+- 静态资源在 `src/assets/`，建议在 React 代码里用 `import xxx from '@/assets/xxx.png'` 的方式引用，保证 Vite 能正确打包。

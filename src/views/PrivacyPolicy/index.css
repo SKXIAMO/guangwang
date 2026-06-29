@@ -1,0 +1,66 @@
+.agreement-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(14, 8, 15, 1);
+  color: #fff;
+}
+
+.agreement-title {
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  flex: 1;
+  align-items: start;
+  color: rgba(255, 255, 255, 1);
+  margin-left: calc(100vw * 16 / 375);
+}
+
+.agreement-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: calc(100vh * 20 / 812) calc(100vw * 20 / 375);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(calc(100vw * 10 / 375));
+  border-radius: 0;
+  margin-top: calc(env(safe-area-inset-top) + calc(100vh * 25 / 812) + calc(100vw * 40 / 375));
+}
+
+.agreement-content h1 {
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 24 / 375);
+  margin-bottom: calc(100vh * 10 / 812);
+}
+
+.update-time {
+  opacity: 0.7;
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 12 / 375);
+  margin-bottom: calc(100vh * 20 / 812);
+}
+
+.agreement-content h2 {
+  font-family: 'YesevaOne', sans-serif;
+  font-size: calc(100vw * 18 / 375);
+  margin-top: calc(100vh * 24 / 812);
+  margin-bottom: calc(100vh * 10 / 812);
+  color: rgb(154, 180, 224);
+}
+
+.agreement-content p {
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+  line-height: 1.7;
+  margin-bottom: calc(100vh * 10 / 812);
+}
+
+.agreement-content ul {
+  padding-left: calc(100vw * 18 / 375);
+}
+
+.agreement-content li {
+  margin-bottom: calc(100vh * 6 / 812);
+  font-family: 'Archivo', sans-serif;
+  font-size: calc(100vw * 14 / 375);
+}

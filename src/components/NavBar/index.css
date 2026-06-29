@@ -1,0 +1,15 @@
+.nav-bar {
+  position: fixed;
+  top: calc(env(safe-area-inset-top) + calc(100vw * 8 / 375));
+  left: calc(100vw * 12 / 375);
+  right: calc(100vw * 12 / 375);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-bar-placeholder {
+  width: calc(100vw * 40 / 375);
+  height: calc(100vw * 40 / 375);
+}

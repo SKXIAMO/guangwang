@@ -1,0 +1,28 @@
+.home-page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.home-bg-img {
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+.home-email-box {
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-email {
+  background: white;
+  color: black;
+  padding: 1.3vh 2vw;
+  border-radius: 1vw;
+  font-size: 2vw;
+}
+

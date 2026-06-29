@@ -1,0 +1,191 @@
+.ai-chat {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /* background: url('@/assets/pagebgc.png') no-repeat top center / cover; */
+  background: rgba(24, 24, 24, 1);
+}
+.ai-chat-title {
+  align-items: start;
+  font-size: calc(100vw * 20 / 375);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  flex: 1;
+}
+/* 背景 */
+.ai-chat-user {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(env(safe-area-inset-top));
+  width: calc(100vw * 121 / 375);
+  height: calc(100vh * 238 / 812);
+  background-size: cover;
+  background-position: center;
+}
+
+.ai-text-title {
+  position: absolute;
+  top: calc(env(safe-area-inset-top) + calc(100vw * 40 / 375) + calc(100vh * 30 / 812));
+  font-size: calc(100vw * 24 / 375);
+  color: rgba(0, 0, 0, 1);
+
+  left: calc(100vw * 22 / 375);
+}
+.ai-chat-model {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: calc(100vh * 281 / 812);
+  background-size: cover;
+}
+
+/* 快捷消息 */
+.ai-chat-quick {
+  position: absolute;
+  top: calc(env(safe-area-inset-top) + calc(100vh * 89 / 812));
+  left: calc(100vw * 20 / 375);
+  display: flex;
+  flex-direction: column;
+  gap: calc(100vh * 8 / 812);
+  z-index: 10;
+}
+
+.quick-item {
+  padding: 0 calc(100vw * 10 / 375);
+  height: calc(100vh * 36 / 812);
+  display: flex;
+  align-items: center;
+  border-radius: calc(100vw * 32 / 375);
+  background: rgba(13, 8, 13, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  font-size: calc(100vw * 14 / 375);
+}
+
+/* 面板 */
+.ai-chat-panel {
+  position: absolute;
+  top: calc(calc(100vh * 197 / 812) + env(safe-area-inset-top) + calc(100vw * 45 / 375));
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(24, 24, 24, 1);
+  /* border-radius: calc(100vw * 20 / 375) calc(100vw * 20 / 375) 0 0; */
+}
+
+.ai-chat-list {
+  height: 100%;
+  overflow-y: auto;
+  padding: calc(100vh * 20 / 812);
+  padding-bottom: calc(100vh * 90 / 812);
+  display: flex;
+  flex-direction: column;
+  gap: calc(100vh * 24 / 812);
+}
+
+/* 消息 */
+.chat-time {
+  text-align: center;
+  font-size: calc(100vw * 16 / 375);
+  color: rgba(51, 51, 51, 1);
+}
+
+.chat-left,
+.chat-right {
+  display: flex;
+  gap: calc(100vw * 12 / 375);
+  align-items: flex-start;
+}
+
+.chat-right {
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: calc(100vw * 44 / 375);
+  height: calc(100vw * 44 / 375);
+  border-radius: 50%;
+}
+
+.avatar-wrap {
+  width: calc(100vw * 44 / 375);
+  height: calc(100vw * 44 / 375);
+  border-radius: 50%;
+  /* border: 1px solid rgba(109, 44, 236, 1); */
+}
+
+.avatar-wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* 气泡 */
+.bubble {
+  padding: calc(100vw * 13 / 375) calc(100vw * 16 / 375);
+  border-radius: calc(100vw * 16 / 375);
+  font-size: calc(100vw * 15 / 375);
+}
+
+.bubble.ai {
+  background: rgba(248, 1, 124, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.bubble.me {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 输入框 */
+.ai-chat-input {
+  position: absolute;
+  bottom: calc(100vh * 29 / 812);
+  left: calc(100vw * 20 / 375);
+  right: calc(100vw * 20 / 375);
+  height: calc(100vh * 54 / 812);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(43, 43, 43, 1);
+  border-radius: calc(100vw * 40 / 375);
+  padding: 0 calc(100vw * 8 / 375);
+}
+
+.ai-chat-input input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: calc(100vw * 14 / 375);
+}
+
+.ai-chat-input input::placeholder {
+  font-size: calc(100vw * 14 / 375);
+}
+
+.chat-send-btn {
+  width: calc(100vw * 40 / 375);
+  height: calc(100vw * 40 / 375);
+  /* border-radius: 50%;
+  background: #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 86, 184, 1) 0%,
+    rgba(248, 1, 124, 1) 55.87%,
+    rgba(236, 86, 184, 1) 100%
+  );
+  border-radius: 50%;
+}
+
+.chat-send-btn img {
+  width: 80%;
+  height: 80%;
+}
