@@ -8,7 +8,7 @@ export default function Home() {
       <img className="home-bg-img" src={bg} alt="" />
 
       <div className="home-email-box">
-        <div className="home-email">639293382@qq.com</div>
+        <div className="home-email">zhoudonghua1963@icloud.com</div>
       </div>
     </div>
   )
