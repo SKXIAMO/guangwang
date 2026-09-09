@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Artixy'
+const appName = 'KynChat'
 </script>
 
 <template>
