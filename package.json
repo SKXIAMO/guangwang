@@ -45,7 +45,7 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": ""
+    "*": "git diff --cached --check --"
   },
   "eslintConfig": {
     "extends": [
