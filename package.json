@@ -42,10 +42,10 @@
     "vue-tsc": "^1.6.5"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"; node ./node_modules/lint-staged/bin/lint-staged.js"
   },
   "lint-staged": {
-    "*": ""
+    "*.{js,ts,vue}": "eslint"
   },
   "eslintConfig": {
     "extends": [
