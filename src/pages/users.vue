@@ -181,12 +181,12 @@ const supportEmail = '639293382@qq.com'
         <div>
           <h2>Account status, changes, and disclaimers</h2>
           <p>
-            You may delete your account from Settings. A deleted account is removed from
-            active account use and cannot sign in. We may retain a protected internal record
-            where needed for security, accounting, fraud prevention, legal obligations, or a
-            verified support request. We may also suspend or limit access when reasonably
-            necessary to enforce these terms, investigate misuse, protect people or the
-            service, or comply with law.
+            You may permanently delete your account from Settings. The app removes the
+            profile and account-specific records it stores, and the deleted account cannot
+            sign in. Content is removed from the service view; copies another member made
+            before removal and limited provider backups may remain outside active service
+            use. We may suspend or limit access when reasonably necessary to enforce these
+            terms, investigate misuse, protect people or the service, or comply with law.
           </p>
           <p>
             We work to keep {{ appName }} available and reliable, but the service is

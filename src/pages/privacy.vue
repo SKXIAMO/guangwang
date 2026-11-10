@@ -4,7 +4,7 @@ defineOptions({
 })
 
 const appName = 'Brewy'
-const updatedAt = 'November 9, 2026'
+const updatedAt = 'November 10, 2026'
 const supportEmail = '639293382@qq.com'
 </script>
 
@@ -113,9 +113,12 @@ const supportEmail = '639293382@qq.com'
             </p>
           </div>
           <p class="callout">
-            {{ appName }} does not request your contacts, precise location, microphone, or
-            camera. When you choose a photo through the system photo picker, we receive
-            only the image or images you select.
+            {{ appName }} does not request your contacts or precise location. When you
+            choose a photo through the system photo picker, we receive only the image or
+            images you select. If you choose to start a video-call status with a mutual
+            follower, the app asks for camera and microphone permission at that time. The
+            current version does not establish a media connection or record, store, or
+            upload camera or microphone content through that status.
           </p>
         </div>
       </section>
@@ -157,9 +160,11 @@ const supportEmail = '639293382@qq.com'
           <p>
             We keep information for as long as needed to provide the service, resolve
             disputes, meet legal obligations, or protect the community. If you delete an
-            account, it can no longer sign in and is removed from active account use.
-            We may retain a protected internal record only where needed for security,
-            accounting, fraud prevention, legal obligations, or a verified support request.
+            account, the app permanently removes the profile and the account-specific
+            records it stores, including coffee moments, replies, comments, conversation
+            records, saved items, interactions, reports, and follow or block records.
+            Content is removed from the service view; copies another member made before
+            removal and limited provider backups may remain outside active service use.
           </p>
         </div>
       </section>
