@@ -5,7 +5,7 @@ defineOptions({
 
 const appName = 'Brewy'
 const updatedAt = 'November 10, 2026'
-const supportEmail = '639293382@qq.com'
+const supportEmail = 'huangmin196614@icloud.com'
 </script>
 
 <template>
