@@ -103,8 +103,9 @@ const sections = [
             <div>
               <dt>Account and profile</dt>
               <dd>Email address, a password verifier, display name, profile image, and the profile
-                information you choose to add. The app does not retain your password or an account
-                session after it closes.</dd>
+                information you choose to add. The app never retains your password or service access
+                token. It may retain a Keychain-protected account reference on your device so it can
+                restore your sign-in after rechecking the account with the service at launch.</dd>
             </div>
             <div>
               <dt>Community content</dt>
@@ -208,8 +209,9 @@ const sections = [
             We keep account and community records for as long as needed to provide the service,
             honour your choices, resolve disputes, prevent misuse, and meet legal obligations.
             Temporary audio files are removed from the device after a recording is uploaded or
-            cancelled. The app keeps an active sign-in state only in memory for the current app
-            session.
+            cancelled. The app stores no community data on the device. It may keep only a
+            device-only, Keychain-protected account reference to restore sign-in after a remote
+            account check; signing out removes that reference.
           </p>
           <p>
             We use reasonable administrative, technical, and organisational measures designed to
