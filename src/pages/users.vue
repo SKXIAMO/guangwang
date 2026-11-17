@@ -4,7 +4,7 @@ defineOptions({
 })
 
 const appName = 'Brewy'
-const updatedAt = 'November 9, 2026'
+const updatedAt = 'November 17, 2026'
 const supportEmail = 'huangmin196614@icloud.com'
 </script>
 
@@ -61,11 +61,12 @@ const supportEmail = 'huangmin196614@icloud.com'
             If you do not agree, do not use the service.
           </p>
           <p>
-            {{ appName }} is a coffee-focused community. The app may offer coffee posts,
-            daily discussion prompts, comments, reactions, saved posts, follow
-            relationships, account-specific conversations, optional AI coffee
-            consultations, and in-app points. Features may vary by release, device, or
-            availability, and we may update them to maintain or improve the service.
+            {{ appName }} is a coffee-focused community. The current version offers coffee
+            posts, daily discussion prompts, comments, reactions, saved posts, follow
+            relationships, private text, photo, and voice messages between mutual followers,
+            optional AI coffee consultations, and in-app points. This version does not offer
+            video calling. We may change the service in a future App Store release and will
+            update these terms when a material change affects them.
           </p>
         </div>
       </section>
@@ -77,7 +78,8 @@ const supportEmail = 'huangmin196614@icloud.com'
           <p>
             You may browse selected public community content as a guest. Creating posts,
             using account-specific conversations, buying points, managing saved content,
-            and other member features require an account.
+            and other member features require an account. Private messages are available
+            only after both members follow each other.
           </p>
           <p>
             Keep your sign-in details accurate and secure. Do not share your account or
@@ -109,9 +111,10 @@ const supportEmail = 'huangmin196614@icloud.com'
             <li>Use community content as professional health, safety, financial, or legal advice.</li>
           </ul>
           <p>
-            You can report content or block a member in the app. We may review reported
-            material and, where appropriate, limit content, interactions, or account access
-            to protect the community and comply with applicable requirements.
+            You can report content or block a member in the app. We use reports to identify
+            material that may violate these rules and may limit content, interactions, or
+            account access where appropriate to protect the community and comply with
+            applicable requirements.
           </p>
         </div>
       </section>
@@ -135,6 +138,11 @@ const supportEmail = 'huangmin196614@icloud.com'
             viewed by other community members. Think carefully before publishing because
             other people may save, quote, or re-share public material.
           </p>
+          <p>
+            Text, photos, and voice messages sent in a private conversation are not public
+            posts. Do not send content that is unlawful, harmful, invasive of another
+            person’s privacy, or that you do not have the right to share.
+          </p>
         </div>
       </section>
 
@@ -151,6 +159,7 @@ const supportEmail = 'huangmin196614@icloud.com'
           <p>
             Points are digital in-app balances, are not cash, have no monetary value
             outside {{ appName }}, and may not be transferred, sold, or exchanged. Points
+            purchased through Apple do not expire while your account remains active. They
             may be used only for the feature expressly shown in the app, such as unlocking
             an AI coffee consultation. Refunds and purchase disputes are handled according
             to Apple’s policies and any mandatory consumer rights that apply to you.
@@ -181,12 +190,14 @@ const supportEmail = 'huangmin196614@icloud.com'
         <div>
           <h2>Account status, changes, and disclaimers</h2>
           <p>
-            You may permanently delete your account from Settings. The app removes the
-            profile and account-specific records it stores, and the deleted account cannot
-            sign in. Content is removed from the service view; copies another member made
-            before removal and limited provider backups may remain outside active service
-            use. We may suspend or limit access when reasonably necessary to enforce these
-            terms, investigate misuse, protect people or the service, or comply with law.
+            You may initiate permanent account deletion from Settings. When deletion
+            completes, the app removes the profile and account-specific records held in the
+            active service, and the deleted account cannot sign in. Content is removed from
+            the service view; copies another member made before removal and limited provider
+            backups may remain outside active service use where retention is required for
+            security, legal, or recovery purposes. We may suspend or limit access when
+            reasonably necessary to enforce these terms, investigate misuse, protect people
+            or the service, or comply with law.
           </p>
           <p>
             We work to keep {{ appName }} available and reliable, but the service is

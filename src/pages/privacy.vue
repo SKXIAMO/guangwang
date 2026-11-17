@@ -4,7 +4,7 @@ defineOptions({
 })
 
 const appName = 'Brewy'
-const updatedAt = 'November 10, 2026'
+const updatedAt = 'November 17, 2026'
 const supportEmail = 'huangmin196614@icloud.com'
 </script>
 
@@ -59,7 +59,8 @@ const supportEmail = 'huangmin196614@icloud.com'
             This Privacy Policy applies to the {{ appName }} mobile app and the services
             that support it. It explains how we handle information when you browse coffee
             posts, create an account, share a coffee moment, join a daily topic, interact
-            with other members, purchase points, or use an optional AI coffee consultation.
+            with other members, exchange private text, photo, or voice messages, purchase
+            points, or use an optional AI coffee consultation.
           </p>
           <p>
             If you do not agree with this Policy, please do not use {{ appName }}. This
@@ -92,15 +93,18 @@ const supportEmail = 'huangmin196614@icloud.com'
             </p>
           </div>
           <div class="policy-card">
-            <h3>Messages, purchases, and AI requests</h3>
+            <h3>Private messages, media, purchases, and AI requests</h3>
             <p>
-              Direct-message records are stored with the relevant account and are not
-              displayed as public posts. When you buy in-app points, Apple handles your
-              payment information; we receive the purchase status and transaction details
-              needed to add points and prevent duplicate credits. If you use an optional
-              AI coffee consultation, your question and recent chat context are sent to an
-              AI service provider to generate a response. AI sessions are not saved to
-              your {{ appName }} account after you leave the consultation.
+              Private conversations are available between members who follow each other.
+              Direct-message records are not displayed as public posts. If you choose to
+              send a photo or record a voice message, we process that media, its duration
+              where applicable, and the account and conversation details needed to deliver
+              it in that conversation. When you buy in-app points, Apple handles payment
+              information; we receive purchase status and transaction details needed to add
+              points and prevent duplicate credits. If you use an optional AI coffee
+              consultation, your question and recent chat context are sent to an AI service
+              provider to generate a response. AI sessions are not saved to your
+              {{ appName }} account after you leave the consultation.
             </p>
           </div>
           <div class="policy-card">
@@ -114,11 +118,12 @@ const supportEmail = 'huangmin196614@icloud.com'
           </div>
           <p class="callout">
             {{ appName }} does not request your contacts or precise location. When you
-            choose a photo through the system photo picker, we receive only the image or
-            images you select. If you choose to start a video-call status with a mutual
-            follower, the app asks for camera and microphone permission at that time. The
-            current version does not establish a media connection or record, store, or
-            upload camera or microphone content through that status.
+            choose a photo through the system photo picker, we receive only the image you
+            select, not your full photo library. The app requests camera permission only
+            after you choose to take a selfie for a mutual coffee conversation, and requests
+            microphone permission only after you tap the voice-message control. It does not
+            capture a photo or record audio unless you actively start that action. You can
+            change those permissions in your device settings.
           </p>
         </div>
       </section>
@@ -147,10 +152,11 @@ const supportEmail = 'huangmin196614@icloud.com'
           <h2>Sharing, service providers, and storage</h2>
           <p>
             We share information only as needed to operate {{ appName }}: with hosting,
-            database, image-storage, and AI service providers that process information on
-            our behalf; with Apple to the extent needed for in-app purchase processing;
-            when you make content public in the community; or when disclosure is required
-            to comply with applicable law, protect people, or secure the service.
+            database, and media-storage providers that process information on our behalf;
+            with an AI service provider when you request an AI response; with Apple to the
+            extent needed for in-app purchase processing; when you make content public in
+            the community; or when disclosure is required to comply with applicable law,
+            protect people, or secure the service.
           </p>
           <p>
             Our providers may process information in countries other than the one where you
@@ -159,12 +165,13 @@ const supportEmail = 'huangmin196614@icloud.com'
           </p>
           <p>
             We keep information for as long as needed to provide the service, resolve
-            disputes, meet legal obligations, or protect the community. If you delete an
-            account, the app permanently removes the profile and the account-specific
-            records it stores, including coffee moments, replies, comments, conversation
-            records, saved items, interactions, reports, and follow or block records.
-            Content is removed from the service view; copies another member made before
-            removal and limited provider backups may remain outside active service use.
+            disputes, meet legal obligations, or protect the community. When an account
+            deletion request completes, we remove the profile and the account-specific
+            records held in the active service, including coffee moments, replies, comments,
+            conversation records, saved items, interactions, reports, and follow or block
+            records. Content is removed from the service view; copies another member made
+            before removal and limited provider backups may remain outside active service
+            use where retention is required for security, legal, or recovery purposes.
           </p>
         </div>
       </section>
@@ -177,7 +184,7 @@ const supportEmail = 'huangmin196614@icloud.com'
             <li>Update profile information through your personal settings.</li>
             <li>Choose what you share publicly before you publish a coffee moment or reply.</li>
             <li>Use the in-app report and block tools for community-safety concerns.</li>
-            <li>Delete your account from Settings if you no longer want to use it.</li>
+            <li>Initiate permanent account deletion from Settings if you no longer want to use it.</li>
             <li>Control device-level notifications and system permissions in your device settings.</li>
           </ul>
           <p>
