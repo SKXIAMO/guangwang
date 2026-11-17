@@ -100,7 +100,7 @@ const supportEmail = 'huangmin196614@icloud.com'
           <h2>Community rules</h2>
           <p>
             {{ appName }} is designed for coffee culture, brewing notes, café discoveries,
-            and constructive discussion. When using the service, do not:
+            and constructive discussion. You must not:
           </p>
           <ul>
             <li>Post content that is unlawful, deceptive, threatening, exploitative, or intended to harm people.</li>
