@@ -5,7 +5,7 @@ defineOptions({
 
 const appName = 'HumChat'
 const supportEmail = 'lanniekova@gmail.com'
-const effectiveDate = '18 November 2026'
+const effectiveDate = '24 November 2026'
 const deletionMailto = `mailto:${supportEmail}?subject=${encodeURIComponent('HumChat account deletion request')}&body=${encodeURIComponent('Please delete my HumChat account and the personal data associated with it. My account email or nickname is:')}`
 
 const contents = [
@@ -152,7 +152,7 @@ const contents = [
 
       <section id="children">
         <h2><span>9</span> Age requirement</h2>
-        <p>HumChat is intended for adults aged 18 and over. We do not knowingly collect personal information from children. If you believe a child has provided personal information to us, please contact us so we can take appropriate action.</p>
+        <p>HumChat is intended for adults aged 18 and over. We do not knowingly collect personal information from children. If you believe a child has provided personal information to us, please contact us so we can take appropriate action. Read our <a href="/child-safety">Child Safety Standards</a> for our reporting and enforcement approach.</p>
       </section>
 
       <section id="changes">
