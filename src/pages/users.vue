@@ -4,7 +4,7 @@ defineOptions({
 })
 
 const appName = 'HumChat'
-const supportEmail = 'chenjian20040106@icloud.com'
+const supportEmail = 'lanniekova@gmail.com'
 const effectiveDate = '18 November 2026'
 
 const contents = [
