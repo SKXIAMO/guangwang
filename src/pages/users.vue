@@ -1,10 +1,10 @@
 <script setup lang="ts">
+import { appIcon, appName, supportEmail } from '../site'
+
 defineOptions({
   name: 'TermsPage',
 })
 
-const appName = 'KinChat'
-const supportEmail = '639293382@qq.com'
 const lastUpdated = 'November 20, 2026'
 </script>
 
@@ -12,7 +12,7 @@ const lastUpdated = 'November 20, 2026'
   <div class="legal-page terms-page">
     <header class="site-header">
       <RouterLink class="brand" to="/" aria-label="KinChat home">
-        <span class="brand-mark">K</span>
+          <img class="brand-mark" :src="appIcon" width="30" height="30" alt="">
         <span>{{ appName }}</span>
       </RouterLink>
       <nav class="site-nav" aria-label="Legal pages">
@@ -170,7 +170,7 @@ const lastUpdated = 'November 20, 2026'
 .site-header, .site-footer, .shell { box-sizing: border-box; width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; min-height: 76px; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: #202a44; font-size: 18px; font-weight: 800; letter-spacing: -.02em; text-decoration: none; }
-.brand-mark { display: grid; width: 30px; height: 30px; place-items: center; color: #fff; background: linear-gradient(135deg, #2f8cca, #57b3de); border-radius: 10px; box-shadow: 0 8px 20px rgb(67 149 214 / 28%); }
+.brand-mark { border-radius: 9px; }
 .site-nav, .site-footer { display: flex; align-items: center; gap: 18px; }
 .site-nav a, .site-footer a { color: #53617c; font-size: 14px; font-weight: 650; text-decoration: none; }
 .site-nav a.router-link-exact-active, .site-nav a:hover, .site-footer a:hover { color: #237daf; }
